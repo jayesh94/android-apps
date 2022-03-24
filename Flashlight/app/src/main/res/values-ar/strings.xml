@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ضوء الفلاش</string>
+    <string name="compass_not_supported">البوصلة غير مدعومة في هذا الجهاز</string>
+    <string name="premium_no">في وقت لاحق</string>
+    <string name="premium_message">كن المالك الفخور لتطبيق المصباح! إزالة الإعلانات وتضمين جميع الترقيات المستقبلية.</string>
+    <string name="error_billing_unavailable">الفواتير غير متوفرة. تأكد من إعداد تطبيق Google Play بشكل صحيح</string>
+    <string name="alert_already_purchased">مبروك! أنت بالفعل مستخدم متميز!</string>
+    <string name="content_sos">تبديل إشارة SOS</string>
+    <string name="camera_not_supported">عذرا ، جهازك لا يدعم ضوء الفلاش!</string>
+    <string name="premium_yes">اشتري الآن</string>
+    <string name="premium_title">مستخدم مميز مدى الحياة</string>
+    <string name="error_no_skus">لم نعثر على أي وحدات SKU لعرضها… تحقق من اتصالك بالإنترنت وتأكد من إعداد Google Developer Console بشكل صحيح.</string>
+    <string name="error_billing_default">الفواتير غير متوفرة. يرجى التحقق من جهازك.</string>
+    <string name="toggle_flashlight">تبديل مصباح يدوي</string>
+    <string name="content_no_ads">ازالة الاعلانات</string>
+    <string name="content_banner_ad">انقر فوق إعلان بانر</string>
+    <string name="ok">حسنا</string>
+    <string name="error">خطأ</string>
+    <string name="review_app_title">هل تستمتع بتطبيقنا؟</string>
+    <string name="review_app_msg">إذا كنت تستمتع باستخدام مصباح يدوي ، فهل تمانع في قضاء بعض الوقت لتقييمنا؟ لن يستغرق الأمر أكثر من دقيقة. يرجى أن تكون لطيفًا وقيمنا أكثر ومساعدة.</string>
+    <string name="review_app_btn_positive">معدل مضيا</string>
+    <string name="review_app_btn_neutral">لا شكرا</string>
+    <string name="review_app_btn_negative">ذكرني لاحقا</string>
+    <string name="rewarded_vid_cta">علاوة مجانيه!</string>
+    <string name="rewarded_vid_title">مشاهدة الإعلان والحصول على وصول كامل !!</string>
+    <string name="rewarded_vid_btn_positive">راقب</string>
+    <string name="rewarded_vid_btn_negative">إلغاء</string>
+    <string name="rewarded_vid_btn_neutral">الممتازة</string>
+    <string name="rewarded_vid_msg">شاهد إعلان الفيديو هذا لفتح جميع الأقسام ليوم كامل. يرجى تحملنا مرة واحدة في اليوم … حتى نتمكن من الحفاظ على التطبيق والخدمات وإضافة ميزات جديدة وما إلى ذلك مجانًا. شكرا لك!</string>
+    <string name="rewarded_vid_err_msg">لم يتم تحميل الإعلان بمكافأة بعد.</string>
+    <string name="rewarded_vid_ads_rmd_till">تمت إزالة الإعلانات حتى %s</string>
+    <string name="rating_dialog_experience">تقييم 5 نجوم</string>
+    <string name="rating_dialog_maybe_later">ربما في وقت لاحق</string>
+    <string name="rating_dialog_never">أبدا</string>
+    <string name="rating_dialog_feedback_title">كيف يمكننا تحسين المصباح اليدوي؟</string>
+    <string name="rating_dialog_submit">إرسال</string>
+    <string name="rating_dialog_cancel">إلغاء</string>
+    <string name="rating_dialog_suggestions">دعنا نعرف الخطأ الذي حدث وسنعمل على حله</string>
+    <string name="sync_header">مزامنة</string>
+    <string name="app_header">إعدادات التطبيقات</string>
+    <string name="feedback_header">استجابة</string>
+    <string name="share_header">يشارك</string>
+    <string name="about_header">عن</string>
+    <string name="notification_title">التبديل من الإخطار</string>
+    <string name="rate_us_title">قيمنا</string>
+    <string name="send_feedback_title">ارسل رأيك</string>
+    <string name="share_title">مشاركة مصباح يدوي</string>
+    <string name="version_title">إصدار</string>
+    <string name="notification_summary_on">إظهار الإخطار لتبديل مصباح يدوي من شريط الإعلام</string>
+    <string name="notification_summary_off">لا تظهر الإخطار لتبديل مصباح يدوي من شريط الإعلام</string>
+    <string name="title_activity_settings">إعدادات</string>
+    <string name="share_app_message_subject">مصباح يدوي - مصباح شعلة LED فائق السطوع</string>
+    <string name="share_app_message_body">Flashlight - Torch Led هو تطبيق مجاني تمامًا يحول هاتفك الذكي إلى مصباح يدوي Super Bright بسرعة وكفاءة. يستخدم التطبيق فلاش هاتفك الذكي ليتمكن من تفتيح ما تحتاجه.
+
+\n\nاحصل عليه مجانًا من
+
+\n https://play.google.com/store/apps/details؟id=info.ascetx.flashlight</string>
+    <string name="premium_header">الممتازة</string>
+    <string name="pupop_snackbar_in_app_update_button">تثبيت</string>
+    <string name="pupop_snackbar_in_app_update_message">تم تحميل التحديث للتو.</string>
+    <string name="progress_dialog_message">أرجو الإنتظار…</string>
+    <string name="rewarded_video_error_message">خطأ في عرض إعلان الفيديو بمكافأة</string>
+    <string name="flashlight_strobe_description">إعدادات ستروب</string>
+    <string name="flashlight_compass_description">بوصلة</string>
+    <string name="flashlight_screen_light_description">ضوء الشاشة</string>
+    <string name="native_ad_exit_dialog_message">هل أنت متأكد من انك تريد الخروج؟</string>
+    <string name="native_ad_exit_dialog_yes">نعم</string>
+    <string name="native_ad_exit_dialog_no">رقم</string>
+    <string name="native_ad_screen_transition_exit">مخرج</string>
+    <string name="new_app_content_description">تطبيق جديد</string>
+    <string name="new_app_dialog_title">قم بزيارة المعرض او المتجر</string>
+    <string name="new_app_dialog_description">ستتم إعادة توجيهك إلى متجر الألعاب. هل أنت متأكد؟</string>
+</resources>

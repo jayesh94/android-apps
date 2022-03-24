@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lampe</string>
+    <string name="compass_not_supported">Boussole non prise en charge sur cet appareil</string>
+    <string name="camera_not_supported">Désolé, votre appareil ne prend pas en charge la lumière flash!</string>
+    <string name="premium_yes">ACHETER MAINTENANT</string>
+    <string name="premium_no">PLUS TARD</string>
+    <string name="premium_title">Utilisateur Premium à vie</string>
+    <string name="premium_message">Soyez le fier propriétaire à vie de l\'application Flashlight! Supprimez les publicités et incluez toutes les futures mises à jour.</string>
+    <string name="error_no_skus">Nous n\'avons trouvé aucun SKU à afficher… Vérifiez votre connexion Internet et assurez-vous que votre Google Developer Console a été correctement configurée.</string>
+    <string name="error_billing_unavailable">Facturation indisponible. Assurez-vous que votre application Google Play est correctement configurée</string>
+    <string name="error_billing_default">Facturation indisponible. Veuillez vérifier votre appareil.</string>
+    <string name="alert_already_purchased">Félicitations! Vous êtes déjà un utilisateur premium!</string>
+    <string name="toggle_flashlight">Basculer la lampe de poche</string>
+    <string name="content_sos">Basculer le signal SOS</string>
+    <string name="content_no_ads">Supprimez la pub</string>
+    <string name="content_banner_ad">Cliquez sur la bannière publicitaire</string>
+    <string name="ok">D\'accord</string>
+    <string name="error">Erreur</string>
+    <string name="review_app_title">Vous appréciez notre application?</string>
+    <string name="review_app_msg">Si vous aimez utiliser la lampe de poche, pourriez-vous prendre un moment pour nous évaluer? Cela ne prendra pas plus d\'une minute. Soyez gentil et évaluez-nous davantage et aidez-nous.</string>
+    <string name="review_app_btn_positive">Évaluez la lampe de poche</string>
+    <string name="review_app_btn_neutral">Non merci</string>
+    <string name="review_app_btn_negative">Rappelle-moi plus tard</string>
+    <string name="rewarded_vid_cta">Premium gratuit!</string>
+    <string name="rewarded_vid_title">Regardez l\'annonce et obtenez un accès complet !!</string>
+    <string name="rewarded_vid_btn_positive">Regarder</string>
+    <string name="rewarded_vid_btn_negative">Annuler</string>
+    <string name="rewarded_vid_btn_neutral">Prime</string>
+    <string name="rewarded_vid_msg">Regardez cette annonce vidéo pour déverrouiller toutes les sections pour «Une journée entière». Veuillez nous supporter une fois par jour… afin que nous puissions maintenir l\'application et les services, ajouter de nouvelles fonctionnalités, etc. gratuitement. Je vous remercie!</string>
+    <string name="rewarded_vid_err_msg">L\'annonce récompensée n\'a pas encore été chargée.</string>
+    <string name="rewarded_vid_ads_rmd_till">Annonces supprimées jusqu\'à %s</string>
+    <string name="rating_dialog_experience">Note 5 étoiles</string>
+    <string name="rating_dialog_maybe_later">Peut-être plus tard</string>
+    <string name="rating_dialog_never">Jamais</string>
+    <string name="rating_dialog_feedback_title">Comment pouvons-nous améliorer la lampe de poche?</string>
+    <string name="rating_dialog_submit">Soumettre</string>
+    <string name="rating_dialog_cancel">Annuler</string>
+    <string name="rating_dialog_suggestions">Faites-nous savoir ce qui n\'a pas fonctionné et nous y travaillerons</string>
+    <string name="sync_header">Synchroniser</string>
+    <string name="app_header">Paramètres de l\'application</string>
+    <string name="feedback_header">Retour d\'information</string>
+    <string name="share_header">Partager</string>
+    <string name="about_header">Sur</string>
+    <string name="notification_title">Basculer depuis la notification</string>
+    <string name="rate_us_title">Évaluez nous</string>
+    <string name="send_feedback_title">Envoyer des commentaires</string>
+    <string name="share_title">Partager la lampe de poche</string>
+    <string name="version_title">Version</string>
+    <string name="notification_summary_on">Afficher la notification pour basculer la lampe de poche dans la barre de notification</string>
+    <string name="notification_summary_off">Ne pas afficher la notification pour basculer la lampe de poche dans la barre de notification</string>
+    <string name="title_activity_settings">Paramètres</string>
+    <string name="share_app_message_subject">Lampe de poche - Lampe torche LED super brillante</string>
+    <string name="share_app_message_body">Lampe de poche - Torch Led est une application totalement gratuite qui transforme votre Smartphone en une lampe de poche Super Bright rapidement et efficacement. L\'application utilise le Flash de votre Smartphone pour éclairer ce dont vous avez besoin.
+
+\n\n Obtenez-le gratuitement sur
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">Prime</string>
+    <string name="pupop_snackbar_in_app_update_button">INSTALLER</string>
+    <string name="pupop_snackbar_in_app_update_message">Une mise à jour vient d\'être téléchargée.</string>
+    <string name="progress_dialog_message">S\'il vous plaît, attendez…</string>
+    <string name="rewarded_video_error_message">Erreur lors de l\'affichage de l\'annonce vidéo avec récompense</string>
+    <string name="flashlight_strobe_description">Paramètres stroboscopiques</string>
+    <string name="flashlight_compass_description">Boussole</string>
+    <string name="flashlight_screen_light_description">Écran Lumière</string>
+    <string name="native_ad_exit_dialog_message">Êtes-vous sûr de vouloir quitter?</string>
+    <string name="native_ad_exit_dialog_yes">Oui</string>
+    <string name="native_ad_exit_dialog_no">Non</string>
+    <string name="native_ad_screen_transition_exit">Sortir</string>
+    <string name="new_app_content_description">Nouvelle application</string>
+    <string name="new_app_dialog_title">Visiter le magasin</string>
+    <string name="new_app_dialog_description">Vous serez redirigé vers le Play Store. Es-tu sûr?</string>
+</resources>

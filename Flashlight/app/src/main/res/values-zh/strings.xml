@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">閃光燈</string>
+    <string name="compass_not_supported">該設備不支持指南針</string>
+    <string name="camera_not_supported">抱歉，您的設備不支持閃光燈！</string>
+    <string name="premium_yes">立即購買</string>
+    <string name="premium_no">後來</string>
+    <string name="premium_title">終身高級用戶</string>
+    <string name="premium_message">成為Flashlight應用程序的驕傲終身擁有者！刪除廣告並包括所有將來的升級。</string>
+    <string name="error_no_skus">我們找不到要顯示的任何SKU …檢查您的互聯網連接，並確保正確設置了Google Developer Console。</string>
+    <string name="error_billing_unavailable">無法使用帳單。確保您的Google Play應用已正確設置</string>
+    <string name="error_billing_default">無法使用帳單。請檢查您的設備。</string>
+    <string name="alert_already_purchased">恭喜！您已經是高級用戶！</string>
+    <string name="toggle_flashlight">切換手電筒</string>
+    <string name="content_sos">切換SOS信號</string>
+    <string name="content_no_ads">移除廣告</string>
+    <string name="content_banner_ad">點擊橫幅廣告</string>
+    <string name="ok">好</string>
+    <string name="error">錯誤</string>
+    <string name="review_app_title">喜歡我們的應用程序嗎？</string>
+    <string name="review_app_msg">如果您喜歡使用手電筒，您是否願意花點時間為我們評分？不會超過一分鐘。請友善並評價我們更多信息和幫助。</string>
+    <string name="review_app_btn_positive">評級手電筒</string>
+    <string name="review_app_btn_neutral">不用了，謝謝</string>
+    <string name="review_app_btn_negative">稍後提醒我</string>
+    <string name="rewarded_vid_cta">免費贈品！</string>
+    <string name="rewarded_vid_title">觀看廣告並獲得完全訪問權限！</string>
+    <string name="rewarded_vid_btn_positive">看</string>
+    <string name="rewarded_vid_btn_negative">取消</string>
+    <string name="rewarded_vid_btn_neutral">保費</string>
+    <string name="rewarded_vid_msg">觀看此視頻廣告以解鎖“一整天”的所有部分。請每天給我們負擔一次，以便我們可以免費維護應用程序和服務，添加新功能等。謝謝！</string>
+    <string name="rewarded_vid_err_msg">獎勵廣告尚未加載。</string>
+    <string name="rewarded_vid_ads_rmd_till">廣告已刪除到 %s</string>
+    <string name="rating_dialog_experience">評分5星</string>
+    <string name="rating_dialog_maybe_later">也許以後</string>
+    <string name="rating_dialog_never">決不</string>
+    <string name="rating_dialog_feedback_title">我們如何使手電筒更好？</string>
+    <string name="rating_dialog_submit">提交</string>
+    <string name="rating_dialog_cancel">取消</string>
+    <string name="rating_dialog_suggestions">讓我們知道出了什麼問題，我們將繼續進行處理</string>
+    <string name="sync_header">同步</string>
+    <string name="app_header">应用程序设置</string>
+    <string name="feedback_header">回馈</string>
+    <string name="share_header">分享</string>
+    <string name="about_header">关于</string>
+    <string name="notification_title">从通知中切换</string>
+    <string name="rate_us_title">评价我们</string>
+    <string name="send_feedback_title">发送反馈</string>
+    <string name="share_title">分享手电筒</string>
+    <string name="version_title">版本</string>
+    <string name="notification_summary_on">显示通知以从通知栏中切换手电筒</string>
+    <string name="notification_summary_off">不显示通知以从通知栏中切换手电筒</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="share_app_message_subject">手电筒 - 超高亮 LED 手电筒灯</string>
+    <string name="share_app_message_body">手电筒 - Torch Led 是一款完全免费的应用程序，可将您的智能手机快速高效地变成超亮手电筒。 该应用程序使用您智能手机的闪光灯来点亮您所需要的
+
+\n\n 在
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">优质的</string>
+    <string name="pupop_snackbar_in_app_update_button">安装</string>
+    <string name="pupop_snackbar_in_app_update_message">刚刚下载了更新。</string>
+    <string name="progress_dialog_message">请稍等…</string>
+    <string name="rewarded_video_error_message">显示激励视频广告时出错</string>
+    <string name="flashlight_strobe_description">频闪设置</string>
+    <string name="flashlight_compass_description">罗盘</string>
+    <string name="flashlight_screen_light_description">屏幕灯</string>
+    <string name="native_ad_exit_dialog_message">你确定要离开？</string>
+    <string name="native_ad_exit_dialog_yes">是的</string>
+    <string name="native_ad_exit_dialog_no">不</string>
+    <string name="native_ad_screen_transition_exit">出口</string>
+    <string name="new_app_content_description">新应用</string>
+    <string name="new_app_dialog_title">访问商店</string>
+    <string name="new_app_dialog_description">您将被重定向到 Play 商店。 你确定吗？</string>
+</resources>

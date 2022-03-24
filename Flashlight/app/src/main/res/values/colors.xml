@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#010101</color>
+    <color name="colorAccent">#0091ea</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorFlashFreqButOn">#00b0ff</color>
+    <color name="colorTransparent">#0000b0ff</color>
+
+    <color name="colorGoldBlue">#005693</color>
+
+    <color name="colorToolBar">#212121</color>
+
+
+    <color name="windowBackground">#323232</color>
+    <color name="textTitle">#ffffff</color>
+    <color name="textDescription">#bebebe</color>
+
+    <color name="white">#fff</color>
+
+    <color name="dayNightText">#000</color>
+
+    <color name="ad_attribution">#F19938</color>
+
+    <color name="premium_alert_dialog_start">#b28b3d</color>
+<!--    <color name="premium_alert_dialog_end">#e0d172</color>-->
+<!--    <color name="premium_alert_dialog_end">#ba9750</color>-->
+    <color name="premium_alert_dialog_end">#c1a264</color>
+
+    <color name="premium_alert_dialog_button_positive">@color/white</color>
+    <color name="premium_alert_dialog_button_neutral">@color/white</color>
+    <color name="premium_alert_dialog_button_negative">@color/grey_200</color>
+
+    <color name="premium_alert_dialog_button_negative_background">#099930</color>
+
+    <color name="snackbar_err_color">#ff6861</color>
+    <color name="snackbar_tru_color">#b89766</color>
+
+<!--  Start - For Rating Dialog  -->
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="black">#000000</color>
+    <color name="accent">#ec2045</color>
+    <color name="ratingBackground">#fffbe6</color>
+    <color name="rate_star">#FDCC0D</color>
+<!--  End - For Rating Dialog  -->
+
+    <array name="text_colors">
+        <item>#000000</item>
+        <item>#607D8B</item>
+        <item>#F44336</item>
+        <item>#9C27B0</item>
+        <item>#3F51B5</item>
+        <item>#03A9F4</item>
+        <item>#009688</item>
+        <item>#8BC34A</item>
+        <item>#FFEB3B</item>
+        <item>#FF9800</item>
+        <item>#795548</item>
+        <item>#9E9E9E</item>
+        <item>#ffffff</item>
+    </array>
+
+    <array name="material_colors">
+        <item>#F44336</item>
+        <item>#9C27B0</item>
+        <item>#3F51B5</item>
+        <item>#03A9F4</item>
+        <item>#009688</item>
+        <item>#8BC34A</item>
+        <item>#FFEB3B</item>
+        <item>#FF9800</item>
+        <item>#795548</item>
+        <item>#607D8B</item>
+    </array>
+
+</resources>

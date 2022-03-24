@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">फ्लैश लाइट</string>
+    <string name="compass_not_supported">इस उपकरण में कम्पास समर्थित नहीं है</string>
+    <string name="camera_not_supported">क्षमा करें, आपका डिवाइस फ़्लैश लाइट का समर्थन नहीं करता है!</string>
+
+    <string name="premium_yes">खरीदें</string>
+    <string name="premium_no">बाद में</string>
+    <string name="premium_title">लाइफटाइम प्रीमियम उपयोगकर्ता</string>
+    <string name="premium_message">टॉर्च ऐप के गर्वित लाइफटाइम मालिक बनें! \nविज्ञापन निकालें और भविष्य के सभी उन्नयन शामिल करें। \n</string>
+
+    <string name="error_no_skus">हमने कोई भी SKU प्रदर्शित करने के लिए नहीं खोजा&#8230; अपने इंटरनेट की जाँच करें
+        कनेक्शन और सुनिश्चित करें कि आपका गूगल डेवलपर कंसोल सही ढंग से सेटअप था।</string>
+    <string name="error_billing_unavailable">बिलिंग अनुपलब्ध है। सुनिश्चित करें कि आपका गूगल प्ले ऐप सही तरीके से सेटअप है</string>
+    <string name="error_billing_default">बिलिंग अनुपलब्ध है। कृपया अपना उपकरण जांचें।</string>
+
+
+    <string name="alert_already_purchased">बधाई! आप पहले से ही एक प्रीमियम उपयोगकर्ता हैं!</string>
+    <string name="toggle_flashlight">टॉर्च टॉगल करें</string>
+    <string name="content_sos">SOS सिग्नल टॉगल करें</string>
+    <string name="content_no_ads">विज्ञापन हटाएँ</string>
+    <string name="content_banner_ad">बैनर विज्ञापन पर क्लिक करें</string>
+    <string name="ok">ठीक है</string>
+    <string name="error">त्रुटि</string>
+
+    <string name="review_app_title">क्या आपको हमारा ऐप पसंद आया?</string>
+    <string name="review_app_msg">यदि आप टॉर्च का उपयोग करने का आनंद लेते हैं, तो क्या आप हमें रेट करने के लिए एक पल लेंगे? \nयह एक मिनट से अधिक नहीं लेगा। \nकृपया कृपया दयालु हो और हमें और रेट करें और मदद करें।</string>
+    <string name="review_app_btn_positive">एप्लिकेशन को रेट करें</string>
+    <string name="review_app_btn_neutral">नहीं, धन्यवाद</string>
+    <string name="review_app_btn_negative">बाद में मुझे याद दिलाएं</string>
+
+    <string name="rewarded_vid_cta">मुफ्त प्रीमियम!</string>
+    <string name="rewarded_vid_title">विज्ञापन देखें और पूर्ण पहुँच प्राप्त करें!!</string>
+    <string name="rewarded_vid_btn_positive">देखें</string>
+    <string name="rewarded_vid_btn_negative">रद्द करना</string>
+    <string name="rewarded_vid_btn_neutral">प्रीमियम</string>
+    <string name="rewarded_vid_msg">इस वीडियो विज्ञापन को \'एक पूरे दिन\' के लिए सभी अनुभागों को अनलॉक करने के लिए देखें। \n\nकृपया एक बार हमें एक दिन सहन करें… ताकि हम मुफ्त के लिए नई सुविधाओं आदि को जोड़कर ऐप और सेवाओं को बनाए रख सकें। \n\nधन्यवाद!</string>
+    <string name="rewarded_vid_err_msg">पुरस्कृत विज्ञापन अभी तक लोड नहीं किया गया था।</string>
+    <string name="rewarded_vid_ads_rmd_till">%s तक विज्ञापन निकाले गए।</string>
+
+    <string name="rating_dialog_experience"> 5 सितारों को रेट करें </string>
+    <!-- <string name="rating_dialog_msg"> नमस्कार, मैं एक ऐसा प्रोग्रामर हूं जो आपको सबसे अच्छा संभव मुफ्त एप्लीकेशन देने के लिए बहुत मेहनत कर रहा है। आपकी 5-स्टार समीक्षा अधिक मूल्य की है जो सभी पैसे हैं। कृपया मेरे प्रयासों का समर्थन करने के लिए Google Play पर अच्छी समीक्षा लिखें। धन्यवाद। </string> -->
+    <string name="rating_dialog_maybe_later"> शायद बाद में </string>
+    <string name="rating_dialog_never"> कभी नहीं </string>
+    <string name="rating_dialog_feedback_title"> हम टॉर्च को बेहतर कैसे बना सकते हैं? </string>
+    <string name="rating_dialog_submit"> सबमिट करें </string>
+    <string name="rating_dialog_cancel"> रद्द करें </string>
+    <string name="rating_dialog_suggestions"> हमें बताएं कि क्या गलत हुआ और हम इस पर काम करेंगे </string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">साथ - साथ करना</string>
+    <string name="app_header">एप्लिकेशन सेटिंग</string>
+    <string name="feedback_header">प्रतिपुष्टि</string>
+    <string name="share_header">साझा करना</string>
+    <string name="about_header">के बारे में</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">अधिसूचना से टॉगल करें</string>
+    <string name="rate_us_title">हमें रेटिंग दें</string>
+    <string name="send_feedback_title">प्रतिक्रिया भेजें</string>
+    <string name="share_title">टॉर्च साझा करें</string>
+    <string name="version_title">संस्करण</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">अधिसूचना बार से टॉर्च चालू करने के लिए अधिसूचना दिखाएं</string>
+    <string name="notification_summary_off">सूचना पट्टी से टॉर्च चालू करने के लिए सूचना न दिखाएं</string>
+
+    <string name="title_activity_settings">समायोजन</string>
+
+    <string name="share_app_message_subject">टॉर्च - सुपर उज्ज्वल एलईडी टॉर्च लाइट</string>
+    <string name="share_app_message_body">टॉर्च - टॉर्च एलईडी एक पूरी तरह से नि: शुल्क एप्लिकेशन है जो आपके स्मार्टफ़ोन को जल्दी और कुशलता से सुपर ब्राइट टॉर्च में बदल देता है। आपको जो चाहिए उसे हल्का करने में सक्षम होने के लिए एप्लिकेशन आपके स्मार्टफ़ोन के फ्लैश का उपयोग करता है
+
+\n\n इसे मुफ्त में प्राप्त करें
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">अधिमूल्य</string>
+    <string name="pupop_snackbar_in_app_update_button">इंस्टॉल</string>
+    <string name="pupop_snackbar_in_app_update_message">एक अपडेट अभी डाउनलोड किया गया है।</string>
+    <string name="progress_dialog_message">कृपया प्रतीक्षा करें…</string>
+    <string name="rewarded_video_error_message">पुरस्कृत वीडियो विज्ञापन दिखाने में त्रुटि</string>
+    <string name="flashlight_strobe_description">स्ट्रोब सेटिंग्स</string>
+    <string name="flashlight_compass_description">दिशा सूचक यंत्र</string>
+    <string name="flashlight_screen_light_description">स्क्रीन लाइट</string>
+    <string name="native_ad_exit_dialog_message">क्या आप निश्चित हैं आपकी बाहर निकलने की इच्छा है?</string>
+    <string name="native_ad_exit_dialog_yes">हां</string>
+    <string name="native_ad_exit_dialog_no">नहीं</string>
+    <string name="native_ad_screen_transition_exit">बाहर जाएं</string>
+    <string name="new_app_content_description">नया ऐप</string>
+    <string name="new_app_dialog_title">स्टोर पर जाये</string>
+    <string name="new_app_dialog_description">आपको play store पर रीडायरेक्ट कर दिया जाएगा। क्या आपको यकीन है?</string>
+
+</resources>

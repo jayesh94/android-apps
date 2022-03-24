@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">ఫ్లాష్ లైట్ </string>
+    <string name="compass_not_supported">కంపాస్ ఈ పరికరంలో మద్దతు లేదు </string>
+    <string name="camera_not_supported">క్షమించండి, మీ పరికరం ఫ్లాష్ లైట్‌కు మద్దతు ఇవ్వదు! </string>
+
+    <string name="premium_yes">ఇప్పుడు కొనండి </string>
+    <string name="premium_no">తరువాత </string>
+    <string name="premium_title">జీవితకాల ప్రీమియం వినియోగదారు </string>
+    <string name="premium_message">ఫ్లాష్‌లైట్ అనువర్తనం యొక్క గర్వించదగిన జీవితకాల యజమాని అవ్వండి! \n ప్రకటనలను తీసివేసి, భవిష్యత్తులో అన్ని నవీకరణలను చేర్చండి. \n </string>
+
+    <string name="error_no_skus">ను తనిఖీ చేయవలసి ఉంటుంది>ప్రదర్శించడానికి మేము ఏ SKU లను కనుగొనలేదు &#8230; మీ ఇంటర్నెట్‌ను తనిఖీ చేయండి
+        కనెక్షన్ మరియు మీ Google డెవలపర్ కన్సోల్ సరిగ్గా సెటప్ చేయబడిందని నిర్ధారించుకోండి. </string>
+    <string name="error_billing_unavailable">బిల్లింగ్ అందుబాటులో లేదు. మీ Google Play అనువర్తనం ఉందని నిర్ధారించుకోండి
+        సరిగ్గా సెటప్ </string>
+    <string name="error_billing_default">బిల్లింగ్ అందుబాటులో లేదు. దయచేసి మీ పరికరాన్ని తనిఖీ చేయండి. </string>
+
+    <string name="alert_already_purchased">అభినందనలు! మీరు ఇప్పటికే ప్రీమియం వినియోగదారు! </string>
+    <string name="toggle_flashlight">ఫ్లాష్‌లైట్‌ను టోగుల్ చేయండి </string>
+    <string name="content_sos">SOS సిగ్నల్‌ను టోగుల్ చేయండి </string>
+    <string name="content_no_ads">ప్రకటనలను తొలగించండి </string>
+    <string name="content_banner_ad">బ్యానర్ ప్రకటన క్లిక్ చేయండి </string>
+    <string name="ok">సరే </string>
+    <string name="error">లోపం </string>
+
+    <string name="review_app_title">మా అనువర్తనాన్ని ఆస్వాదిస్తున్నారా? </string>
+    <string name="review_app_msg">మీరు ఫ్లాష్‌లైట్ ఉపయోగించడం ఆనందించినట్లయితే, మమ్మల్ని రేట్ చేయడానికి కొంత సమయం కేటాయించాలా? \n ఇది ఒక నిమిషం కన్నా ఎక్కువ సమయం తీసుకోదు. \n దయచేసి దయగా ఉండండి మరియు మమ్మల్ని మరింత రేట్ చేయండి మరియు సహాయం చేయండి.</string>
+	<string name="review_app_btn_positive">రేట్ ఫ్లాష్‌లైట్ </string>
+    <string name="review_app_btn_neutral">లేదు, ధన్యవాదాలు </string>
+    <string name="review_app_btn_negative">తరువాత నాకు గుర్తు చేయండి </string>
+
+    <string name="rewarded_vid_cta">ఉచిత ప్రీమియం! </string>
+    <string name="rewarded_vid_title">ప్రకటన చూడండి మరియు పూర్తి ప్రాప్యత పొందండి !!</string>
+    <string name="rewarded_vid_btn_positive">చూడండి </string>
+    <string name="rewarded_vid_btn_negative">రద్దు చేయండి </string>
+    <string name="rewarded_vid_btn_neutral">ప్రీమియం </string>
+    <string name="rewarded_vid_msg">\'వన్ హోల్ డే\' కోసం అన్ని విభాగాలను అన్‌లాక్ చేయడానికి ఈ వీడియో ప్రకటన చూడండి. \n\nదయచేసి రోజుకు ఒకసారి మాకు భరించండి… తద్వారా మేము అనువర్తనం మరియు సేవలను నిర్వహించవచ్చు, క్రొత్త లక్షణాలను జోడించడం మొదలైనవి ఉచితంగా.\n\nధన్యవాదాలు!</string>
+    <string name="rewarded_vid_err_msg">బహుమతి పొందిన ప్రకటన ఇంకా లోడ్ కాలేదు. </string>
+    <string name="rewarded_vid_ads_rmd_till">%s వరకు ప్రకటనలు తొలగించబడ్డాయి</string>
+
+    <string name="rating_dialog_experience"> రేట్ 5 నక్షత్రాలు </string>
+    <!-- <string name="rating_dialog_msg"> హలో, నేను మీకు ఉత్తమమైన ఉచిత అప్లికేషన్ ఇవ్వడానికి చాలా కష్టపడుతున్న ప్రోగ్రామర్. మీ 5-స్టార్ సమీక్ష మొత్తం డబ్బు కంటే ఎక్కువ విలువైనది. నా ప్రయత్నాలకు మద్దతు ఇవ్వడానికి దయచేసి Google Play లో మంచి సమీక్ష రాయండి. ధన్యవాదాలు. </string> -->
+    <string name="rating_dialog_maybe_later"> తరువాత </string>
+    <string name="rating_dialog_never"> ఎప్పుడూ </string>
+    <string name="rating_dialog_feedback_title"> ఫ్లాష్‌లైట్‌ను ఎలా మెరుగుపరుస్తాము? </string>
+    <string name="rating_dialog_submit"> సమర్పించండి </string>
+    <string name="rating_dialog_cancel"> రద్దు చేయండి </string>
+    <string name="rating_dialog_suggestions"> ఏమి తప్పు జరిగిందో మాకు తెలియజేయండి మరియు మేము దానిపై పని చేస్తాము </string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">సమకాలీకరించు</string>
+    <string name="app_header">యాప్ సెట్టింగ్‌లు</string>
+    <string name="feedback_header">అభిప్రాయం</string>
+    <string name="share_header">షేర్ చేయండి</string>
+    <string name="about_header">గురించి</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">నోటిఫికేషన్ నుండి టోగుల్ చేయండి</string>
+    <string name="rate_us_title">మాకు రేట్ చేయండి</string>
+    <string name="send_feedback_title">అభిప్రాయాన్ని పంపండి</string>
+    <string name="share_title">ఫ్లాష్‌లైట్‌ను షేర్ చేయండి</string>
+    <string name="version_title">సంస్కరణ: Telugu</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">నోటిఫికేషన్ బార్ నుండి ఫ్లాష్‌లైట్‌ను టోగుల్ చేయడానికి నోటిఫికేషన్‌ను చూపు</string>
+    <string name="notification_summary_off">నోటిఫికేషన్ బార్ నుండి ఫ్లాష్‌లైట్‌ను టోగుల్ చేయడానికి నోటిఫికేషన్ చూపవద్దు</string>
+
+    <string name="title_activity_settings">సెట్టింగులు</string>
+
+    <string name="share_app_message_subject">ఫ్లాష్‌లైట్ - సూపర్ బ్రైట్ LED టార్చ్ లైట్</string>
+    <string name="share_app_message_body">ఫ్లాష్‌లైట్ - టార్చ్ లెడ్ అనేది పూర్తిగా ఉచిత అప్లికేషన్, ఇది మీ స్మార్ట్‌ఫోన్‌ను త్వరగా మరియు సమర్ధవంతంగా సూపర్ బ్రైట్ ఫ్లాష్‌లైట్‌గా మారుస్తుంది. మీకు అవసరమైన వాటిని తేలికపరచడానికి అప్లికేషన్ మీ స్మార్ట్‌ఫోన్ యొక్క ఫ్లాష్‌ని ఉపయోగిస్తుంది
+
+\n\n వద్ద ఉచితంగా పొందండి
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">ప్రీమియం</string>
+    <string name="pupop_snackbar_in_app_update_button">ఇన్‌స్టాల్ చేయండి</string>
+    <string name="pupop_snackbar_in_app_update_message">నవీకరణ ఇప్పుడే డౌన్‌లోడ్ చేయబడింది.</string>
+    <string name="progress_dialog_message">దయచేసి వేచి ఉండండి…</string>
+    <string name="rewarded_video_error_message">రివార్డ్ వీడియో ప్రకటనను చూపడంలో లోపం ఏర్పడింది</string>
+    <string name="flashlight_strobe_description">స్ట్రోబ్ సెట్టింగ్‌లు</string>
+    <string name="flashlight_compass_description">దిక్సూచి</string>
+    <string name="flashlight_screen_light_description">స్క్రీన్ లైట్</string>
+    <string name="native_ad_exit_dialog_message">మీరు ఖచ్చితంగా నిష్క్రమించాలనుకుంటున్నారా?</string>
+    <string name="native_ad_exit_dialog_yes">అవును</string>
+    <string name="native_ad_exit_dialog_no">నం</string>
+    <string name="native_ad_screen_transition_exit">బయటకి దారి</string>
+    <string name="new_app_content_description">కొత్త యాప్</string>
+    <string name="new_app_dialog_title">స్టోర్‌ని సందర్శించండి</string>
+    <string name="new_app_dialog_description">మీరు ప్లే స్టోర్‌కి దారి మళ్లించబడతారు. మీరు చెప్పేది నిజమా?</string>
+
+</resources>

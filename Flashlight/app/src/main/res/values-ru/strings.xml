@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Вспышка света</string>
+    <string name="compass_not_supported">Компас не поддерживается на этом устройстве</string>
+    <string name="camera_not_supported">К сожалению, ваше устройство не поддерживает вспышку!</string>
+    <string name="premium_yes">КУПИ СЕЙЧАС</string>
+    <string name="premium_no">ПОЗЖЕ</string>
+    <string name="premium_title">Пожизненный премиум-пользователь</string>
+    <string name="premium_message">Будьте гордым пожизненным владельцем приложения \"Фонарик\"! Удалите рекламу и включите все будущие обновления.</string>
+    <string name="error_no_skus">Мы не нашли SKU для отображения … Проверьте подключение к Интернету и убедитесь, что консоль разработчика Google настроена правильно.</string>
+    <string name="error_billing_unavailable">Биллинг недоступен. Убедитесь, что ваше приложение Google Play настроено правильно</string>
+    <string name="error_billing_default">Биллинг недоступен. Пожалуйста, проверьте свое устройство.</string>
+    <string name="alert_already_purchased">Поздравляю! Вы уже являетесь премиум-пользователем!</string>
+    <string name="toggle_flashlight">Переключить фонарик</string>
+    <string name="content_sos">Переключить сигнал SOS</string>
+    <string name="content_no_ads">Удалить объявления</string>
+    <string name="content_banner_ad">Нажмите Баннерная реклама</string>
+    <string name="ok">ОК</string>
+    <string name="error">ошибка</string>
+    <string name="review_app_title">Нравится наше приложение?</string>
+    <string name="review_app_msg">Если вам нравится использовать фонарик, не могли бы вы уделить нам время, чтобы оценить нас? Это займет не больше минуты. Пожалуйста, будьте добры, оцените нас и помогите.</string>
+    <string name="review_app_btn_positive">Оценить фонарик</string>
+    <string name="review_app_btn_neutral">Нет, спасибо</string>
+    <string name="review_app_btn_negative">Напомни мне позже</string>
+    <string name="rewarded_vid_cta">Бесплатная Премиум!</string>
+    <string name="rewarded_vid_title">Смотрите рекламу и получите полный доступ !!</string>
+    <string name="rewarded_vid_btn_positive">Смотреть</string>
+    <string name="rewarded_vid_btn_negative">Отмена</string>
+    <string name="rewarded_vid_btn_neutral">Премиум</string>
+    <string name="rewarded_vid_msg">Посмотрите это видеообъявление, чтобы разблокировать все разделы на «Целый день». Пожалуйста, несите нас раз в день … Чтобы мы могли бесплатно поддерживать приложение и сервисы, добавлять новые функции и т. Д. Спасибо!</string>
+    <string name="rewarded_vid_err_msg">Объявление с вознаграждением еще не загружено.</string>
+    <string name="rewarded_vid_ads_rmd_till">Реклама удалена до %s</string>
+    <string name="rating_dialog_experience">Оценить 5 звезд</string>
+    <string name="rating_dialog_maybe_later">Может быть позже</string>
+    <string name="rating_dialog_never">Никогда</string>
+    <string name="rating_dialog_feedback_title">Как сделать фонарик лучше?</string>
+    <string name="rating_dialog_submit">представить</string>
+    <string name="rating_dialog_cancel">Отмена</string>
+    <string name="rating_dialog_suggestions">Сообщите нам, что пошло не так, и мы будем работать над этим</string>
+    <string name="sync_header">Синхронизировать</string>
+    <string name="app_header">Настройки приложения</string>
+    <string name="feedback_header">Обратная связь</string>
+    <string name="share_header">Делиться</string>
+    <string name="about_header">О</string>
+    <string name="notification_title">Переключить из уведомления</string>
+    <string name="rate_us_title">Оцените нас</string>
+    <string name="send_feedback_title">Отправить отзыв</string>
+    <string name="share_title">Поделиться фонариком</string>
+    <string name="version_title">Версия</string>
+    <string name="notification_summary_on">Показать уведомление для переключения фонарика с панели уведомлений</string>
+    <string name="notification_summary_off">Не показывать уведомление для переключения фонарика с панели уведомлений</string>
+    <string name="title_activity_settings">Настройки</string>
+    <string name="share_app_message_subject">Фонарик - Супер яркий светодиодный фонарик</string>
+    <string name="share_app_message_body">Фонарик - Светодиодный фонарик.
+Это совершенно бесплатное приложение, которое быстро и эффективно превращает ваш смартфон в суперяркий фонарик. Приложение использует вспышку вашего смартфона, чтобы осветить то, что вам нужно.
+
+\n\n Получите это бесплатно на
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">Премиум</string>
+    <string name="pupop_snackbar_in_app_update_button">УСТАНОВИТЬ</string>
+    <string name="pupop_snackbar_in_app_update_message">Только что было скачано обновление.</string>
+    <string name="progress_dialog_message">Пожалуйста подождите…</string>
+    <string name="rewarded_video_error_message">Ошибка при отображении видеообъявления с вознаграждением</string>
+    <string name="flashlight_strobe_description">Настройки строба</string>
+    <string name="flashlight_compass_description">Компас</string>
+    <string name="flashlight_screen_light_description">Экранная подсветка</string>
+    <string name="native_ad_exit_dialog_message">Вы уверены, что хотите выйти?</string>
+    <string name="native_ad_exit_dialog_yes">да</string>
+    <string name="native_ad_exit_dialog_no">Нет</string>
+    <string name="native_ad_screen_transition_exit">Выход</string>
+    <string name="new_app_content_description">Новое приложение</string>
+    <string name="new_app_dialog_title">Посетить магазин</string>
+    <string name="new_app_dialog_description">Вы будете перенаправлены в игровой магазин. Уверены ли вы?</string>
+</resources>

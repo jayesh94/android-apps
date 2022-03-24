@@ -1,0 +1,93 @@
+<resources>
+    <string name = "app_name"> Linterna </string>
+    <string name = "compass_not_supported"> La brújula no es compatible con este dispositivo </string>
+    <string name = "camera_not_supported"> Lo sentimos, su dispositivo no es compatible con la luz del flash. </string>
+
+    <string name = "premium_yes"> COMPRAR AHORA </string>
+    <string name = "premium_no"> MÁS TARDE </string>
+    <string name = "premium_title"> Usuario Premium de por vida </string>
+    <string name = "premium_message"> ¡Sea el orgulloso propietario de por vida de la aplicación Flashlight! \nElimine los anuncios e incluya todas las actualizaciones futuras. \n</string>
+
+    <string name = "error_no_skus"> No encontramos ningún SKU para mostrar&#8230; Revisa tu internet
+        conexión y asegúrese de que su Consola para desarrolladores de Google esté configurada correctamente. </string>
+    <string name = "error_billing_unavailable"> Facturación no disponible. Asegúrese de que su aplicación de Google Play
+        está configurado correctamente </string>
+    <string name = "error_billing_default"> Facturación no disponible. Compruebe su dispositivo. </string>
+
+
+    <string name = "alert_already_purchased"> ¡Felicidades! ¡Ya eres un usuario premium! </string>
+    <string name = "toggle_flashlight"> Alternar linterna </string>
+    <string name = "content_sos"> Alternar señal SOS </string>
+    <string name = "content_no_ads"> Quitar anuncios </string>
+    <string name = "content_banner_ad"> Haga clic en Anuncio de banner </string>
+    <string name = "ok"> OK </string>
+    <string name = "error"> Error </string>
+
+    <string name = "review_app_title"> ¿Disfruta de nuestra aplicación? </string>
+    <string name = "review_app_msg"> Si le gusta usar Flashlight, ¿le importaría tomarse un momento para calificarnos? \nNo tomará más de un minuto. \nPor favor, sea amable, califíquenos más y ayude. </string>
+    <string name = "review_app_btn_positive"> Calificar linterna </string>
+    <string name = "review_app_btn_neutral"> No, gracias </string>
+    <string name = "review_app_btn_negative"> Recordármelo más tarde </string>
+    
+    <string name = "rewarded_vid_cta">¡Premio gratis! </string>
+    <string name = "rewarded_vid_title"> ¡Vea el anuncio y obtenga acceso completo! </string>
+    <string name = "rewarded_vid_btn_positive"> Ver </string>
+    <string name = "rewarded_vid_btn_negative"> Cancelar </string>
+    <string name = "rewarded_vid_btn_neutral"> Premium </string>
+    <string name = "rewarded_vid_msg"> Ver este anuncio de video y desbloquear todas las secciones por un día. \n\nPor favor, apóyenos una vez al día… para que podamos mantener la aplicación y los servicios, agregar nuevas funciones, etc. Gratis. \n\n¡Gracias! </string>
+    <string name = "rewarded_vid_err_msg"> El anuncio recompensado aún no se cargó. </string>
+    <string name = "rewarded_vid_ads_rmd_till"> Anuncios eliminados hasta %s </string>
+
+    <string name = "rating_dialog_experience"> Califica 5 estrellas </string>
+    <!-- <string name = "rating_dialog_msg"> Hola, soy un programador que trabaja muy duro para ofrecerte la mejor aplicación gratuita posible. Tu reseña de 5 estrellas vale más que todo el dinero. Escribe una buena reseña en Google Play para apoyar mis esfuerzos. Gracias. </string> -->
+    <string name = "rating_dialog_maybe_later"> Quizás más tarde </string>
+    <string name = "rating_dialog_never"> Nunca </string>
+    <string name = "rating_dialog_feedback_title"> ¿Cómo podemos mejorar la linterna? </string>
+    <string name = "rating_dialog_submit"> Enviar </string>
+    <string name = "rating_dialog_cancel"> Cancelar </string>
+    <string name = "rating_dialog_suggestions"> Háganos saber qué salió mal y trabajaremos en ello </string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">Sincronizar</string>
+    <string name="app_header">Ajustes de Aplicacion</string>
+    <string name="feedback_header">Realimentación</string>
+    <string name="share_header">Cuota</string>
+    <string name="about_header">Sobre</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">Alternar desde la notificación</string>
+    <string name="rate_us_title">Nos califica</string>
+    <string name="send_feedback_title">Enviar comentarios</string>
+    <string name="share_title">Compartir linterna</string>
+    <string name="version_title">Versión</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">Mostrar notificación para alternar la linterna desde la barra de notificaciones</string>
+    <string name="notification_summary_off">No mostrar notificación para alternar la linterna desde la barra de notificaciones</string>
+
+    <string name="title_activity_settings">Ajustes</string>
+
+    <string name="share_app_message_subject">Linterna - Antorcha LED superbrillante</string>
+    <string name="share_app_message_body">
+        Linterna - Antorcha Led es una aplicación totalmente gratuita que convierte tu Smartphone en una linterna Super Bright de forma rápida y eficaz. La aplicación utiliza el Flash de tu Smartphone para poder aligerar lo que necesitas
+
+\n\n Consíguelo gratis en
+
+\n https://brightestflashlight.page.link/flashlight
+    </string>
+    <string name="premium_header">Prima</string>
+    <string name="pupop_snackbar_in_app_update_button">INSTALAR</string>
+    <string name="pupop_snackbar_in_app_update_message">Se acaba de descargar una actualización.</string>
+    <string name="progress_dialog_message">Espere por favor…</string>
+    <string name="rewarded_video_error_message">Error al mostrar el anuncio de video recompensado</string>
+    <string name="flashlight_strobe_description">Configuración de luz estroboscópica</string>
+    <string name="flashlight_compass_description">Brújula</string>
+    <string name="flashlight_screen_light_description">Luz de pantalla</string>
+    <string name="native_ad_exit_dialog_message">¿Seguro que quieres salir?</string>
+    <string name="native_ad_exit_dialog_yes">sí</string>
+    <string name="native_ad_exit_dialog_no">No</string>
+    <string name="native_ad_screen_transition_exit">Salida</string>
+    <string name="new_app_content_description">Nueva aplicación</string>
+    <string name="new_app_dialog_title">Visita la tienda</string>
+    <string name="new_app_dialog_description">Serás redirigido a Play Store. ¿Está seguro?</string>
+</resources>

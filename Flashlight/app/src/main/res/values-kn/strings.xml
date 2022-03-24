@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">ಫ್ಲ್ಯಾಶ್ ಲೈಟ್</string>
+    <string name="compass_not_supported">ಈ ಸಾಧನದಲ್ಲಿ ಕಂಪಾಸ್ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ</string>
+    <string name="camera_not_supported">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ಸಾಧನವು ಫ್ಲ್ಯಾಷ್ ಲೈಟ್ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ</string>
+
+    <string name="premium_yes">ಈಗ ಖರೀದಿಸಿ</string>
+    <string name="premium_no">ನಂತರ</string>
+    <string name="premium_title">ಜೀವಮಾನದ ಪ್ರೀಮಿಯಂ ಬಳಕೆದಾರ</string>
+    <string name="premium_message">ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಅಪ್ಲಿಕೇಶನ್‌ನ ಹೆಮ್ಮೆಯ ಜೀವಮಾನದ ಮಾಲೀಕರಾಗಿರಿ!\nಜಾಹೀರಾತುಗಳನ್ನು ತೆಗೆದುಹಾಕಿ ಮತ್ತು ಭವಿಷ್ಯದ ಎಲ್ಲಾ ನವೀಕರಣಗಳನ್ನು ಸೇರಿಸಿ. \n</string>
+
+    <string name="error_no_skus">ಪ್ರದರ್ಶಿಸಲು ಯಾವುದೇ SKU ಗಳನ್ನು ನಾವು ಕಂಡುಹಿಡಿಯಲಿಲ್ಲ… ನಿಮ್ಮ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ನಿಮ್ಮ Google ಡೆವಲಪರ್ ಕನ್ಸೋಲ್ ಅನ್ನು ಸರಿಯಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.</string>
+    <string name="error_billing_unavailable">ಬಿಲ್ಲಿಂಗ್ ಲಭ್ಯವಿಲ್ಲ. ನಿಮ್ಮ Google Play ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ ಸರಿಯಾಗಿ ಸೆಟಪ್ ಆಗಿದೆ</string>
+    <string name="error_billing_default">ಬಿಲ್ಲಿಂಗ್ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸಾಧನವನ್ನು ಪರಿಶೀಲಿಸಿ.</string>
+
+    <string name="alert_already_purchased"> ಅಭಿನಂದನೆಗಳು! ನೀವು ಈಗಾಗಲೇ ಪ್ರೀಮಿಯಂ ಬಳಕೆದಾರರಾಗಿದ್ದೀರಿ!</string>
+    <string name="toggle_flashlight"> ಫ್ಲ್ಯಾಷ್‌ಲೈಟ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="content_sos"> ಎಸ್‌ಒಎಸ್ ಸಿಗ್ನಲ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="content_no_ads"> ಜಾಹೀರಾತುಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+    <string name="content_banner_ad"> ಬ್ಯಾನರ್ ಜಾಹೀರಾತು</string> ಕ್ಲಿಕ್ ಮಾಡಿ
+    <string name="ok"> ಸರಿ</string>
+    <string name="error"> ದೋಷ</string>
+
+    <string name="review_app_title">ನಮ್ಮ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಆನಂದಿಸುತ್ತಿದ್ದೀರಾ?</string>
+    <string name="review_app_msg">ನೀವು ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಬಳಸುವುದನ್ನು ಆನಂದಿಸುತ್ತಿದ್ದರೆ, ನಮ್ಮನ್ನು ರೇಟ್ ಮಾಡಲು ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುತ್ತೀರಾ? \nಇದು ಒಂದು ನಿಮಿಷಕ್ಕಿಂತ ಹೆಚ್ಚು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳುವುದಿಲ್ಲ. \nದಯವಿಟ್ಟು ದಯೆಯಿಂದಿರಿ ಮತ್ತು ನಮ್ಮನ್ನು ಇನ್ನಷ್ಟು ರೇಟ್ ಮಾಡಿ ಮತ್ತು ಸಹಾಯ ಮಾಡಿ.</string>
+    <string name="review_app_btn_positive"> ದರ ಫ್ಲ್ಯಾಷ್‌ಲೈಟ್</string>
+    <string name="review_app_btn_neutral"> ಇಲ್ಲ, ಧನ್ಯವಾದಗಳು</string>
+    <string name="review_app_btn_negative"> ನಂತರ ನನಗೆ ನೆನಪಿಸಿ</string>
+
+    <string name="rewarded_vid_cta">ಉಚಿತ ಪ್ರೀಮಿಯಂ!</string>
+    <string name="rewarded_vid_title"> ಜಾಹೀರಾತನ್ನು ವೀಕ್ಷಿಸಿ ಮತ್ತು ಪೂರ್ಣ ಪ್ರವೇಶವನ್ನು ಪಡೆಯಿರಿ !!</string>
+    <string name="rewarded_vid_btn_positive"> ವೀಕ್ಷಿಸಿ</string>
+    <string name="rewarded_vid_btn_negative"> ರದ್ದುಮಾಡು</string>
+    <string name="rewarded_vid_btn_neutral"> ಪ್ರೀಮಿಯಂ</string>
+    <string name="rewarded_vid_msg"> ಈ ವೀಡಿಯೊ ಜಾಹೀರಾತನ್ನು ನೋಡಿ ಮತ್ತು ಎಲ್ಲಾ ವಿಭಾಗಗಳನ್ನು ಒಂದು ದಿನ ಅನ್ಲಾಕ್ ಮಾಡಿ. \ n\n ದಯವಿಟ್ಟು ದಿನಕ್ಕೆ ಒಮ್ಮೆ ನಮಗೆ ಬೆಂಬಲ ನೀಡಿ… ಇದರಿಂದ ನಾವು ಅಪ್ಲಿಕೇಶನ್ ಮತ್ತು ಸೇವೆಗಳನ್ನು ನಿರ್ವಹಿಸಬಹುದು, ಹೊಸ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಸೇರಿಸಬಹುದು ಇತ್ಯಾದಿ. ಉಚಿತ. \ n\n ಧನ್ಯವಾದಗಳು!</string>
+    <string name="rewarded_vid_err_msg"> ಬಹುಮಾನದ ಜಾಹೀರಾತು ಇನ್ನೂ ಲೋಡ್ ಆಗಿಲ್ಲ.</string>
+    <string name="rewarded_vid_ads_rmd_till">%s ರವರೆಗೆ ಜಾಹೀರಾತುಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ</string>
+
+    <string name = "rating_dialog_experience"> 5 ನಕ್ಷತ್ರಗಳನ್ನು ರೇಟ್ ಮಾಡಿ</string>
+    <string name = "rating_dialog_maybe_later"> ಬಹುಶಃ ನಂತರ</string>
+    <string name = "rating_dialog_never"> ಎಂದಿಗೂ</string>
+    <string name = "rating_dialog_feedback_title"> ನಾವು ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಅನ್ನು ಹೇಗೆ ಉತ್ತಮಗೊಳಿಸಬಹುದು?</string>
+    <string name = "rating_dialog_submit"> ಸಲ್ಲಿಸಿ</string>
+    <string name = "rating_dialog_cancel"> ರದ್ದುಮಾಡು</string>
+    <string name = "rating_dialog_suggestions"> ಏನು ತಪ್ಪಾಗಿದೆ ಎಂದು ನಮಗೆ ತಿಳಿಸಿ ಮತ್ತು ನಾವು ಅದರ ಮೇಲೆ ಕೆಲಸ ಮಾಡುತ್ತೇವೆ</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">ಸಿಂಕ್ ಮಾಡಿ</string>
+    <string name="app_header">ಅಪ್ಲಿಕೇಶನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="feedback_header">ಪ್ರತಿಕ್ರಿಯೆ</string>
+    <string name="share_header">ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="about_header">ಬಗ್ಗೆ</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">ಅಧಿಸೂಚನೆಯಿಂದ ಟಾಗಲ್ ಮಾಡಿ</string>
+    <string name="rate_us_title">ನಮಗೆ ರೇಟ್ ಮಾಡಿ</string>
+    <string name="send_feedback_title">ಪ್ರತಿಕ್ರಿಯೆ ಕಳುಹಿಸಿ</string>
+    <string name="share_title">ಮಿಂಚು ಬೆಳಕನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="version_title">ಆವೃತ್ತಿ</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">ಅಧಿಸೂಚನೆ ಪಟ್ಟಿಯಿಂದ ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಅನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಅಧಿಸೂಚನೆಯನ್ನು ತೋರಿಸಿ</string>
+    <string name="notification_summary_off">ಅಧಿಸೂಚನೆ ಪಟ್ಟಿಯಿಂದ ಬ್ಯಾಟರಿ ಬೆಳಕನ್ನು ಟಾಗಲ್ ಮಾಡಲು ಅಧಿಸೂಚನೆಯನ್ನು ತೋರಿಸಬೇಡಿ</string>
+
+    <string name="title_activity_settings">ಸಂಯೋಜನೆಗಳು</string>
+
+    <string name="share_app_message_subject">ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ - ಸೂಪರ್ ಬ್ರೈಟ್ ಎಲ್‌ಇಡಿ ಟಾರ್ಚ್ ಲೈಟ್</string>
+    <string name="share_app_message_body">
+        ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ - ಟಾರ್ಚ್ ಲೆಡ್ ನಿಮ್ಮ ಸ್ಮಾರ್ಟ್‌ಫೋನ್ ಅನ್ನು ತ್ವರಿತವಾಗಿ ಮತ್ತು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಸೂಪರ್ ಬ್ರೈಟ್ ಫ್ಲ್ಯಾಷ್‌ಲೈಟ್ ಆಗಿ ಪರಿವರ್ತಿಸುವ ಸಂಪೂರ್ಣ ಉಚಿತ ಅಪ್ಲಿಕೇಶನ್ ಆಗಿದೆ. ನಿಮಗೆ ಬೇಕಾದುದನ್ನು ಬೆಳಗಿಸಲು ಅಪ್ಲಿಕೇಶನ್ ನಿಮ್ಮ ಸ್ಮಾರ್ಟ್‌ಫೋನ್‌ನ ಫ್ಲ್ಯಾಶ್ ಅನ್ನು ಬಳಸುತ್ತದೆ.
+
+\n\n ಇದನ್ನು ಉಚಿತವಾಗಿ ಪಡೆಯಿರಿ
+
+\n https://brightestflashlight.page.link/flashlight
+    </string>
+    <string name="premium_header">ಪ್ರೀಮಿಯಂ</string>
+    <string name="pupop_snackbar_in_app_update_button">ಸ್ಥಾಪಿಸಿ</string>
+    <string name="pupop_snackbar_in_app_update_message">ನವೀಕರಣವನ್ನು ಇದೀಗ ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="progress_dialog_message">ದಯಮಾಡಿ ನಿರೀಕ್ಷಿಸಿ…</string>
+    <string name="rewarded_video_error_message">ಬಹುಮಾನಿತ ವೀಡಿಯೊ ಜಾಹೀರಾತನ್ನು ತೋರಿಸುವ ದೋಷ</string>
+    <string name="flashlight_strobe_description">ಸ್ಟ್ರೋಬ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="flashlight_compass_description">ದಿಕ್ಸೂಚಿ</string>
+    <string name="flashlight_screen_light_description">ಪರದೆಯ ಬೆಳಕು</string>
+    <string name="native_ad_exit_dialog_message">ನೀನು ನಿಜವಾಗಲೂ ಹೊರಗೆ ಹೂಗಬಯಸುತ್ತೀಯಾ?</string>
+    <string name="native_ad_exit_dialog_yes">ಹೌದು</string>
+    <string name="native_ad_exit_dialog_no">ಸಂ</string>
+    <string name="native_ad_screen_transition_exit">ನಿರ್ಗಮಿಸಿ</string>
+    <string name="new_app_content_description">ಹೊಸ ಅಪ್ಲಿಕೇಶನ್</string>
+    <string name="new_app_dialog_title">ಅಂಗಡಿಗೆ ಭೇಟಿ ನೀಡಿ</string>
+    <string name="new_app_dialog_description">ನಿಮ್ಮನ್ನು ಪ್ಲೇ ಸ್ಟೋರ್‌ಗೆ ಮರುನಿರ್ದೇಶಿಸಲಾಗುತ್ತದೆ. ನೀವು ಖಚಿತವಾಗಿರುವಿರಾ?</string>
+
+</resources>

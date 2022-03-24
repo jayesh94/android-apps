@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">چراغ قوه</string>
+    <string name="compass_not_supported">قطب نما در این دستگاه پشتیبانی نمی شود</string>
+    <string name="camera_not_supported">متأسفیم ، دستگاه شما از چراغ قوه پشتیبانی نمی کند!</string>
+    <string name="premium_yes">هم اکنون خریداری کنید</string>
+    <string name="premium_no">بعد</string>
+    <string name="premium_title">کاربر ممتاز حق بیمه</string>
+    <string name="premium_message">صاحب افتخار مادام العمر برنامه چراغ قوه باشید! تبلیغات را بردارید و تمام نسخه های به روز شده در آینده را در آن بگنجانید.</string>
+    <string name="error_no_skus">ما هیچ SKU برای نمایش پیدا نکردیم … اتصال به اینترنت شما را بررسی کنید و مطمئن شوید که Google Developer Console شما به درستی راه اندازی شده است.</string>
+    <string name="error_billing_unavailable">صورتحساب در دسترس نیست. مطمئن شوید برنامه Google Play شما به درستی تنظیم شده است</string>
+    <string name="error_billing_default">صورتحساب در دسترس نیست. لطفا دستگاه خود را بررسی کنید</string>
+    <string name="alert_already_purchased">تبریک می گویم شما در حال حاضر یک کاربر برتر هستید!</string>
+    <string name="toggle_flashlight">چراغ قوه را تغییر دهید</string>
+    <string name="content_sos">سیگنال SOS را تغییر دهید</string>
+    <string name="content_no_ads">حذف تبلیغات</string>
+    <string name="content_banner_ad">روی تبلیغات بنر کلیک کنید</string>
+    <string name="ok">خوب</string>
+    <string name="error">خطا</string>
+    <string name="review_app_title">از برنامه ما لذت می برید؟</string>
+    <string name="review_app_msg">اگر از استفاده از چراغ قوه لذت می برید ، بدتان می آید لحظه ای به ما رتبه دهید؟ یک دقیقه بیشتر طول نمی کشد. لطفا مهربان باشید و به ما بیشتر امتیاز دهید و کمک کنید.</string>
+    <string name="review_app_btn_positive">نرخ چراغ قوه را بزنید</string>
+    <string name="review_app_btn_neutral">نه ممنون</string>
+    <string name="review_app_btn_negative">بعدا به من یادآوری کن</string>
+    <string name="rewarded_vid_cta">حق بیمه رایگان!</string>
+    <string name="rewarded_vid_title">تماشای تبلیغات و دسترسی کامل !!</string>
+    <string name="rewarded_vid_btn_positive">تماشا کردن</string>
+    <string name="rewarded_vid_btn_negative">لغو</string>
+    <string name="rewarded_vid_btn_neutral">حق بیمه</string>
+    <string name="rewarded_vid_msg">برای باز کردن قفل همه بخش های \"One Whole Day\" این آگهی ویدیویی را مشاهده کنید. لطفاً یک بار در روز ما را تحمل کنید … تا بتوانیم برنامه و خدمات را با اضافه کردن ویژگی های جدید و غیره به صورت رایگان حفظ کنیم. متشکرم!</string>
+    <string name="rewarded_vid_err_msg">آگهی پاداشده هنوز بارگیری نشده است.</string>
+    <string name="rewarded_vid_ads_rmd_till">تبلیغات تا%s حذف شدند</string>
+    <string name="rating_dialog_experience">به 5 ستاره امتیاز دهید</string>
+    <string name="rating_dialog_maybe_later">شاید بعدا</string>
+    <string name="rating_dialog_never">هرگز</string>
+    <string name="rating_dialog_feedback_title">چگونه می توان چراغ قوه را بهتر کنیم؟</string>
+    <string name="rating_dialog_submit">ارسال</string>
+    <string name="rating_dialog_cancel">لغو</string>
+    <string name="rating_dialog_suggestions">به ما اطلاع دهید که چه اشتباهی رخ داده است و ما روی آن کار خواهیم کرد</string>
+    <string name="sync_header">همگام سازی</string>
+    <string name="app_header">تنظیمات برنامه</string>
+    <string name="feedback_header">بازخورد</string>
+    <string name="share_header">اشتراک گذاری</string>
+    <string name="about_header">در باره</string>
+    <string name="notification_title">تغییر وضعیت از اعلان</string>
+    <string name="rate_us_title">به ما رای دهید</string>
+    <string name="send_feedback_title">ارسال بازخورد</string>
+    <string name="share_title">چراغ قوه را به اشتراک بگذارید</string>
+    <string name="version_title">نسخه</string>
+    <string name="notification_summary_on">نمایش اعلان برای تغییر چراغ قوه از نوار اعلانات</string>
+    <string name="notification_summary_off">برای تغییر وضعیت چراغ قوه از نوار اعلان ، اعلان را نشان ندهید</string>
+    <string name="title_activity_settings">تنظیمات</string>
+    <string name="share_app_message_subject">چراغ قوه - چراغ مشعل LED فوق العاده روشن</string>
+    <string name="share_app_message_body">چراغ قوه - Torch Led یک برنامه کاملا رایگان است که گوشی هوشمند شما را به سرعت و کارآمد به یک چراغ قوه Super Bright تبدیل می کند. این برنامه از فلش تلفن هوشمند شما استفاده می کند تا بتواند آنچه را که نیاز دارید را روشن کند
+
+\n\n آن را به صورت رایگان در
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">حق بیمه</string>
+    <string name="pupop_snackbar_in_app_update_button">نصب</string>
+    <string name="pupop_snackbar_in_app_update_message">یک به روز رسانی به تازگی دانلود شده است.</string>
+    <string name="progress_dialog_message">لطفا صبر کنید…</string>
+    <string name="rewarded_video_error_message">خطا در نمایش آگهی ویدیویی پاداش</string>
+    <string name="flashlight_strobe_description">تنظیمات بارق</string>
+    <string name="flashlight_compass_description">قطب نما</string>
+    <string name="flashlight_screen_light_description">نور صفحه نمایش</string>
+    <string name="native_ad_exit_dialog_message">آیا مطمئن هستید که میخواهید خارج شوید؟</string>
+    <string name="native_ad_exit_dialog_yes">آره</string>
+    <string name="native_ad_exit_dialog_no">خیر</string>
+    <string name="native_ad_screen_transition_exit">خروج</string>
+    <string name="new_app_content_description">برنامه جدید</string>
+    <string name="new_app_dialog_title">نمایشگاه</string>
+    <string name="new_app_dialog_description">شما به play store هدایت خواهید شد. مطمئنی؟</string>
+</resources>

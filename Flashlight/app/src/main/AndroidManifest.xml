@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="info.ascetx.flashlight">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:node="replace"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        tools:node="replace"/>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT" />
+            <data android:mimeType="text/plain" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <!-- If you don't know the MIME type in advance, set "mimeType" to "*/*". -->
+            <data android:mimeType="*/*" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <!-- Replace with the MIME type that your app works with, if needed. -->
+            <data android:mimeType="image/jpeg" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.SENDTO"/>
+            <data android:scheme="*"/>
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.ACTION_MAIN" />
+        </intent>
+    </queries>
+
+    <uses-sdk
+        tools:overrideLibrary="com.yodo1.mas.full, com.yodo1.mas, com.yodo1.mas.mediation.vungle,
+        com.yodo1.mas.mediation.admob, com.yodo1.mas.mediation.ironsource, com.yodo1.mas.mediation.inmobi,
+        com.yodo1.mas.mediation.mytarget, com.yodo1.mas.mediation.tapjoy, com.yodo1.mas.mediation.applovin,
+        com.yodo1.mas.mediation.fyber, com.yodo1.mas.mediation.yandex, com.yodo1.mas.mediation.adcolony,
+        com.yodo1.libs.android_base, com.yodo1.mas.mediation.facebook, com.yodo1.mas.mediation.pangle,
+        com.yodo1.mas.mediation.unityads, com.yodo1.mas.mediation.yodo1, com.unity3d.ads, com.google.ads.mediation.unity,
+        com.ironsource.adapters.unityads" />
+
+    <uses-feature android:name="android.hardware.camera" /> <!-- Added to add compatibility for Tablets with no sim -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-feature android:name="android.hardware.camera.flash" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="google_analytics_automatic_screen_reporting_enabled"
+            android:value="false" />
+
+        <activity android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+
+        <activity android:name=".activity.ScreenLightActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:hardwareAccelerated="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="ascetx.com"
+                    android:pathPrefix="/flashlight"
+                    android:scheme="https" />
+            </intent-filter>
+
+            <intent-filter
+                android:autoVerify="true"
+                tools:targetApi="m">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="brightestflashlight.page.link"
+                    android:scheme="http" />
+                <data
+                    android:host="brightestflashlight.page.link"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <!--This part is inside the application-->
+        <receiver android:name=".app.blinker.CallReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.ads.APPLICATION_ID"-->
+<!--            android:value="ca-app-pub-3752168151808074~1222126147" />-->
+
+        <!--    Sample to test ads        -->
+        <!--<meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>-->
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <!-- Below is AdMob Id for Yodo1 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-5333220833779174~9401028517"/>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+    </application>
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CAMERA"
+        android:maxSdkVersion="23"/>
+
+</manifest>

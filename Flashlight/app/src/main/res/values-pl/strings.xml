@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Latarka</string>
+    <string name="compass_not_supported">Kompas nie jest obsługiwany w tym urządzeniu</string>
+    <string name="camera_not_supported">Przepraszamy, Twoje urządzenie nie obsługuje lampy błyskowej!</string>
+    <string name="premium_yes">KUP TERAZ</string>
+    <string name="premium_no">PÓŹNIEJ</string>
+    <string name="premium_title">Dożywotni użytkownik premium</string>
+    <string name="premium_message">Bądź dumnym dożywotnim właścicielem aplikacji Flashlight! Usuń reklamy i uwzględnij wszystkie przyszłe aktualizacje.</string>
+    <string name="error_no_skus">Nie znaleźliśmy żadnych SKU do wyświetlenia… Sprawdź swoje połączenie internetowe i upewnij się, że Twoja Konsola programisty Google została poprawnie skonfigurowana.</string>
+    <string name="error_billing_unavailable">Płatności niedostępne. Upewnij się, że aplikacja Google Play jest poprawnie skonfigurowana</string>
+    <string name="error_billing_default">Płatności niedostępne. Sprawdź swoje urządzenie.</string>
+    <string name="alert_already_purchased">Gratulacje! Jesteś już użytkownikiem premium!</string>
+    <string name="toggle_flashlight">Włącz latarkę</string>
+    <string name="content_sos">Przełącz sygnał SOS</string>
+    <string name="content_no_ads">Usuń reklamy</string>
+    <string name="content_banner_ad">Kliknij Reklama banerowa</string>
+    <string name="ok">ok</string>
+    <string name="error">Błąd</string>
+    <string name="review_app_title">Podoba Ci się nasza aplikacja?</string>
+    <string name="review_app_msg">Jeśli lubisz korzystać z latarki, czy możesz poświęcić chwilę, aby nas ocenić? To nie zajmie więcej niż minutę. Prosimy, bądź uprzejmy i oceń nas więcej oraz pomóż.</string>
+    <string name="review_app_btn_positive">Oceń latarkę</string>
+    <string name="review_app_btn_neutral">Nie, dziękuję</string>
+    <string name="review_app_btn_negative">Przypomnij mi później</string>
+    <string name="rewarded_vid_cta">Bezpłatna Premium!</string>
+    <string name="rewarded_vid_title">Obejrzyj reklamę i uzyskaj pełny dostęp !!</string>
+    <string name="rewarded_vid_btn_positive">Zegarek</string>
+    <string name="rewarded_vid_btn_negative">anulować</string>
+    <string name="rewarded_vid_btn_neutral">Premia</string>
+    <string name="rewarded_vid_msg">Obejrzyj tę reklamę wideo, aby odblokować wszystkie sekcje na cały dzień. Prosimy o cierpliwość raz dziennie… Abyśmy mogli bezpłatnie utrzymywać aplikację i usługi, dodawać nowe funkcje itp. Dziękuję Ci!</string>
+    <string name="rewarded_vid_err_msg">Reklama z nagrodą nie została jeszcze załadowana.</string>
+    <string name="rewarded_vid_ads_rmd_till">Reklamy usunięte do %s</string>
+    <string name="rating_dialog_experience">Ocenić na 5 gwiazdek</string>
+    <string name="rating_dialog_maybe_later">Może później</string>
+    <string name="rating_dialog_never">Nigdy</string>
+    <string name="rating_dialog_feedback_title">Jak możemy ulepszyć latarkę?</string>
+    <string name="rating_dialog_submit">Zatwierdź</string>
+    <string name="rating_dialog_cancel">anulować</string>
+    <string name="rating_dialog_suggestions">Daj nam znać, co poszło nie tak, a my zajmiemy się tym</string>
+    <string name="sync_header">Synchronizuj</string>
+    <string name="app_header">Ustawienia aplikacji</string>
+    <string name="feedback_header">Sprzężenie zwrotne</string>
+    <string name="share_header">Udział</string>
+    <string name="about_header">O</string>
+    <string name="notification_title">Przełącz z powiadomienia</string>
+    <string name="rate_us_title">Oceń nas</string>
+    <string name="send_feedback_title">Wyślij opinię</string>
+    <string name="share_title">Udostępnij latarkę</string>
+    <string name="version_title">Wersja</string>
+    <string name="notification_summary_on">Pokaż powiadomienie, aby włączyć latarkę z paska powiadomień</string>
+    <string name="notification_summary_off">Nie pokazuj powiadomienia, aby włączyć latarkę z paska powiadomień</string>
+    <string name="title_activity_settings">Ustawienia</string>
+    <string name="share_app_message_subject">Latarka - Super jasna latarka LED</string>
+    <string name="share_app_message_body">Latarka - Latarka Led to całkowicie darmowa aplikacja, która szybko i wydajnie zamienia smartfon w super jasną latarkę. Aplikacja korzysta z lampy błyskowej smartfona, aby rozjaśnić to, czego potrzebujesz
+
+\n\n Pobierz za darmo w
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">Premia</string>
+    <string name="pupop_snackbar_in_app_update_button">ZAINSTALOWAĆ</string>
+    <string name="pupop_snackbar_in_app_update_message">Właśnie pobrano aktualizację.</string>
+    <string name="progress_dialog_message">Proszę czekać…</string>
+    <string name="rewarded_video_error_message">Błąd podczas wyświetlania reklamy wideo z nagrodą</string>
+    <string name="flashlight_strobe_description">Ustawienia stroboskopu</string>
+    <string name="flashlight_compass_description">Kompas</string>
+    <string name="flashlight_screen_light_description">Światło ekranu</string>
+    <string name="native_ad_exit_dialog_message">Czy jesteś pewny że chcesz wyjść?</string>
+    <string name="native_ad_exit_dialog_yes">tak</string>
+    <string name="native_ad_exit_dialog_no">Nie</string>
+    <string name="native_ad_screen_transition_exit">Wyjście</string>
+    <string name="new_app_content_description">Nowa aplikacja</string>
+    <string name="new_app_dialog_title">Odwiedzić sklep</string>
+    <string name="new_app_dialog_description">Zostaniesz przekierowany do Sklepu Play. Jesteś pewny?</string>
+</resources>

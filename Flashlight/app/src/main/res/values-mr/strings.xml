@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">फ्लॅश लाइट</string>
+    <string name="compass_not_supported">या डिव्हाइसमध्ये होकायंत्र समर्थित नाही</string>
+    <string name="camera_not_supported">क्षमस्व, आपले डिव्हाइस फ्लॅश प्रकाश समर्थन देत नाही!</string>
+
+    <string name="premium_yes">खरेदी करा</string>
+    <string name="premium_no">नंतर</string>
+    <string name="premium_title">लाइफटाइम प्रीमियम वापरकर्ता</string>
+    <string name="premium_message">फ्लॅशलाइट अॅपचा गर्व लाइफटाइम मालक व्हा!\nजाहिराती काढा आणि भविष्यातील सर्व अपग्रेड समाविष्ट करा. \n</string>
+
+    <string name="error_no_skus">आम्हाला प्रदर्शित करण्यासाठी कोणतेही एसकेयू सापडले नाहीत… आपले इंटरनेट कनेक्शन तपासा आणि आपले गूगल विकसक कन्सोल योग्यरित्या सेट केले असल्याचे सुनिश्चित करा.</string>
+    <string name="error_billing_unavailable">बिलिंग अनुपलब्ध आहे. आपले गूगल प्ले अॅप योग्यरित्या सेट केले असल्याचे सुनिश्चित करा</string>
+    <string name="error_billing_default">बिलिंग अनुपलब्ध आहे. कृपया आपले डिव्हाइस तपासा.</string>
+
+
+    <string name="alert_already_purchased">अभिनंदन! आपण आधीपासून प्रीमियम वापरकर्ता आहात!</string>
+    <string name="toggle_flashlight">टॉगल टॉर्च</string>
+    <string name="content_sos">SOS सिग्नल टॉगल करा</string>
+    <string name="content_no_ads">जाहिराती काढा</string>
+    <string name="content_banner_ad">बॅनर जाहिरात क्लिक करा</string>
+    <string name="ok">ठीक</string>
+    <string name="error">त्रुटी</string>
+
+    <string name="review_app_title">आमच्या अ‍ॅपचा आनंद घेत आहात?</string>
+    <string name="review_app_msg">आपणास टॉर्चचा आनंद घेण्यास आनंद होत असल्यास, आमच्यास rating देण्यास थोडा वेळ काढायला हरकत आहे काय? \nयास एका मिनिटापेक्षा जास्त वेळ लागणार नाही. \nकृपया दयाळू व्हा आणि आम्हाला अधिक rating द्या आणि मदत करा.</string>
+    <string name="review_app_btn_positive">फ्लॅशलाइट अ‍ॅपला रेट करा</string>
+    <string name="review_app_btn_neutral">नाही, धन्यवाद</string>
+    <string name="review_app_btn_negative">नंतर मला स्मरण करून द्या</string>
+
+    <string name="rewarded_vid_cta">विनामूल्य प्रीमियम!</string>
+    <string name="rewarded_vid_title">अ‍ॅड पहा आणि पूर्ण प्रवेश मिळवा !!</string>
+    <string name="rewarded_vid_btn_positive">पहा</string>
+    <string name="rewarded_vid_btn_negative">रद्द करा</string>
+    <string name="rewarded_vid_btn_neutral">प्रीमियम</string>
+    <string name="rewarded_vid_msg">एका दिवसासाठी सर्व विभाग अनलॉक करण्यासाठी ही व्हिडिओ जाहिरात पहा.\n\nकृपया दिवसातून एकदा आम्हाला सहन करा… जेणेकरून आम्ही अ‍ॅप आणि सेवा देखभाल करू शकू, विनामूल्य नवीन वैशिष्ट्ये जोडत आहे.\n\nधन्यवाद!</string>
+    <string name="rewarded_vid_err_msg">पुरस्कृत जाहिरात अद्याप लोड झाली नाही.</string>
+    <string name="rewarded_vid_ads_rmd_till">%s पर्यंत जाहिराती काढल्या</string>
+
+    <string name= "rating_dialog_experience">5 तारे रेट करा</string>
+    <!-- <string name = "rating_dialog_msg">नमस्कार, मी एक प्रोग्रामर आहे जो तुम्हाला सर्वोत्तम शक्य विनामूल्य अनुप्रयोग देण्यासाठी खूप मेहनत घेत आहे. आपले 5-तारा पुनरावलोकन हे सर्व पैसे किमतीचे आहे. कृपया माझ्या प्रयत्नांना समर्थन देण्यासाठी Google Play वर छान पुनरावलोकन लिहा. धन्यवाद. </ तार> -->
+    <string name = "rating_dialog_maybe_later">कदाचित नंतर</string>
+    <string name = "rating_dialog_never">कधीही</string> नाही
+    <string name = "rating_dialog_feedback_title">आम्ही फ्लॅशलाइट अधिक चांगले कसे करू शकतो?</string>
+    <string name = "rating_dialog_submit">सबमिट</string>
+    <string name = "rating_dialog_cancel">रद्द करा</string>
+    <string name = "rating_dialog_suggestions">काय चूक झाली ते आम्हाला कळू द्या आणि आम्ही त्यावर कार्य करू</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">सिंक</string>
+    <string name="app_header">अॅप सेटिंग्ज</string>
+    <string name="feedback_header">अभिप्राय</string>
+    <string name="share_header">शेअर करा</string>
+    <string name="about_header">बद्दल</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">सूचनेवरून टॉगल करा</string>
+    <string name="rate_us_title">आम्हाला रेट करा</string>
+    <string name="send_feedback_title">अभिप्राय पाठवा</string>
+    <string name="share_title">फ्लॅशलाइट शेअर करा</string>
+    <string name="version_title">आवृत्ती</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">सूचना बारमधून फ्लॅशलाइट टॉगल करण्यासाठी सूचना दर्शवा</string>
+    <string name="notification_summary_off">सूचना बारमधून टॉर्च टॉगल करण्यासाठी सूचना दाखवू नका</string>
+
+    <string name="title_activity_settings">सेटिंग्ज</string>
+
+    <string name="share_app_message_subject">टॉर्च - सुपर तेजस्वी एलईडी टॉर्च लाइट</string>
+    <string name="share_app_message_body">फ्लॅशलाइट - टॉर्च एलईडी हे पूर्णपणे विनामूल्य अॅप्लिकेशन आहे जे तुमच्या स्मार्टफोनला जलद आणि कार्यक्षमतेने सुपर ब्राइट फ्लॅशलाइटमध्ये बदलते. आपल्याला आवश्यक असलेल्या गोष्टी हलक्या करण्यासाठी अनुप्रयोग आपल्या स्मार्टफोनच्या फ्लॅशचा वापर करतो
+
+\n\n येथे विनामूल्य मिळवा
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">प्रीमियम</string>
+    <string name="pupop_snackbar_in_app_update_button">स्थापित करा</string>
+    <string name="pupop_snackbar_in_app_update_message">एक अपडेट नुकतेच डाउनलोड केले गेले आहे.</string>
+    <string name="progress_dialog_message">कृपया थांबा…</string>
+    <string name="rewarded_video_error_message">पुरस्कृत व्हिडिओ जाहिरात दाखवण्यात त्रुटी</string>
+    <string name="flashlight_strobe_description">स्ट्रोब सेटिंग्ज</string>
+    <string name="flashlight_compass_description">होकायंत्र</string>
+    <string name="flashlight_screen_light_description">स्क्रीन लाइट</string>
+    <string name="native_ad_exit_dialog_message">तुमची खात्री आहे की तुम्ही बाहेर पडू इच्छिता?</string>
+    <string name="native_ad_exit_dialog_yes">होय</string>
+    <string name="native_ad_exit_dialog_no">नाही</string>
+    <string name="native_ad_screen_transition_exit">बाहेर पडा</string>
+    <string name="new_app_content_description">नवीन अॅप</string>
+    <string name="new_app_dialog_title">स्टोअरला भेट द्या</string>
+    <string name="new_app_dialog_description">तुम्हाला प्ले स्टोअरवर पुनर्निर्देशित केले जाईल. तुला खात्री आहे?</string>
+</resources>

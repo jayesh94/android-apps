@@ -1,0 +1,94 @@
+<resources>
+    <string name = "app_name">フラッシュライト</string>
+    <string name = "compass_not_supported">このデバイスではコンパスはサポートされていません</string>
+    <string name = "camera_not_supported">お使いのデバイスはフラッシュライトをサポートしていません！</string>
+
+    <string name = "premium_yes">今すぐ購入</string>
+    <string name = "premium_no">後で</string>
+    <string name = "premium_title">ライフタイムプレミアムユーザー</string>
+    <string name = "premium_message">懐中電灯アプリの無期限の所有者になりましょう！\n広告を削除し、今後のアップグレードをすべて含めます。 \n</string>
+
+    <string name = "error_no_skus">表示するSKUが見つかりませんでした&#8230;インターネットを確認してください
+        接続し、Google Developer Consoleが正しくセットアップされていることを確認してください。</string>
+    <string name = "error_billing_unavailable">請求できません。 Google Playアプリを確認してください
+        正しく設定されています</string>
+    <string name = "error_billing_default">課金は利用できません。デバイスを確認してください。</string>
+
+
+    <string name = "alert_already_purchased">おめでとうございます！あなたはすでにプレミアムユーザーです！</string>
+    <string name = "toggle_flashlight">懐中電灯の切り替え</string>
+    <string name = "content_sos">SOS信号を切り替える</string>
+    <string name = "content_no_ads">広告を削除</string>
+    <string name = "content_banner_ad">クリックバナー広告</string>
+    <string name = "ok">OK</string>
+    <string name = "error">エラー</string>
+
+    <string name = "review_app_title">アプリを楽しんでいますか？</string>
+    <string name = "review_app_msg">懐中電灯の使用を楽しんでいるなら、少し時間をかけて私たちを評価していただけませんか？ \n1分もかかりません。 \n親切にして、私たちをもっと評価して、助けてください。</string>
+    <string name = "review_app_btn_positive">レート懐中電灯</string>
+    <string name = "review_app_btn_neutral">いいえ、感謝</string>
+    <string name = "review_app_btn_negative">後で通知</string>
+
+    <string name = "rewarded_vid_cta">無料プレミアム！</string>
+    <string name = "rewarded_vid_title">広告を視聴してフルアクセスを取得!!</string>
+    <string name = "rewarded_vid_btn_positive">ウォッチ</string>
+    <string name = "rewarded_vid_btn_negative">キャンセル</string>
+    <string name = "rewarded_vid_btn_neutral">プレミアム</string>
+    <string name = "rewarded_vid_msg">このビデオ広告を見て、すべてのセクションを1日間ロック解除してください。\n\n1日1回サポートしてください…アプリとサービスのメンテナンス、新機能の追加などを無料で行えるようにします。\n\nありがとうございます！</string>
+    <string name = "rewarded_vid_err_msg">リワード広告はまだ読み込まれていません。</string>
+    <string name = "rewarded_vid_ads_rmd_till">%s まで削除された広告</string>
+
+    <string name = "rating_dialog_experience"> 5つ星の評価</string>
+    <!-- <string name = "rating_dialog_msg">こんにちは、私はプログラマーであり、可能な限り最高の無料アプリケーションを提供するために一生懸命取り組んでいます。あなたの5つ星のレビューはすべてのお金よりも価値があります。私の努力をサポートするために、GooglePlayに素敵なレビューを書いてください。ありがとう。</string> -->
+    <string name = "rating_dialog_maybe_later">たぶん後で</string>
+    <string name = "rating_dialog_never">決して</string>
+    <string name = "rating_dialog_feedback_title">懐中電灯をより良くするにはどうすればよいですか？</string>
+    <string name = "rating_dialog_submit">送信</string>
+    <string name = "rating_dialog_cancel">キャンセル</string>
+    <string name = "rating_dialog_suggestions">問題の原因をお知らせください。対応させていただきます</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">同期</string>
+    <string name="app_header">アプリの設定</string>
+    <string name="feedback_header">フィードバック</string>
+    <string name="share_header">共有</string>
+    <string name="about_header">だいたい</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">通知から切り替える</string>
+    <string name="rate_us_title">私たちを評価してください</string>
+    <string name="send_feedback_title">フィードバックを送信する</string>
+    <string name="share_title">懐中電灯を共有する</string>
+    <string name="version_title">バージョン</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">通知を表示して、通知バーから懐中電灯を切り替えます</string>
+    <string name="notification_summary_off">通知バーから懐中電灯を切り替えるための通知を表示しない</string>
+
+    <string name="title_activity_settings">設定</string>
+
+    <string name="share_app_message_subject">懐中電灯-超高輝度LEDトーチライト</string>
+    <string name="share_app_message_body">懐中電灯-トーチLED
+これは、スマートフォンをすばやく効率的に超高輝度懐中電灯に変える完全無料のアプリケーションです。 このアプリケーションは、スマートフォンのフラッシュを使用して、必要なものを照らします。
+
+\n\n で無料で入手
+
+\n https://brightestflashlight.page.link/flashlight
+    </string>
+    <string name="premium_header">プレミアム</string>
+    <string name="pupop_snackbar_in_app_update_button">インストール</string>
+    <string name="pupop_snackbar_in_app_update_message">アップデートがダウンロードされました。</string>
+    <string name="progress_dialog_message">お待ちください…</string>
+    <string name="rewarded_video_error_message">リワードビデオ広告の表示中にエラーが発生しました</string>
+    <string name="flashlight_strobe_description">ストロボ設定</string>
+    <string name="flashlight_compass_description">方位磁針</string>
+    <string name="flashlight_screen_light_description">スクリーンライト</string>
+    <string name="native_ad_exit_dialog_message">終了してよろしいですか？</string>
+    <string name="native_ad_exit_dialog_yes">はい</string>
+    <string name="native_ad_exit_dialog_no">番号</string>
+    <string name="native_ad_screen_transition_exit">出口</string>
+    <string name="new_app_content_description">新しいアプリ</string>
+    <string name="new_app_dialog_title">ストアにアクセス</string>
+    <string name="new_app_dialog_description">Playストアにリダイレクトされます。 本気ですか？</string>
+
+</resources>

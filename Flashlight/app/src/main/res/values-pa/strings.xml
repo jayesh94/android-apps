@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ਫਲੈਸ਼ ਲਾਈਟ</string>
+    <string name="compass_not_supported">ਕੰਪਾਸ ਇਸ ਡਿਵਾਈਸ ਵਿੱਚ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ</string>
+    <string name="camera_not_supported">ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਫਲੈਸ਼ ਲਾਈਟ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੀ!</string>
+    <string name="premium_yes">ਹੁਣੇ ਖਰੀਦੋ</string>
+    <string name="premium_no">LATER</string>
+    <string name="premium_title">ਲਾਈਫਟਾਈਮ ਪ੍ਰੀਮੀਅਮ ਉਪਭੋਗਤਾ</string>
+    <string name="premium_message">ਫਲੈਸ਼ਲਾਈਟ ਐਪ ਦਾ ਮਾਣ ਵਾਲੀ ਲਾਈਫਟਾਈਮ ਮਾਲਕ ਬਣੋ! ਵਿਗਿਆਪਨ ਹਟਾਓ ਅਤੇ ਸਾਰੇ ਭਵਿੱਖ ਦੇ ਅਪਗ੍ਰੇਡ ਸ਼ਾਮਲ ਕਰੋ.</string>
+    <string name="error_no_skus">ਸਾਨੂੰ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰਨ ਲਈ ਕੋਈ ਐਸ.ਕੇ.ਯੂ. ਨਹੀਂ ਮਿਲਿਆ … ਆਪਣੇ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਦੀ ਜਾਂਚ ਕਰੋ ਅਤੇ ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਤੁਹਾਡਾ ਗੂਗਲ ਡਿਵੈਲਪਰ ਕਨਸੋਲ ਸਹੀ ਤਰ੍ਹਾਂ ਸੈਟ ਅਪ ਹੋਇਆ ਸੀ.</string>
+    <string name="error_billing_unavailable">ਬਿਲਿੰਗ ਉਪਲਬਧ ਨਹੀਂ ਹੈ. ਇਹ ਸੁਨਿਸ਼ਚਿਤ ਕਰੋ ਕਿ ਤੁਹਾਡਾ ਗੂਗਲ ਪਲੇ ਐਪ ਸਹੀ ਤਰ੍ਹਾਂ ਨਾਲ ਸੈਟ ਅਪ ਹੋਇਆ ਹੈ</string>
+    <string name="error_billing_default">ਬਿਲਿੰਗ ਉਪਲਬਧ ਨਹੀਂ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀ ਡਿਵਾਈਸ ਦੀ ਜਾਂਚ ਕਰੋ.</string>
+    <string name="alert_already_purchased">ਵਧਾਈਆਂ! ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਪ੍ਰੀਮੀਅਮ ਉਪਭੋਗਤਾ ਹੋ!</string>
+    <string name="toggle_flashlight">ਟੌਗਲ ਫਲੈਸ਼ਲਾਈਟ</string>
+    <string name="content_sos">ਟੌਗਲ ਐਸਓਐਸ ਸੰਕੇਤ</string>
+    <string name="content_no_ads">ਵਿਗਿਆਪਨ ਹਟਾਓ</string>
+    <string name="content_banner_ad">ਕਲਿਕ ਕਰੋ ਬੈਨਰ ਇਸ਼ਤਿਹਾਰਬਾਜ਼ੀ</string>
+    <string name="ok">ਠੀਕ ਹੈ</string>
+    <string name="error">ਗਲਤੀ</string>
+    <string name="review_app_title">ਸਾਡੇ ਐਪ ਦਾ ਅਨੰਦ ਲੈ ਰਹੇ ਹੋ?</string>
+    <string name="review_app_msg">ਜੇ ਤੁਸੀਂ ਫਲੈਸ਼ਲਾਈਟ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਅਨੰਦ ਲੈਂਦੇ ਹੋ, ਤਾਂ ਕੀ ਤੁਹਾਨੂੰ ਸਾਡੇ ਨਾਲ ਦਰਜਾ ਦੇਣ ਲਈ ਕੁਝ ਸਮਾਂ ਕੱ mindਣਾ ਮਨ ਲੱਗੇਗਾ? ਇਹ ਇੱਕ ਮਿੰਟ ਤੋਂ ਵੱਧ ਨਹੀਂ ਲਵੇਗਾ. ਕਿਰਪਾ ਕਰਕੇ ਦਿਆਲੂ ਬਣੋ ਅਤੇ ਸਾਨੂੰ ਵਧੇਰੇ ਦਰਜਾ ਦਿਓ ਅਤੇ ਸਹਾਇਤਾ ਕਰੋ.</string>
+    <string name="review_app_btn_positive">ਰੇਟ ਫਲੈਸ਼ਲਾਈਟ</string>
+    <string name="review_app_btn_neutral">ਨਹੀਂ ਧੰਨਵਾਦ</string>
+    <string name="review_app_btn_negative">ਮੈਨੂੰ ਬਾਅਦ ਵਿੱਚ ਚੇਤੇ ਕਰਵਾਓ</string>
+    <string name="rewarded_vid_cta">ਮੁਫਤ ਪ੍ਰੀਮੀਅਮ!</string>
+    <string name="rewarded_vid_title">ਐਡ ਦੇਖੋ ਅਤੇ ਪੂਰੀ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰੋ !!</string>
+    <string name="rewarded_vid_btn_positive">ਦੇਖੋ</string>
+    <string name="rewarded_vid_btn_negative">ਰੱਦ ਕਰੋ</string>
+    <string name="rewarded_vid_btn_neutral">ਪ੍ਰੀਮੀਅਮ</string>
+    <string name="rewarded_vid_msg">\'ਇਕ ਪੂਰੇ ਦਿਨ\' ਲਈ ਸਾਰੇ ਭਾਗਾਂ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਇਸ ਵੀਡੀਓ ਵਿਗਿਆਪਨ ਨੂੰ ਵੇਖੋ. ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਦਿਨ ਸਾਨੂੰ ਬਰਦਾਸ਼ਤ ਕਰੋ … ਤਾਂ ਜੋ ਅਸੀਂ ਐਪ ਅਤੇ ਸੇਵਾਵਾਂ ਨੂੰ ਬਣਾਈ ਰੱਖ ਸਕੀਏ, ਨਵੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਸ਼ਾਮਲ ਕਰ ਸਕਦੇ ਹਾਂ ਆਦਿ ਮੁਫਤ ਵਿੱਚ. ਤੁਹਾਡਾ ਧੰਨਵਾਦ!</string>
+    <string name="rewarded_vid_err_msg">ਇਨਾਮ ਵਾਲਾ ਇਸ਼ਤਿਹਾਰ ਅਜੇ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਸੀ.</string>
+    <string name="rewarded_vid_ads_rmd_till">%s ਤੱਕ ਇਸ਼ਤਿਹਾਰ ਹਟਾਏ ਗਏ</string>
+    <string name="rating_dialog_experience">ਰੇਟ ਕਰੋ 5 ਸਿਤਾਰੇ</string>
+    <string name="rating_dialog_maybe_later">ਫੇਰ ਕਦੇ</string>
+    <string name="rating_dialog_never">ਕਦੇ ਨਹੀਂ</string>
+    <string name="rating_dialog_feedback_title">ਅਸੀਂ ਫਲੈਸ਼ਲਾਈਟ ਨੂੰ ਕਿਵੇਂ ਬਿਹਤਰ ਬਣਾ ਸਕਦੇ ਹਾਂ?</string>
+    <string name="rating_dialog_submit">ਜਮ੍ਹਾਂ ਕਰੋ</string>
+    <string name="rating_dialog_cancel">ਰੱਦ ਕਰੋ</string>
+    <string name="rating_dialog_suggestions">ਸਾਨੂੰ ਦੱਸੋ ਕਿ ਕੀ ਗਲਤ ਹੋਇਆ ਹੈ ਅਤੇ ਅਸੀਂ ਇਸ \'ਤੇ ਕੰਮ ਕਰਾਂਗੇ</string>
+    <string name="sync_header">ਸਮਕਾਲੀਕਰਨ</string>
+    <string name="app_header">ਐਪ ਸੈਟਿੰਗਜ਼</string>
+    <string name="feedback_header">ਸੁਝਾਅ</string>
+    <string name="share_header">ਸ਼ੇਅਰ ਕਰੋ</string>
+    <string name="about_header">ਬਾਰੇ</string>
+    <string name="notification_title">ਸੂਚਨਾ ਤੋਂ ਟੌਗਲ ਕਰੋ</string>
+    <string name="rate_us_title">ਸਾਨੂੰ ਦਰਜਾ ਦਿਓ</string>
+    <string name="send_feedback_title">ਫੀਡਬੈਕ ਭੇਜੋ</string>
+    <string name="share_title">ਫਲੈਸ਼ਲਾਈਟ ਸਾਂਝਾ ਕਰੋ</string>
+    <string name="version_title">ਸੰਸਕਰਣ</string>
+    <string name="notification_summary_on">ਸੂਚਨਾ ਪੱਟੀ ਤੋਂ ਫਲੈਸ਼ਲਾਈਟ ਨੂੰ ਟੌਗਲ ਕਰਨ ਲਈ ਸੂਚਨਾ ਦਿਖਾਓ</string>
+    <string name="notification_summary_off">ਸੂਚਨਾ ਪੱਟੀ ਤੋਂ ਫਲੈਸ਼ਲਾਈਟ ਨੂੰ ਟੌਗਲ ਕਰਨ ਲਈ ਸੂਚਨਾ ਨਾ ਦਿਖਾਓ</string>
+    <string name="title_activity_settings">ਸੈਟਿੰਗਜ਼</string>
+    <string name="share_app_message_subject">ਫਲੈਸ਼ਲਾਈਟ - ਸੁਪਰ ਚਮਕਦਾਰ LED ਟਾਰਚ ਲਾਈਟ</string>
+    <string name="share_app_message_body">ਫਲੈਸ਼ਲਾਈਟ - ਟਾਰਚ Led ਇੱਕ ਬਿਲਕੁਲ ਮੁਫਤ ਐਪਲੀਕੇਸ਼ਨ ਹੈ ਜੋ ਤੁਹਾਡੇ ਸਮਾਰਟਫ਼ੋਨ ਨੂੰ ਜਲਦੀ ਅਤੇ ਕੁਸ਼ਲਤਾ ਨਾਲ ਇੱਕ ਸੁਪਰ ਬ੍ਰਾਈਟ ਫਲੈਸ਼ਲਾਈਟ ਵਿੱਚ ਬਦਲ ਦਿੰਦੀ ਹੈ। ਐਪਲੀਕੇਸ਼ਨ ਤੁਹਾਡੇ ਸਮਾਰਟਫ਼ੋਨ ਦੀ ਫਲੈਸ਼ ਦੀ ਵਰਤੋਂ ਕਰਦੀ ਹੈ ਤਾਂ ਜੋ ਤੁਹਾਨੂੰ ਲੋੜੀਂਦੀਆਂ ਚੀਜ਼ਾਂ ਨੂੰ ਹਲਕਾ ਕਰਨ ਦੇ ਯੋਗ ਬਣਾਇਆ ਜਾ ਸਕੇ
+
+\n\n \'ਤੇ ਇਸਨੂੰ ਮੁਫਤ ਪ੍ਰਾਪਤ ਕਰੋ
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">ਪ੍ਰੀਮੀਅਮ</string>
+    <string name="pupop_snackbar_in_app_update_button">ਇੰਸਟਾਲ ਕਰੋ</string>
+    <string name="pupop_snackbar_in_app_update_message">ਇੱਕ ਅੱਪਡੇਟ ਹੁਣੇ ਡਾਊਨਲੋਡ ਕੀਤਾ ਗਿਆ ਹੈ।</string>
+    <string name="progress_dialog_message">ਕ੍ਰਿਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ…</string>
+    <string name="rewarded_video_error_message">ਇਨਾਮ ਪ੍ਰਾਪਤ ਵੀਡੀਓ ਵਿਗਿਆਪਨ ਦਿਖਾਉਣ ਵਿੱਚ ਤਰੁੱਟੀ</string>
+    <string name="flashlight_strobe_description">ਸਟ੍ਰੋਬ ਸੈਟਿੰਗਾਂ</string>
+    <string name="flashlight_compass_description">ਕੰਪਾਸ</string>
+    <string name="flashlight_screen_light_description">ਸਕ੍ਰੀਨ ਲਾਈਟ</string>
+    <string name="native_ad_exit_dialog_message">ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਤੌਰ \'ਤੇ ਬਾਹਰ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?</string>
+    <string name="native_ad_exit_dialog_yes">ਹਾਂ</string>
+    <string name="native_ad_exit_dialog_no">ਨੰ</string>
+    <string name="native_ad_screen_transition_exit">ਨਿਕਾਸ</string>
+    <string name="new_app_content_description">ਨਵੀਂ ਐਪ</string>
+    <string name="new_app_dialog_title">ਸਟੋਰ \'ਤੇ ਜਾਓ</string>
+    <string name="new_app_dialog_description">ਤੁਹਾਨੂੰ ਪਲੇ ਸਟੋਰ \'ਤੇ ਰੀਡਾਇਰੈਕਟ ਕੀਤਾ ਜਾਵੇਗਾ। ਤੁਹਾਨੂੰ ਪੂਰਾ ਵਿਸ਼ਵਾਸ ਹੈ?</string>
+</resources>

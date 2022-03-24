@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Senter</string>
+    <string name="compass_not_supported">Kompas tidak didukung di perangkat ini</string>
+    <string name="camera_not_supported">Maaf, perangkat Anda tidak mendukung lampu flash!</string>
+    <string name="premium_yes">BELI SEKARANG</string>
+    <string name="premium_no">KEMUDIAN</string>
+    <string name="premium_title">Pengguna Premium Seumur Hidup</string>
+    <string name="premium_message">Jadilah Pemilik Aplikasi Senter Seumur Hidup yang Bangga! Hapus iklan dan sertakan semua peningkatan di masa mendatang.</string>
+    <string name="error_no_skus">Kami tidak menemukan SKU untuk ditampilkan… Periksa koneksi internet Anda dan pastikan Konsol Pengembang Google Anda disiapkan dengan benar.</string>
+    <string name="error_billing_unavailable">Penagihan tidak tersedia. Pastikan aplikasi Google Play Anda disiapkan dengan benar</string>
+    <string name="error_billing_default">Penagihan tidak tersedia. Silakan periksa perangkat Anda.</string>
+    <string name="alert_already_purchased">Selamat! Anda sudah menjadi pengguna premium!</string>
+    <string name="toggle_flashlight">Alihkan Senter</string>
+    <string name="content_sos">Alihkan sinyal SOS</string>
+    <string name="content_no_ads">Hilangkan iklan</string>
+    <string name="content_banner_ad">Klik Iklan Spanduk</string>
+    <string name="ok">baik</string>
+    <string name="error">Kesalahan</string>
+    <string name="review_app_title">Menikmati Aplikasi Kami?</string>
+    <string name="review_app_msg">Jika Anda senang menggunakan Senter, maukah Anda meluangkan waktu sejenak untuk Beri Nilai Kami? Ini tidak akan memakan waktu lebih dari satu menit. Harap berbaik hati dan Beri Kami Lebih Banyak dan bantu.</string>
+    <string name="review_app_btn_positive">Nilai Senter</string>
+    <string name="review_app_btn_neutral">Tidak, terima kasih</string>
+    <string name="review_app_btn_negative">Ingatkan aku nanti</string>
+    <string name="rewarded_vid_cta">Premium Gratis!</string>
+    <string name="rewarded_vid_title">Tonton Iklan &amp; Dapatkan Akses Penuh !!</string>
+    <string name="rewarded_vid_btn_positive">Menonton</string>
+    <string name="rewarded_vid_btn_negative">Membatalkan</string>
+    <string name="rewarded_vid_btn_neutral">Premium</string>
+    <string name="rewarded_vid_msg">Tonton Iklan Video ini untuk Membuka Kunci Semua Bagian untuk \'One Whole Day\'. Mohon beri kami Sekali Sehari… Sehingga kami dapat Memelihara Aplikasi dan Layanan, Menambahkan Fitur Baru, dll. Secara Gratis. Terima kasih!</string>
+    <string name="rewarded_vid_err_msg">Iklan reward belum dimuat.</string>
+    <string name="rewarded_vid_ads_rmd_till">Iklan dihapus hingga %s</string>
+    <string name="rating_dialog_experience">Beri peringkat 5 bintang</string>
+    <string name="rating_dialog_maybe_later">Mungkin nanti</string>
+    <string name="rating_dialog_never">Tidak pernah</string>
+    <string name="rating_dialog_feedback_title">Bagaimana kita bisa membuat Senter lebih baik?</string>
+    <string name="rating_dialog_submit">Kirimkan</string>
+    <string name="rating_dialog_cancel">Membatalkan</string>
+    <string name="rating_dialog_suggestions">Beri tahu kami apa yang salah dan kami akan memperbaikinya</string>
+    <string name="sync_header">Sinkronkan</string>
+    <string name="app_header">Pengaturan aplikasi</string>
+    <string name="feedback_header">Masukan</string>
+    <string name="share_header">Membagikan</string>
+    <string name="about_header">Tentang</string>
+    <string name="notification_title">Beralih dari notifikasi</string>
+    <string name="rate_us_title">Nilai Kami</string>
+    <string name="send_feedback_title">Kirim Umpan Balik</string>
+    <string name="share_title">Bagikan Senter</string>
+    <string name="version_title">Versi: kapan</string>
+    <string name="notification_summary_on">Tampilkan notifikasi untuk mengaktifkan senter dari bilah notifikasi</string>
+    <string name="notification_summary_off">Jangan tampilkan notifikasi untuk mengaktifkan senter dari bilah notifikasi</string>
+    <string name="title_activity_settings">Pengaturan</string>
+    <string name="share_app_message_subject">Senter - Lampu obor LED super terang</string>
+    <string name="share_app_message_body">Senter - Torch Led adalah aplikasi gratis yang mengubah Smartphone Anda menjadi senter Super Terang dengan cepat dan efisien. Aplikasi ini menggunakan Flash Smartphone Anda untuk dapat meringankan apa yang Anda butuhkan
+
+\n\n Dapatkan secara gratis di
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">Premium</string>
+    <string name="pupop_snackbar_in_app_update_button">INSTALL</string>
+    <string name="pupop_snackbar_in_app_update_message">Pembaruan baru saja diunduh.</string>
+    <string name="progress_dialog_message">Tunggu sebentar…</string>
+    <string name="rewarded_video_error_message">Terjadi kesalahan saat menampilkan Iklan video berhadiah</string>
+    <string name="flashlight_strobe_description">Pengaturan Strobo</string>
+    <string name="flashlight_compass_description">Kompas</string>
+    <string name="flashlight_screen_light_description">Layar Cahaya</string>
+    <string name="native_ad_exit_dialog_message">Anda yakin ingin keluar?</string>
+    <string name="native_ad_exit_dialog_yes">Ya</string>
+    <string name="native_ad_exit_dialog_no">Tidak</string>
+    <string name="native_ad_screen_transition_exit">keluar</string>
+    <string name="new_app_content_description">Aplikasi Baru</string>
+    <string name="new_app_dialog_title">Kunjungi Toko</string>
+    <string name="new_app_dialog_description">Anda akan diarahkan ke play store. Apa kamu yakin?</string>
+</resources>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Flash Light</string>
+    <string name="compass_not_supported">Compass not supported in this device</string>
+    <string name="camera_not_supported">Sorry, your device doesn\'t support flash light!</string>
+
+    <string name="premium_yes">BUY NOW</string>
+    <string name="premium_no">LATER</string>
+    <string name="premium_title">Lifetime Premium User</string>
+    <string name="premium_message">Be the Proud Lifetime Owner of the Flashlight App!\nRemove ads and include all future upgrades. \n</string>
+
+    <string name="error_no_skus">We didn\'t find any SKUs to display&#8230; Check your internet
+        connection and make sure your Google Developer Console was setup correctly.</string>
+    <string name="error_billing_unavailable">Billing unavailable. Make sure your Google Play app
+        is setup correctly</string>
+    <string name="error_billing_default">Billing unavailable. Please check your device.</string>
+
+
+    <string name="alert_already_purchased">Congrats! You are already a premium user!</string>
+    <string name="toggle_flashlight">Toggle Flashlight</string>
+    <string name="content_sos">Toggle SOS signal</string>
+    <string name="content_no_ads">Remove Ads</string>
+    <string name="content_banner_ad">Click Banner Advertisement</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+
+    <string name="review_app_title">Enjoying Our App?</string>
+    <string name="review_app_msg">If you enjoy using Flashlight, would you mind taking a moment to Rate Us? \nIt won\'t take more than a minute. \nPlease be kind and Rate Us More and help.</string>
+    <string name="review_app_btn_positive">Rate Flashlight</string>
+    <string name="review_app_btn_neutral">No, thanks</string>
+    <string name="review_app_btn_negative">Remind me later</string>
+
+    <string name="rewarded_vid_cta">Free Premium!</string>
+    <string name="rewarded_vid_title">Watch 1 Ad &amp; Get Full Access!!</string>
+    <string name="rewarded_vid_btn_positive">Watch</string>
+    <string name="rewarded_vid_btn_negative">Cancel</string>
+    <string name="rewarded_vid_btn_neutral">Premium</string>
+    <string name="rewarded_vid_msg">Watch this Video Ad to Unlock All Sections for \'One Whole Day\'.\n\nPlease bear us Once A Day… So that we can Maintain the App and Services, Adding New Features etc. for Free.\n\nThank You!</string>
+    <string name="rewarded_vid_err_msg">The rewarded ad wasn\'t loaded yet.</string>
+    <string name="rewarded_vid_ads_rmd_till">Ads removed till %s</string>
+
+    <string name="rating_dialog_experience">Rate 5 stars</string>
+    <!--    <string name="rating_dialog_msg">Hello, I am a programmer working very hard to give you the best possible free application. Your 5-star review is worth more that all the money. Please write nice review on Google Play to support my efforts. Thank you.</string>-->
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="rating_dialog_never">Never</string>
+    <string name="rating_dialog_feedback_title">How can we make Flashlight better?</string>
+    <string name="rating_dialog_submit">Submit</string>
+    <string name="rating_dialog_cancel">Cancel</string>
+    <string name="rating_dialog_suggestions">Let us know what went wrong and we\'ll work on it</string>
+
+    <string name="facebook_app_id" translatable="false">2560458967538622</string>
+    <!--  Prod banner Ad  -->
+    <string name="main_activity_banner_ad_id" translatable="false">ca-app-pub-3752168151808074/4965343302</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">Sync</string>
+    <string name="app_header">App Settings</string>
+    <string name="feedback_header">Feedback</string>
+    <string name="share_header">Share</string>
+    <string name="about_header">About</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">Toggle from notification</string>
+    <string name="rate_us_title">Rate Us</string>
+    <string name="send_feedback_title">Send Feedback</string>
+    <string name="share_title">Share Flashlight</string>
+    <string name="version_title">Version</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">Show notification to toggle flashlight from the notification bar</string>
+    <string name="notification_summary_off">Do Not show notification to toggle flashlight from the notification bar</string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="share_app_message_subject">Flashlight - Super bright LED torch light</string>
+    <string name="share_app_message_body">
+        Flashlight - Torch Led is a totally free application that turns your Smartphone into a Super Bright flashlight quickly and efficiently. The application uses the Flash of your Smartphone to light up what you need.
+        \n\nGet it for free at
+        \n https://brightestflashlight.page.link/flashlight
+    </string>
+    <string name="premium_header">Premium</string>
+
+    <!--    In App Update -->
+    <string name="pupop_snackbar_in_app_update_button" >INSTALL</string>
+    <string name="pupop_snackbar_in_app_update_message" >An update has just been downloaded.</string>
+
+
+    <string name="progress_dialog_message" >Please wait…</string>
+    <string name="rewarded_video_error_message" >Error showing rewarded video Ad</string>
+
+    <!--    Content Descriptions -->
+    <string name="flashlight_strobe_description" >Strobe Settings</string>
+    <string name="flashlight_compass_description" >Compass</string>
+    <string name="flashlight_screen_light_description" >Screen Light</string>
+
+    <string name="ad_attribution" translatable="false">Ad</string>
+
+    <string name="native_ad_exit_dialog_message">Are you sure you want to exit?</string>
+    <string name="native_ad_exit_dialog_yes">Yes</string>
+    <string name="native_ad_exit_dialog_no">No</string>
+
+    <string name="native_ad_screen_transition_exit">Exit</string>
+    <string name="new_app_content_description">New App</string>
+    <string name="new_app_dialog_title">Visit Store</string>
+    <string name="new_app_dialog_description">You will be redirected to the Play Store. Are you sure?</string>
+
+    <!--  Test banner Ad  -->
+    <!--    <string name="main_activity_banner_ad_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+</resources>

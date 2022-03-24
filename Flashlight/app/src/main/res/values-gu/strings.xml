@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">ફ્લેશ લાઇટ</string>
+    <string name="compass_not_supported">આ ઉપકરણમાં હોકાયંત્ર સપોર્ટેડ નથી</string>
+    <string name="camera_not_supported">માફ કરશો, તમારું ઉપકરણ ફ્લેશ લાઇટને સપોર્ટ કરતું નથી!</string>
+
+    <string name="premium_yes">ખરીદો</string>
+    <string name="premium_no">પછી</string>
+    <string name="premium_title">લાઇફટાઇમ પ્રીમિયમ વપરાશકર્તા</string>
+    <string name="premium_message">ફ્લેશલાઇટ એપ્લિકેશનના ગૌરવભર્યા લાઇફટાઇમ માલિક બનો! જાહેરાતોને દૂર કરો અને ભવિષ્યના તમામ અપગ્રેડ્સ શામેલ કરો. \n</string>
+
+    <string name="error_no_skus">અમને પ્રદર્શિત કરવા માટે કોઈ એસક્યુ મળી શક્યું નહીં… તમારું ઇન્ટરનેટ કનેક્શન તપાસો અને ખાતરી કરો કે તમારું ગૂગલ ડેવલપર કન્સોલ યોગ્ય રીતે સેટ કરેલું છે.</string>
+    <string name="error_billing_unavailable">બિલિંગ અનુપલબ્ધ છે. ખાતરી કરો કે તમારી Google Play એપ્લિકેશન યોગ્ય રીતે સેટ કરેલી છે</string>
+    <string name="error_billing_default">બિલિંગ અનુપલબ્ધ છે. કૃપા કરીને તમારા ઉપકરણને તપાસો.</string>
+
+
+    <string name="alert_already_purchased">અભિનંદન! તમે પહેલાથી પ્રીમિયમ વપરાશકર્તા છો!</string>
+    <string name="toggle_flashlight">ટૉગલ ફ્લેશલાઇટच</string>
+    <string name="content_sos">SOS સિગ્નલ ટगलગલ કરો</string>
+    <string name="content_no_ads">જાહેરાત દૂર કરો</string>
+    <string name="content_banner_ad">બેનર એડ ક્લિક કરો</string>
+    <string name="ok">બરાબર</string>
+    <string name="error">રદ કરો</string>
+
+    <string name="review_app_title">અમારી એપ્લિકેશનનો આનંદ માણી રહ્યા છો?</string>
+    <string name="review_app_msg">જો તમને ફ્લેશલાઇટનો ઉપયોગ કરવામાં આનંદ આવે છે, તો શું તમે અમને રેટ કરવા માટે થોડો સમય લેવાનું મન કરો છો? \nતે એક મિનિટ કરતાં વધુ સમય લેશે નહીં. \nકૃપા કરીને કૃપાળુ બનો અને અમને વધુ રેટ કરો અને સહાય કરો.</string>
+    <string name="review_app_btn_positive">એપ્લિકેશનને રેટ કરો</string>
+    <string name="review_app_btn_neutral">ના, આભાર</string>
+    <string name="review_app_btn_negative">મને પછીથી યાદ કરાવો</string>
+
+    <string name="rewarded_vid_cta">મફત પ્રીમિયમ!</string>
+    <string name="rewarded_vid_title">જાહેરાત જુઓ અને સંપૂર્ણ પ્રવેશ મેળવો!!</string>
+    <string name="rewarded_vid_btn_positive">જુઓ</string>
+    <string name="rewarded_vid_btn_negative">રદ કરો</string>
+    <string name="rewarded_vid_btn_neutral">પ્રીમિયમ</string>
+    <string name="rewarded_vid_msg">એક સંશોધન માટે બધા વિભાગ અનલॉकક માટે તે વિડિઓ પ્રદર્શન જુઓ.\n\nકૃપા કરીને અમને દિવસમાં એકવાર સહન… જેથી અમે એપ્લિકેશન અને સેવાઓ જાળવી શકે, ઉમેરવાનું નવી મફત માટે સુવિધાઓ વગેરે.\n\આભાર!</string>
+    <string name="rewarded_vid_err_msg">પુરસ્કાર પ્રાપ્ત જાહેરાત હજી લોડ થઈ ન હતી.</string>
+    <string name="rewarded_vid_ads_rmd_till">જાહેરાતો %s સુધી દૂર</string>
+
+    <string name="rating_dialog_experience">5 તારાને રેટ કરો</string>
+    <!-- <string name="rating_dialog_msg">નમસ્તે, હું તમને એક શ્રેષ્ઠ સંભવિત મફત એપ્લિકેશન આપવા માટે ખૂબ જ મહેનત કરતો પ્રોગ્રામર છું. તમારી 5-સ્ટાર સમીક્ષાની કિંમત વધુ છે. મારા પ્રયત્નોને ટેકો આપવા માટે કૃપા કરીને ગૂગલ પ્લે પર સરસ સમીક્ષા લખો. આભાર.</string> -->
+    <string name="rating_dialog_maybe_later">કદાચ પછીથી</string>
+    <string name="rating_dialog_never">ક્યારેય નહીં</string>
+    <string name="rating_dialog_feedback_title">આપણે કેવી રીતે ફ્લેશલાઇટને વધુ સારી બનાવી શકીએ?</string>
+    <string name="rating_dialog_submit">સબમિટ કરો</string>
+    <string name="rating_dialog_cancel">રદ કરો</string>
+    <string name="rating_dialog_suggestions">અમને શું ખોટું થયું તે જણાવો અને અમે તેના પર કામ કરીશું</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">સમન્વય</string>
+    <string name="app_header">એપ્લિકેશન સેટિંગ્સ</string>
+    <string name="feedback_header">પ્રતિભાવ</string>
+    <string name="share_header">શેર કરો</string>
+    <string name="about_header">વિશે</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">સૂચનામાંથી ટૉગલ કરો</string>
+    <string name="rate_us_title">અમને રેટ કરો</string>
+    <string name="send_feedback_title">પ્રતિસાદ મોકલ</string>
+    <string name="share_title">ફ્લેશલાઇટ શેર કરો</string>
+    <string name="version_title">આવૃત્તિ</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">નોટિફિકેશન બારમાંથી ફ્લેશલાઈટ ટ toગલ કરવા માટે નોટિફિકેશન બતાવો</string>
+    <string name="notification_summary_off">સૂચના બારમાંથી ફ્લેશલાઇટને ટૉગલ કરવા માટે સૂચના બતાવશો નહીં</string>
+
+    <string name="title_activity_settings">સેટિંગ્સ</string>
+
+    <string name="share_app_message_subject">ફ્લેશલાઇટ - સુપર તેજસ્વી એલઇડી ટોર્ચ લાઇટ</string>
+    <string name="share_app_message_body">ફ્લેશલાઇટ - ટોર્ચ એલઇડી એ તદ્દન મફત એપ્લિકેશન છે જે તમારા સ્માર્ટફોનને ઝડપથી અને અસરકારક રીતે સુપર બ્રાઇટ ફ્લેશલાઇટમાં ફેરવે છે. એપ્લીકેશન તમારા સ્માર્ટફોનના ફ્લેશનો ઉપયોગ કરે છે જેથી તમને જે જોઈએ છે તેને હળવા કરવામાં સક્ષમ બને
+
+\n\n પર મફતમાં મેળવો
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">પ્રીમિયમ</string>
+    <string name="pupop_snackbar_in_app_update_button">ઇન્સ્ટોલ કરો</string>
+    <string name="pupop_snackbar_in_app_update_message">એક અપડેટ હમણાં જ ડાઉનલોડ કરવામાં આવ્યું છે.</string>
+    <string name="progress_dialog_message">મહેરબાની કરી રાહ જુવો…</string>
+    <string name="rewarded_video_error_message">પુરસ્કૃત વિડિઓ જાહેરાત બતાવવામાં ભૂલ</string>
+    <string name="flashlight_strobe_description">સ્ટ્રોબ સેટિંગ્સ</string>
+    <string name="flashlight_compass_description">હોકાયંત્ર</string>
+    <string name="flashlight_screen_light_description">સ્ક્રીન લાઇટ</string>
+    <string name="native_ad_exit_dialog_message">શું તમે ખરેખર બહાર નીકળવા માંગો છો?</string>
+    <string name="native_ad_exit_dialog_yes">હા</string>
+    <string name="native_ad_exit_dialog_no">ના</string>
+    <string name="native_ad_screen_transition_exit">બહાર નીકળો</string>
+    <string name="new_app_content_description">નવી એપ</string>
+    <string name="new_app_dialog_title">સ્ટોરની મુલાકાત લો</string>
+    <string name="new_app_dialog_description">તમને પ્લે સ્ટોર પર રીડાયરેક્ટ કરવામાં આવશે. શું તમને ખાતરી છે?</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lanterna</string>
+    <string name="compass_not_supported">Bússola não compatível com este dispositivo</string>
+    <string name="camera_not_supported">Desculpe, seu dispositivo não suporta luz de flash!</string>
+    <string name="premium_yes">COMPRE AGORA</string>
+    <string name="premium_no">MAIS TARDE</string>
+    <string name="premium_title">Usuário Premium vitalício</string>
+    <string name="premium_message">Seja o orgulhoso proprietário vitalício do aplicativo Flashlight! Remova os anúncios e inclua todas as atualizações futuras.</string>
+    <string name="error_no_skus">Não encontramos SKUs para exibir… Verifique sua conexão com a Internet e certifique-se de que seu Google Developer Console foi configurado corretamente.</string>
+    <string name="error_billing_unavailable">Faturamento indisponível. Certifique-se de que seu aplicativo Google Play esteja configurado corretamente</string>
+    <string name="error_billing_default">Faturamento indisponível. Verifique seu dispositivo.</string>
+    <string name="alert_already_purchased">Parabéns! Você já é um usuário premium!</string>
+    <string name="toggle_flashlight">Alternar lanterna</string>
+    <string name="content_sos">Alternar sinal SOS</string>
+    <string name="content_no_ads">Remover propagandas</string>
+    <string name="content_banner_ad">Clique em anúncio de banner</string>
+    <string name="ok">Está bem</string>
+    <string name="error">Erro</string>
+    <string name="review_app_title">Está gostando do nosso aplicativo?</string>
+    <string name="review_app_msg">Se você gosta de usar o Flashlight, poderia nos avaliar? Não vai demorar mais de um minuto. Por favor, seja gentil, avalie-nos mais e ajude.</string>
+    <string name="review_app_btn_positive">Taxa de lanterna</string>
+    <string name="review_app_btn_neutral">Não, obrigado</string>
+    <string name="review_app_btn_negative">Lembre-me mais tarde</string>
+    <string name="rewarded_vid_cta">Premium grátis!</string>
+    <string name="rewarded_vid_title">Assista ao anúncio e tenha acesso total !!</string>
+    <string name="rewarded_vid_btn_positive">Ver</string>
+    <string name="rewarded_vid_btn_negative">Cancelar</string>
+    <string name="rewarded_vid_btn_neutral">Prêmio</string>
+    <string name="rewarded_vid_msg">Assista a este anúncio em vídeo para desbloquear todas as seções de \'Um dia inteiro\'. Aguarde-nos uma vez por dia … Para que possamos manter o aplicativo e os serviços, adicionar novos recursos etc. gratuitamente. Obrigado!</string>
+    <string name="rewarded_vid_err_msg">O anúncio premiado ainda não foi carregado.</string>
+    <string name="rewarded_vid_ads_rmd_till">Anúncios removidos até %s</string>
+    <string name="rating_dialog_experience">Avalie 5 estrelas</string>
+    <string name="rating_dialog_maybe_later">Talvez mais tarde</string>
+    <string name="rating_dialog_never">Nunca</string>
+    <string name="rating_dialog_feedback_title">Como podemos tornar o Flashlight melhor?</string>
+    <string name="rating_dialog_submit">Enviar</string>
+    <string name="rating_dialog_cancel">Cancelar</string>
+    <string name="rating_dialog_suggestions">Deixe-nos saber o que deu errado e nós trabalharemos nisso</string>
+    <string name="sync_header">Sincronizar</string>
+    <string name="app_header">Configurações do aplicativo</string>
+    <string name="feedback_header">Comentários</string>
+    <string name="share_header">Compartilhado</string>
+    <string name="about_header">Cerca de</string>
+    <string name="notification_title">Alternar entre notificação</string>
+    <string name="rate_us_title">Nos avalie</string>
+    <string name="send_feedback_title">Enviar comentários</string>
+    <string name="share_title">Compartilhe lanterna</string>
+    <string name="version_title">Versão</string>
+    <string name="notification_summary_on">Mostrar notificação para alternar a lanterna na barra de notificação</string>
+    <string name="notification_summary_off">Não mostrar notificação para alternar a lanterna na barra de notificação</string>
+    <string name="title_activity_settings">Definições</string>
+    <string name="share_app_message_subject">Lanterna - Lanterna LED super brilhante</string>
+    <string name="share_app_message_body">Lanterna - Tocha Led é um aplicativo totalmente gratuito que transforma seu Smartphone em uma lanterna Super Bright com rapidez e eficiência. O aplicativo usa o Flash do seu Smartphone para poder iluminar o que você precisa
+
+\n\n Obtenha-o gratuitamente em
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">Prêmio</string>
+    <string name="pupop_snackbar_in_app_update_button">INSTALAR</string>
+    <string name="pupop_snackbar_in_app_update_message">Uma atualização acaba de ser baixada.</string>
+    <string name="progress_dialog_message">Por favor, aguarde…</string>
+    <string name="rewarded_video_error_message">Erro ao mostrar anúncio de vídeo premiado</string>
+    <string name="flashlight_strobe_description">Configurações estroboscópicas</string>
+    <string name="flashlight_compass_description">Bússola</string>
+    <string name="flashlight_screen_light_description">Luz da tela</string>
+    <string name="native_ad_exit_dialog_message">Você tem certeza que quer sair?</string>
+    <string name="native_ad_exit_dialog_yes">sim</string>
+    <string name="native_ad_exit_dialog_no">Não</string>
+    <string name="native_ad_screen_transition_exit">Saída</string>
+    <string name="new_app_content_description">Novo aplicativo</string>
+    <string name="new_app_dialog_title">Loja de visita</string>
+    <string name="new_app_dialog_description">Você será redirecionado para a loja de jogos. Tem certeza?</string>
+</resources>

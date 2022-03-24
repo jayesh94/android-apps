@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zaklamp</string>
+    <string name="compass_not_supported">Kompas niet ondersteund op dit apparaat</string>
+    <string name="camera_not_supported">Sorry, je apparaat ondersteunt geen flitslicht!</string>
+    <string name="premium_yes">NU KOPEN</string>
+    <string name="premium_no">LATER</string>
+    <string name="premium_title">Levenslange Premium-gebruiker</string>
+    <string name="premium_message">Wees de trotse levenslange eigenaar van de Flashlight-app!\nVerwijder advertenties en voeg alle toekomstige upgrades toe.</string>
+    <string name="error_no_skus">We hebben geen SKU\'s gevonden om weer te geven&#8230; Controleer uw internetverbinding en zorg ervoor dat uw Google Developer Console correct is ingesteld.</string>
+    <string name="error_billing_unavailable">Facturering niet beschikbaar. Zorg ervoor dat uw Google Play-app \n correct is ingesteld</string>
+    <string name="error_billing_default">Facturering niet beschikbaar. Controleer uw apparaat.</string>
+    <string name="alert_already_purchased">Proficiat! Je bent al een premium gebruiker!</string>
+    <string name="toggle_flashlight">Toggle Zaklamp</string>
+    <string name="content_sos">SOS-signaal schakelen</string>
+    <string name="content_no_ads">Verwijder advertenties</string>
+    <string name="content_banner_ad">Klik op banneradvertentie</string>
+    <string name="ok">Oke</string>
+    <string name="error">Fout</string>
+    <string name="review_app_title">Geniet je van onze app?</string>
+    <string name="review_app_msg">Als u Flashlight graag gebruikt, zou u dan even de tijd willen nemen om ons te beoordelen? Het duurt niet langer dan een minuut. Wees vriendelijk en beoordeel ons meer en help.</string>
+    <string name="review_app_btn_positive">Beoordeel zaklamp</string>
+    <string name="review_app_btn_neutral">Nee, dank u wel</string>
+    <string name="review_app_btn_negative">Herinner me er later aan</string>
+    <string name="rewarded_vid_cta">Gratis Premium!</string>
+    <string name="rewarded_vid_title">Bekijk advertentie en krijg volledige toegang !!</string>
+    <string name="rewarded_vid_btn_positive">Kijk maar</string>
+    <string name="rewarded_vid_btn_negative">annuleren</string>
+    <string name="rewarded_vid_btn_neutral">Premie</string>
+    <string name="rewarded_vid_msg">Bekijk deze videoadvertentie om alle secties te ontgrendelen voor \'One Whole Day\'. Geef ons alstublieft een keer per dag… Zodat we de app en services kunnen onderhouden, nieuwe functies etc. gratis kunnen toevoegen. Dank u!</string>
+    <string name="rewarded_vid_err_msg">De beloonde advertentie is nog niet geladen.</string>
+    <string name="rewarded_vid_ads_rmd_till">Advertenties verwijderd tot %s</string>
+    <string name="rating_dialog_experience">Geef 5 sterren</string>
+    <string name="rating_dialog_maybe_later">Misschien later</string>
+    <string name="rating_dialog_never">Nooit</string>
+    <string name="rating_dialog_feedback_title">Hoe kunnen we Flashlight beter maken?</string>
+    <string name="rating_dialog_submit">Verzenden</string>
+    <string name="rating_dialog_cancel">annuleren</string>
+    <string name="rating_dialog_suggestions">Laat ons weten wat er is misgegaan en we werken eraan</string>
+    <string name="sync_header">Synchroniseren</string>
+    <string name="app_header">App instellingen</string>
+    <string name="feedback_header">Feedback</string>
+    <string name="share_header">Deel</string>
+    <string name="about_header">Wat betreft</string>
+    <string name="notification_title">Schakelen van melding</string>
+    <string name="rate_us_title">Beoordeel ons</string>
+    <string name="send_feedback_title">Feedback verzenden</string>
+    <string name="share_title">Zaklamp delen</string>
+    <string name="version_title">Versie</string>
+    <string name="notification_summary_on">Melding weergeven om zaklamp uit de meldingsbalk te schakelen</string>
+    <string name="notification_summary_off">Geen melding weergeven om zaklamp uit de meldingsbalk te schakelen</string>
+    <string name="title_activity_settings">Instellingen</string>
+    <string name="share_app_message_subject">Zaklamp - Super heldere LED zaklamp</string>
+    <string name="share_app_message_body">
+        Zaklamp - Zaklamp Led is een volledig gratis applicatie die je smartphone snel en efficiënt in een Super Bright zaklamp verandert. De applicatie gebruikt de flits van je smartphone om te kunnen verlichten wat je nodig hebt
+
+\n\n Krijg hem gratis bij
+
+\n https://brightestflashlight.page.link/flashlight
+    </string>
+    <string name="premium_header">Premie</string>
+    <string name="pupop_snackbar_in_app_update_button">INSTALLEREN</string>
+    <string name="pupop_snackbar_in_app_update_message">Er is zojuist een update gedownload.</string>
+    <string name="progress_dialog_message">Wacht alsjeblieft…</string>
+    <string name="rewarded_video_error_message">Fout bij weergeven van video-advertentie met beloning</string>
+    <string name="flashlight_strobe_description">Stroboscoop instellingen</string>
+    <string name="flashlight_compass_description">Kompas</string>
+    <string name="flashlight_screen_light_description">Schermverlichting</string>
+    <string name="native_ad_exit_dialog_message">Weet u zeker dat u wilt afsluiten?</string>
+    <string name="native_ad_exit_dialog_yes">Ja</string>
+    <string name="native_ad_exit_dialog_no">Nee</string>
+    <string name="native_ad_screen_transition_exit">Uitgang</string>
+    <string name="new_app_content_description">Nieuwe app</string>
+    <string name="new_app_dialog_title">Winkel bezoeken</string>
+    <string name="new_app_dialog_description">Je wordt doorgestuurd naar de Play Store. Weet je zeker dat?</string>
+</resources>

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ஃப்ளாஷ் லைட் </string>
+    <string name="compass_not_supported">இந்த சாதனத்தில் திசைகாட்டி ஆதரிக்கப்படவில்லை </string>
+    <string name="camera_not_supported">மன்னிக்கவும், உங்கள் சாதனம் ஃபிளாஷ் ஒளியை ஆதரிக்கவில்லை! </string>
+
+    <string name="premium_yes">இப்போது வாங்க </string>
+    <string name="premium_no">பின்னர் </string>
+    <string name="premium_title">வாழ்நாள் பிரீமியம் பயனர் </string>
+    <string name="premium_message">ஃப்ளாஷ்லைட் பயன்பாட்டின் பெருமைமிக்க வாழ்நாள் உரிமையாளராக இருங்கள்! விளம்பரங்களை அகற்றி, எதிர்காலத்தில் மேம்படுத்தல்கள் அனைத்தையும் சேர்க்கவும். \n </string>
+
+    <string name="error_no_skus">ஐ சரிபார்க்க வேண்டும், காண்பிக்க எந்த SKU களையும் நாங்கள் கண்டுபிடிக்கவில்லை &#8230; உங்கள் இணையத்தைப் பாருங்கள்
+        இணைப்பு மற்றும் உங்கள் Google டெவலப்பர் கன்சோல் சரியாக அமைக்கப்பட்டிருப்பதை உறுதிப்படுத்தவும். </string>
+    <string name="error_billing_unavailable">பில்லிங் கிடைக்கவில்லை. உங்கள் Google Play பயன்பாட்டை உறுதிப்படுத்தவும்
+        சரியாக அமைக்கப்பட்டுள்ளது </string>
+    <string name="error_billing_default">பில்லிங் கிடைக்கவில்லை. உங்கள் சாதனத்தை சரிபார்க்கவும். </string>
+
+
+    <string name="alert_already_purchased">வாழ்த்துக்கள்! நீங்கள் ஏற்கனவே பிரீமியம் பயனராக உள்ளீர்கள்! </string>
+    <string name="toggle_flashlight">ஒளிரும் விளக்கை நிலைமாற்று </string>
+    <string name="content_sos">SOS சமிக்ஞையை மாற்று </string>
+    <string name="content_no_ads">விளம்பரங்களை அகற்று </string>
+    <string name="content_banner_ad">கிளிக் செய்யவும் பதாகை விளம்பரம் </string>
+    <string name="ok">சரி </string>
+    <string name="error">பிழை </string>
+
+    <string name="review_app_title">எங்கள் பயன்பாட்டை அனுபவிக்கிறீர்களா? </string>
+    <string name="review_app_msg">ஃப்ளாஷ்லைட்டைப் பயன்படுத்துவதை நீங்கள் ரசிக்கிறீர்கள் என்றால், எங்களை மதிப்பிடுவதற்கு சிறிது நேரம் ஒதுக்குவீர்களா? \nஇது ஒரு நிமிடத்திற்கு மேல் எடுக்காது. \n தயவுசெய்து தயவுசெய்து எங்களை மேலும் மதிப்பிட்டு உதவி செய்யுங்கள். </string>
+	<string name="review_app_btn_positive">வீதம்</string>
+    <string name="review_app_btn_neutral">இல்லை, நன்றி </string>
+    <string name="review_app_btn_negative">பின்னர் எனக்கு நினைவூட்டு </string>
+
+    <string name="rewarded_vid_cta">இலவச பிரீமியம்! </string>
+    <string name="rewarded_vid_title">விளம்பரத்தைப் பார்த்து முழு அணுகலைப் பெறுங்கள் !! </string>
+    <string name="rewarded_vid_btn_positive">பார்க்க </string>
+    <string name="rewarded_vid_btn_negative">ரத்துசெய் </string>
+    <string name="rewarded_vid_btn_neutral">பிரீமியம் </string>
+    <string name="rewarded_vid_msg">ஒரு நாள் முழுவதும் அனைத்து பிரிவுகளையும் திறக்க இந்த வீடியோ விளம்பரத்தைப் பாருங்கள் \n\nஒரு நாள் ஒருமுறை எங்களுக்கு தாங்க கொள்ளவும்… இதன்மூலம் பயன்பாடு மற்றும் சேவைகளைப் பராமரிக்கலாம், புதிய அம்சங்களைச் சேர்க்கலாம்.\n\nநன்றி!</string>
+    <string name="rewarded_vid_err_msg">வெகுமதி அளிக்கப்பட்ட விளம்பரம் இன்னும் ஏற்றப்படவில்லை. </string>
+    <string name="rewarded_vid_ads_rmd_till">%s வரை விளம்பரங்கள் அகற்றப்பட்டன</string>
+
+    <string name = "rating_dialog_experience">விகிதம் 5 நட்சத்திரங்கள்</string>
+    <!-- <string name = "rating_dialog_msg">வணக்கம், நான் உங்களுக்கு சிறந்த இலவச பயன்பாட்டை வழங்க மிகவும் கடினமாக உழைக்கும் ஒரு புரோகிராமர். உங்கள் 5-நட்சத்திர மதிப்பாய்வு எல்லா பணத்திற்கும் மேலானது. எனது முயற்சிகளை ஆதரிக்க Google Play இல் நல்ல மதிப்புரையை எழுதுங்கள். நன்றி. </ String> -->
+    <string name = "rating_dialog_maybe_later">பின்னர்</string>
+    <string name = "rating_dialog_never">ஒருபோதும்</string>
+    <string name = "rating_dialog_feedback_title">ஃப்ளாஷ்லைட்டை எவ்வாறு சிறப்பாகச் செய்யலாம்?</string>
+    <string name = "rating_dialog_submit">சமர்ப்பிக்கவும்</string>
+    <string name = "rating_dialog_cancel">ரத்துசெய்</string>
+    <string name = "rating_dialog_suggestions">என்ன தவறு நடந்தது என்பதை எங்களுக்குத் தெரியப்படுத்துங்கள், நாங்கள் அதைச் செய்வோம்</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">ஒத்திசைவு</string>
+    <string name="app_header">பயன்பாட்டு அமைப்புகள்</string>
+    <string name="feedback_header">பின்னூட்டம்</string>
+    <string name="share_header">பகிர்</string>
+    <string name="about_header">பற்றி</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">அறிவிப்பிலிருந்து மாற்று</string>
+    <string name="rate_us_title">எங்களை மதிப்பிடு</string>
+    <string name="send_feedback_title">கருத்தினை அனுப்பவும்</string>
+    <string name="share_title">ஒளிரும் விளக்கைப் பகிரவும்</string>
+    <string name="version_title">பதிப்பு</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">அறிவிப்பு பட்டியில் இருந்து ஒளிரும் விளக்கை மாற்றுவதற்கு அறிவிப்பைக் காட்டு</string>
+    <string name="notification_summary_off">அறிவிப்பு பட்டியில் இருந்து ஒளிரும் விளக்கை மாற்ற அறிவிப்பை காட்ட வேண்டாம்</string>
+
+    <string name="title_activity_settings">அமைப்புகள்</string>
+
+    <string name="share_app_message_subject">ஒளிரும் விளக்கு - சூப்பர் பிரகாசமான LED டார்ச் லைட்</string>
+    <string name="share_app_message_body">
+        ஒளிரும் விளக்கு - டார்ச் லெட் என்பது முற்றிலும் இலவசப் பயன்பாடாகும், இது உங்கள் ஸ்மார்ட்போனை விரைவாகவும் திறமையாகவும் சூப்பர் பிரைட் ஃப்ளாஷ்லைட்டாக மாற்றும். பயன்பாடு உங்களுக்குத் தேவையானதை ஒளிரச் செய்ய உங்கள் ஸ்மார்ட்ஃபோனின் ஃபிளாஷைப் பயன்படுத்துகிறது
+
+\n\n அதை இலவசமாகப் பெறுங்கள்
+
+\n https://brightestflashlight.page.link/flashlight
+    </string>
+    <string name="premium_header">பிரீமியம்</string>
+    <string name="pupop_snackbar_in_app_update_button">நிறுவு</string>
+    <string name="pupop_snackbar_in_app_update_message">ஒரு புதுப்பிப்பு இப்போது பதிவிறக்கம் செய்யப்பட்டது.</string>
+    <string name="progress_dialog_message">தயவுசெய்து காத்திருங்கள்…</string>
+    <string name="rewarded_video_error_message">வெகுமதி அளிக்கப்பட்ட வீடியோ விளம்பரத்தைக் காட்டுவதில் பிழை</string>
+    <string name="flashlight_strobe_description">ஸ்ட்ரோப் அமைப்புகள்</string>
+    <string name="flashlight_compass_description">திசைகாட்டி</string>
+    <string name="flashlight_screen_light_description">திரை ஒளி</string>
+    <string name="native_ad_exit_dialog_message">நிச்சயமாக நீங்கள் வெளியேற வேண்டுமா?</string>
+    <string name="native_ad_exit_dialog_yes">ஆம்</string>
+    <string name="native_ad_exit_dialog_no">இல்லை</string>
+    <string name="native_ad_screen_transition_exit">வெளியேறு</string>
+    <string name="new_app_content_description">புதிய ஆப்</string>
+    <string name="new_app_dialog_title">கடைக்குச் செல்லவும்</string>
+    <string name="new_app_dialog_description">நீங்கள் பிளே ஸ்டோருக்கு திருப்பி விடப்படுவீர்கள். நீ சொல்வது உறுதியா?</string>
+
+</resources>

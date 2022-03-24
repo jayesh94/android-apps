@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name"> ഫ്ലാഷ് ലൈറ്റ് </string>
+    <string name="compass_not_supported"> ഈ ഉപകരണത്തിൽ കോമ്പസ് പിന്തുണയ്‌ക്കുന്നില്ല </string>
+    <string name="camera_not_supported"> ക്ഷമിക്കണം, നിങ്ങളുടെ ഉപകരണം ഫ്ലാഷ് ലൈറ്റിനെ പിന്തുണയ്ക്കുന്നില്ല! </string>
+
+    <string name="premium_yes">ഇപ്പോൾ വാങ്ങുക </string>
+    <string name="premium_no">പിന്നീട് </string>
+    <string name="premium_title"> ആജീവനാന്ത പ്രീമിയം ഉപയോക്താവ് </string>
+    <string name="premium_message">ഫ്ലാഷ്‌ലൈറ്റ് അപ്ലിക്കേഷന്റെ അഭിമാനകരമായ ആജീവനാന്ത ഉടമയാകുക! \n പരസ്യങ്ങൾ നീക്കംചെയ്‌ത് ഭാവിയിലെ എല്ലാ അപ്‌ഗ്രേഡുകളും ഉൾപ്പെടുത്തുക. \n</string>
+
+    <string name="error_no_skus"> പരിശോധിക്കേണ്ടതുണ്ട്, പ്രദർശിപ്പിക്കുന്നതിനായി ഒരു എസ്‌കുവുകളെയും ഞങ്ങൾ കണ്ടെത്തിയില്ല &#8230; നിങ്ങളുടെ ഇന്റർനെറ്റ് പരിശോധിക്കുക
+        കണക്ഷൻ നൽകി നിങ്ങളുടെ Google ഡവലപ്പർ കൺസോൾ ശരിയായി സജ്ജമാക്കിയിട്ടുണ്ടെന്ന് ഉറപ്പാക്കുക. </string>
+    <string name="error_billing_unavailable"> ബില്ലിംഗ് ലഭ്യമല്ല. നിങ്ങളുടെ Google Play അപ്ലിക്കേഷൻ ഉറപ്പാക്കുക
+        ശരിയായി സജ്ജീകരിച്ചിരിക്കുന്നു </string>
+    <string name="error_billing_default"> ബില്ലിംഗ് ലഭ്യമല്ല. നിങ്ങളുടെ ഉപകരണം പരിശോധിക്കുക. </string>
+
+
+    <string name="alert_already_purchased"> അഭിനന്ദനങ്ങൾ! നിങ്ങൾ ഇതിനകം ഒരു പ്രീമിയം ഉപയോക്താവാണ്! </string>
+    <string name="toggle_flashlight"> ഫ്ലാഷ്‌ലൈറ്റ് ടോഗിൾ ചെയ്യുക </string>
+    <string name="content_sos"> SOS സിഗ്നൽ ടോഗിൾ ചെയ്യുക </string>
+    <string name="content_no_ads"> പരസ്യങ്ങൾ നീക്കംചെയ്യുക </string>
+    <string name="content_banner_ad"> ബാനർ പരസ്യം ക്ലിക്കുചെയ്യുക </string>
+    <string name="ok"> ശരി </string>
+    <string name="error"> പിശക് </string>
+
+    <string name="review_app_title"> ഞങ്ങളുടെ അപ്ലിക്കേഷൻ ആസ്വദിക്കുന്നുണ്ടോ? </string>
+    <string name="review_app_msg">നിങ്ങൾ ഫ്ലാഷ്‌ലൈറ്റ് ഉപയോഗിക്കുന്നത് ആസ്വദിക്കുകയാണെങ്കിൽ, ഞങ്ങളെ റേറ്റുചെയ്യാൻ ഒരു നിമിഷം എടുക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുണ്ടോ? \nഇത് ഒരു മിനിറ്റിൽ കൂടുതൽ എടുക്കില്ല. \n ദയവായി ദയവുചെയ്ത് ഞങ്ങളെ കൂടുതൽ റേറ്റുചെയ്ത് സഹായിക്കുക.</string>
+	<string name="review_app_btn_positive"> റേറ്റ് ഫ്ലാഷ്‌ലൈറ്റ് </string>
+    <string name="review_app_btn_neutral"> ഇല്ല, നന്ദി </string>
+    <string name="review_app_btn_negative"> പിന്നീട് എന്നെ ഓർമ്മിപ്പിക്കുക </string>
+
+    <string name="rewarded_vid_cta">സൗജന്യ പ്രീമിയം! </string>
+    <string name="rewarded_vid_title"> പരസ്യം കാണുകയും പൂർണ്ണ ആക്‌സസ് നേടുകയും ചെയ്യുക !! </string>
+    <string name="rewarded_vid_btn_positive"> കാണുക </string>
+    <string name="rewarded_vid_btn_negative"> റദ്ദാക്കുക </string>
+    <string name="rewarded_vid_btn_neutral"> പ്രീമിയം </string>
+    <string name="rewarded_vid_msg"> \'ഒരു ദിവസം മുഴുവൻ\' എല്ലാ വിഭാഗങ്ങളും അൺലോക്കുചെയ്യുന്നതിന് ഈ വീഡിയോ പരസ്യം കാണുക. \n\nഒരു ദിവസത്തിൽ ഒരിക്കൽ ഞങ്ങളെ വഹിക്കുക… അതിനാൽ ഞങ്ങൾക്ക് അപ്ലിക്കേഷനും സേവനങ്ങളും പരിപാലിക്കാനും പുതിയ സവിശേഷതകൾ ചേർക്കാനും സൗജന്യമായി കഴിയും. \n\n നന്ദി!</string>
+    <string name="rewarded_vid_err_msg"> പ്രതിഫലം ലഭിച്ച പരസ്യം ഇതുവരെ ലോഡുചെയ്തിട്ടില്ല. </string>
+    <string name="rewarded_vid_ads_rmd_till">%s വരെ പരസ്യങ്ങൾ നീക്കംചെയ്‌തു </string>
+
+    <string name = "rating_dialog_experience"> റേറ്റ് 5 നക്ഷത്രങ്ങൾ</string>
+    <!-- <string name = "rating_dialog_msg"> ഹലോ, നിങ്ങൾക്ക് സാധ്യമായ ഏറ്റവും മികച്ച സ application ജന്യ ആപ്ലിക്കേഷൻ നൽകാൻ ഞാൻ കഠിനമായി പരിശ്രമിക്കുന്ന ഒരു പ്രോഗ്രാമറാണ്. നിങ്ങളുടെ 5-നക്ഷത്ര അവലോകനത്തിന് എല്ലാ പണത്തിനും വിലയുണ്ട്. എന്റെ ശ്രമങ്ങളെ പിന്തുണയ്ക്കുന്നതിന് ദയവായി Google Play- ൽ നല്ല അവലോകനം എഴുതുക. നന്ദി. </ String> -->
+    <string name = "rating_dialog_maybe_later">പിന്നീട്</string>
+    <string name = "rating_dialog_never">ഒരിക്കലും</string>
+    <string name = "rating_dialog_feedback_title">ഫ്ലാഷ്‌ലൈറ്റ് എങ്ങനെ മികച്ചതാക്കാം?</string>
+    <string name = "rating_dialog_submit">സമർപ്പിക്കുക</string>
+    <string name = "rating_dialog_cancel">റദ്ദാക്കുക</string>
+    <string name = "rating_dialog_suggestions">എന്താണ് തെറ്റ് സംഭവിച്ചതെന്ന് ഞങ്ങളെ അറിയിക്കുക, ഞങ്ങൾ അതിൽ പ്രവർത്തിക്കും</string>
+
+    <!-- Preference Titles -->
+    <string name="sync_header">സമന്വയിപ്പിക്കുക</string>
+    <string name="app_header">ആപ്പ് ക്രമീകരണങ്ങൾ</string>
+    <string name="feedback_header">ഫീഡ്ബാക്ക്</string>
+    <string name="share_header">പങ്കിടുക</string>
+    <string name="about_header">കുറിച്ച്</string>
+
+    <!-- Messages Preferences -->
+    <string name="notification_title">അറിയിപ്പിൽ നിന്ന് ടോഗിൾ ചെയ്യുക</string>
+    <string name="rate_us_title">ഞങ്ങളെ റേറ്റുചെയ്യുക</string>
+    <string name="send_feedback_title">ഫീഡ്‌ബാക്ക് അയയ്‌ക്കുക</string>
+    <string name="share_title">ഫ്ലാഷ്ലൈറ്റ് പങ്കിടുക</string>
+    <string name="version_title">പതിപ്പ്</string>
+
+    <!-- Sync Preferences -->
+    <string name="notification_summary_on">അറിയിപ്പ് ബാറിൽ നിന്ന് ഫ്ലാഷ്ലൈറ്റ് ടോഗിൾ ചെയ്യാൻ അറിയിപ്പ് കാണിക്കുക</string>
+    <string name="notification_summary_off">അറിയിപ്പ് ബാറിൽ നിന്ന് ഫ്ലാഷ്ലൈറ്റ് ടോഗിൾ ചെയ്യാനുള്ള അറിയിപ്പ് കാണിക്കരുത്</string>
+
+    <string name="title_activity_settings">ക്രമീകരണങ്ങൾ</string>
+
+    <string name="share_app_message_subject">ഫ്ലാഷ്ലൈറ്റ് - സൂപ്പർ ബ്രൈറ്റ് എൽഇഡി ടോർച്ച് ലൈറ്റ്</string>
+    <string name="share_app_message_body">ഫ്ലാഷ്‌ലൈറ്റ് - ടോർച്ച് ലെഡ് നിങ്ങളുടെ സ്മാർട്ട്‌ഫോണിനെ വേഗത്തിലും കാര്യക്ഷമമായും ഒരു സൂപ്പർ ബ്രൈറ്റ് ഫ്ലാഷ്‌ലൈറ്റാക്കി മാറ്റുന്ന തികച്ചും സൗജന്യ ആപ്ലിക്കേഷനാണ്. നിങ്ങൾക്ക് ആവശ്യമുള്ളത് ലഘൂകരിക്കാൻ ആപ്ലിക്കേഷൻ നിങ്ങളുടെ സ്മാർട്ട്‌ഫോണിന്റെ ഫ്ലാഷ് ഉപയോഗിക്കുന്നു
+
+\n\n ഇത് സൗജന്യമായി നേടുക
+
+\n https://brightestflashlight.page.link/flashlight</string>
+    <string name="premium_header">പ്രീമിയം</string>
+    <string name="pupop_snackbar_in_app_update_button">ഇൻസ്റ്റാൾ ചെയ്യുക</string>
+    <string name="pupop_snackbar_in_app_update_message">ഒരു അപ്‌ഡേറ്റ് ഇപ്പോൾ ഡൗൺലോഡ് ചെയ്‌തു.</string>
+    <string name="progress_dialog_message">കാത്തിരിക്കൂ…</string>
+    <string name="rewarded_video_error_message">റിവാർഡ് വീഡിയോ പരസ്യം കാണിക്കുന്നതിൽ പിശക്</string>
+    <string name="flashlight_strobe_description">സ്ട്രോബ് ക്രമീകരണങ്ങൾ</string>
+    <string name="flashlight_compass_description">കോമ്പസ്</string>
+    <string name="flashlight_screen_light_description">സ്ക്രീൻ ലൈറ്റ്</string>
+    <string name="native_ad_exit_dialog_message">തങ്കള് ഉറപ്പായും പുറത്തു പോവാന് ആഗ്രഹിക്കുന്നോ?</string>
+    <string name="native_ad_exit_dialog_yes">അതെ</string>
+    <string name="native_ad_exit_dialog_no">ഇല്ല</string>
+    <string name="native_ad_screen_transition_exit">പുറത്ത്</string>
+    <string name="new_app_content_description">പുതിയ ആപ്പ്</string>
+    <string name="new_app_dialog_title">സ്റ്റോർ സന്ദർശിക്കുക</string>
+    <string name="new_app_dialog_description">നിങ്ങളെ പ്ലേ സ്റ്റോറിലേക്ക് റീഡയറക്‌ടുചെയ്യും. നിങ്ങൾക്ക് ഉറപ്പാണോ?</string>
+
+</resources>

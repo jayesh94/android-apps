@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/app_header"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="notification"
+            app:title="@string/notification_title"
+            app:summaryOff="@string/notification_summary_off"
+            app:summaryOn="@string/notification_summary_on"
+            app:icon="@drawable/ic_baseline_edit_notifications_24"
+            app:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+    <info.ascetx.flashlight.app.SettingsNativeAdPreference
+        android:layout="@layout/settings_ad_unified"/>
+
+    <PreferenceCategory app:title="@string/feedback_header"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="feedback"
+            app:title="@string/send_feedback_title"
+            app:icon="@drawable/ic_baseline_feedback_24"/>
+        <Preference
+            app:key="rate_us"
+            app:title="@string/rate_us_title"
+            app:icon="@drawable/ic_baseline_rate_review_24"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/share_header"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="share"
+            app:title="@string/share_title"
+            app:icon="@drawable/ic_baseline_share_24"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/premium_header"
+        app:iconSpaceReserved="false"
+        app:isPreferenceVisible="false">
+<!--        TODO ("Make this active and fix corresponding bugs") -->
+
+        <Preference
+            app:key="premium"
+            app:icon="@drawable/ic_baseline_credit_card_24"
+            app:title="@string/premium_title"
+            app:summary="@string/premium_message"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/about_header"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="version"
+            app:iconSpaceReserved="false"
+            app:title="@string/version_title"
+    app:summary="2.0.0"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
