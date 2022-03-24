@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/default_margin"
+    android:paddingTop="@dimen/default_margin_small"
+    android:paddingBottom="@dimen/default_margin">
+
+    <EditText
+        android:id="@+id/edit_text"
+        style="@style/EditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_small"
+        android:autofillHints="@string/fragment_create_barcode_qr_code_text_hint"
+        android:gravity="start|top"
+        android:hint="@string/fragment_create_barcode_qr_code_text_hint"
+        android:inputType="textMultiLine"
+        android:minLines="5" />
+
+    <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.ActionButton
+        android:id="@+id/generate_code_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/fragment_create_barcode_generate_button"
+        app:trackingName="fragment_create_qr_code_text_generate_code_button"
+        style="@style/ActionButtonStyle" />
+</LinearLayout>

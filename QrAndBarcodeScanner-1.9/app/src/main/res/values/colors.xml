@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/white</color>
+    <color name="color_primary_dark">@color/black</color>
+    <color name="color_accent">@color/new_secondary_color</color>
+    <color name="color_background">@color/white</color>
+    <color name="text_color_secondary">@color/black</color>
+    <color name="navigation_bar_color">@color/black2</color>
+    <color name="ic_launcher_background">@color/new_primary_color</color>
+
+    <color name="new_primary_color">#009788</color>
+    <color name="new_secondary_color">#FF9000</color>
+
+    <color name="fab_button_background_start">#b4e6fa</color>
+    <color name="fab_button_background_end">#54c6f2</color>
+
+    <color name="welcome_background">#fffbe6</color>
+    <color name="welcome_image">#fd5523</color>
+    <color name="welcome_title">#005D57</color>
+    <color name="welcome_description">#005D57</color>
+    <color name="welcome_skip_button">#009788</color>
+    <color name="welcome_start_into_button">#fd5523</color>
+
+    <color name="sv_background">#ddb4e6fa</color>
+    <color name="sv_holo_circle">@color/fab_button_background_end</color>
+    <color name="sv_title">@color/welcome_title</color>
+    <color name="sv_description">@color/green3</color>
+    <color name="sv_button_background">@color/main_orange</color>
+
+    <color name="shortcut_button_background_start">#54c6f2</color>
+    <color name="shortcut_button_background_end">@color/new_primary_color</color>
+
+    <color name="showcaseview_content_title">@color/orange1</color>
+    <color name="showcaseview_content_description">@color/welcome_background</color>
+    <color name="showcaseview_tutorial_image">#bbFF9000</color>
+
+    <color name="orange1">#ffc146</color>
+    <color name="orange2">#e68200</color>
+    <color name="orange21">#ff9b1a</color>
+    <color name="orange3">#c56100</color>
+    <color name="orange3_transparent">#ddc56100</color>
+
+    <color name="green1">#52c8b8</color>
+    <color name="green2">#009788</color>
+    <color name="green3">#00685b</color>
+
+    <color name="dialog_background_color">@color/white</color>
+    <color name="toolbar_background_color">@color/white</color>
+    <color name="toolbar_title_color">@color/gray4</color>
+    <color name="toolbar_menu_color">@color/gray4</color>
+    <color name="toolbar_menu_create_barcode_button_disabled_color">@color/black_transparent</color>
+    <color name="toolbar_menu_create_barcode_button_enabled_color">@color/gray4</color>
+    <color name="tab_layout_background_color">@color/list_background_color</color>
+    <color name="tab_layout_text_color_inactive">@color/gray_transparent2</color>
+    <color name="tab_layout_text_color_active">@color/main_orange</color>
+    <color name="bottom_navigation_background_color">@color/white</color>
+
+    <color name="bottom_navigation_text_color_inactive">@color/gray41</color>
+    <color name="bottom_navigation_text_color_active">@color/new_secondary_color</color>
+
+    <color name="create_barcode_group_title_text_color">@color/orange3_transparent</color>
+    <color name="default_text_color">@color/black</color>
+    <color name="secondary_text_color">@color/gray</color>
+    <color name="delimiter_color">@color/gray5</color>
+    <color name="delimiter_color2">@color/gray12</color>
+    <color name="switch_background_color">@color/gray17</color>
+    <color name="button_background_color_disabled">@color/gray4</color>
+    <color name="crop_image_view_background_color">@color/white</color>
+    <color name="edit_text_text_color">@color/black</color>
+    <color name="edit_text_hint_color">@color/gray10</color>
+    <color name="date_time_picker_dialog_background_color">@color/white</color>
+    <color name="list_background_color">@color/gray3</color>
+
+    <color name="button_drawable_color">@color/white</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="shadow_black">#15000000</color>
+    <color name="black2">#202124</color>
+    <color name="black3">#3B3C40</color>
+    <color name="black_transparent">#2C000000</color>
+    <color name="black_transparent2">#5E000000</color>
+    <color name="black_transparent3">#40000000</color>
+    <color name="gray">#7D7D7D</color>
+    <color name="gray3">#F5F5F6</color>
+    <color name="gray4">#F8F8F8</color>
+    <color name="gray41">#d9d9d9</color>
+    <color name="gray42">#bfbfbf</color>
+    <color name="gray43">#a6a6a6</color>
+    <color name="gray44">#8c8c8c</color>
+    <color name="gray5">#CCCCCC</color>
+    <color name="gray6">#666666</color>
+    <color name="gray10">#9E9E9E</color>
+    <color name="gray11">#5F6267</color>
+    <color name="gray12">#E0E0E0</color>
+    <color name="gray14">#9BA0A6</color>
+    <color name="gray15">#9C9FA6</color>
+    <color name="gray16">#2A2A2E</color>
+    <color name="gray17">#636466</color>
+    <color name="gray18">#B2B2B2</color>
+    <color name="gray19">#424242</color>
+    <color name="gray_transparent2">#6B7D7D7D</color>
+    <color name="yellow">#FDD70A</color>
+    <color name="main_orange">@color/new_secondary_color</color>
+    <color name="blue">#00B1FF</color>
+    <color name="blue2">#9EDBF7</color>
+    <color name="blue3">#00BFC9</color>
+    <color name="blue4">#1A73E9</color>
+    <color name="green">#46CC47</color>
+    <color name="red">#FB2A2D</color>
+    <color name="orange">#FF9700</color>
+
+    <!--  Start - For Rating Dialog  -->
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="accent">#ec2045</color>
+    <color name="rate_star">#FDCC0D</color>
+    <color name="rate_background">@color/welcome_background</color>
+    <!--  End - For Rating Dialog  -->
+
+    <color name="greenApp1">#005D57</color>
+    <color name="greenApp">#1EB980</color>
+    <color name="greenApp2">#007D51</color>
+    <color name="greenApp3">#37EFBA</color>
+    <color name="greenApp_text">#005D57</color>
+    <color name="mountain_meadow">#1CA593</color>
+
+</resources>

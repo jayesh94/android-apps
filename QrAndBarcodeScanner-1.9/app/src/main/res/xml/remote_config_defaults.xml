@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>update_info</key>
+        <value>{
+            "updates": [
+            {
+            "versionCode": 2,
+            "updatePriority": 1
+            },
+            {
+            "versionCode": 1,
+            "updatePriority": 0
+            }
+            ]
+            }</value>
+    </entry>
+    <entry>
+        <key>in_app_rater</key>
+        <value>{
+            "appRater": {
+            "daysUntilPrompt": 5,
+            "appLaunchesUntilPrompt": 4,
+            "daysUntilNextPrompt": 3,
+            "mayBeLaterExtensionDays": 0,
+            "cancelExtensionDays": 2,
+            "submitFormExtensionDays": 7,
+            "openPlayStoreExtensionDays": 12,
+            "playStoreRatingThreshold": 4.5
+            }
+            }</value>
+    </entry>
+    <entry>
+        <key>in_app_updater</key>
+        <value>{
+            "inAppUpdater": {
+            "daysForFlexibleUpdate": 3,
+            "priorityThresholdFlexibleUpdate": 2,
+            "priorityThresholdImmediateUpdate": 5
+            }
+            }</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

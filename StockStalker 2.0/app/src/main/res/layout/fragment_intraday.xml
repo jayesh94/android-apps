@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.ascetx.stockstalker.fragment.IntradayFragment"
+    android:id="@+id/list_view_stock_daily">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:id="@+id/linear_stock_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/list_view_padding">
+
+        <TextView
+            android:id="@+id/ltp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="ltp"
+            android:textSize="@dimen/text_small_medium"/>
+        <TextView
+            android:id="@+id/chg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="chg"
+            android:textSize="@dimen/text_small_medium"/>
+        <TextView
+            android:id="@+id/chg_p"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="chg_p"
+            android:textSize="@dimen/text_small_medium" />
+        <TextView
+            android:id="@+id/pcls"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="pcls"
+            android:textSize="@dimen/text_small_medium"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_small"
+        android:text="DATE TIME"
+        android:id="@+id/date"
+        android:layout_below="@+id/linear_stock_list"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/fab_margin" />
+</RelativeLayout>

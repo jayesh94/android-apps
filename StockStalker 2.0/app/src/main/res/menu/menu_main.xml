@@ -1,0 +1,53 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jaeznet.additemlist.MainActivity">
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/action_refresh"
+        android:icon="@drawable/refresh_animation"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/menu_item_share"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="101"
+        android:title="@string/action_share"
+        app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"/>
+    <item
+        android:id="@+id/action_item_rate_review"
+        app:showAsAction="never"
+        android:visible="false"
+        android:orderInCategory="102"
+        android:onClick="RateReviewApp"
+        android:title="@string/action_rate_review"/>
+    <!--<item
+        android:id="@+id/action_help"
+        android:orderInCategory="103"
+        android:title="@string/action_help"
+        android:icon="@drawable/ic_help_outline_black_24dp"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="104"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="105"
+        android:title="@string/action_logout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_sign_up"
+        android:orderInCategory="106"
+        android:title="@string/action_sign_up"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="99"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        app:showAsAction="always"/>-->
+</menu>

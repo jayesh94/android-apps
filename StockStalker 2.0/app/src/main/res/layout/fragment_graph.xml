@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="info.ascetx.stockstalker.fragment.GraphFragment">
+
+    <com.github.mikephil.charting.charts.CombinedChart
+        android:id="@+id/combined_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:touchscreenBlocksFocus="true"
+        tools:targetApi="O">
+    </com.github.mikephil.charting.charts.CombinedChart>
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_chart_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|top"
+        android:background="@drawable/gradient_spinner"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:prompt="@string/spinner_prompt_chart_type">
+
+    </androidx.appcompat.widget.AppCompatSpinner>
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/spinner_chart_period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:background="@drawable/gradient_spinner"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:prompt="@string/spinner_prompt_chart_period">
+
+    </androidx.appcompat.widget.AppCompatSpinner>
+
+</FrameLayout>

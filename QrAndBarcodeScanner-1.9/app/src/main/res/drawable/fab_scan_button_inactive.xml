@@ -1,0 +1,15 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/fab_scan_button_background"
+        />
+
+    <item
+        android:drawable="@drawable/qr_code_scan_inactive"
+        android:top="@dimen/default_margin_medium2"
+        android:left="@dimen/default_margin_medium2"
+        android:right="@dimen/default_margin_medium2"
+        android:bottom="@dimen/default_margin_medium2"
+        />
+
+</layer-list>

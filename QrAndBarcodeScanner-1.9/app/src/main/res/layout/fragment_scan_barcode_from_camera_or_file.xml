@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".feature.tabs.scan.ScanBarcodeFromCameraOrFileFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alpha="0.60"
+        android:contentDescription="@string/fragment_scan_using_camera"
+        android:src="@drawable/photograph_camera"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBaseline_toBottomOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65">
+
+        <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.ActionButton
+            android:id="@+id/scan_using_camera_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:drawableLeft="@drawable/ic_baseline_camera"
+            android:drawableTint="@color/button_drawable_color"
+            android:elevation="@dimen/default_margin"
+            android:shadowColor="@color/black"
+            android:text="@string/fragment_scan_using_camera"
+            app:trackingName="fragment_scan_barcode_from_camera_or_file_scan_using_camera_btn"
+            style="@style/ActionButtonStyle"
+            />
+
+        <View
+            android:id="@+id/delimiter"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="@dimen/default_margin_very_large"
+            android:background="@color/delimiter_color" />
+
+        <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.ActionButton
+            android:id="@+id/scan_using_file_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:drawableLeft="@drawable/ic_baseline_image"
+            android:drawableTint="@color/button_drawable_color"
+            android:elevation="@dimen/default_margin"
+            android:shadowColor="@color/black"
+            android:text="@string/fragment_scan_image"
+            app:trackingName="fragment_scan_barcode_from_camera_or_file_scan_using_file_btn"
+            android:backgroundTint="@color/orange1"
+            />
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

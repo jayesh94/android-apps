@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "568798392949",
+    "firebase_url": "https://stock-stalker-fb1b5.firebaseio.com",
+    "project_id": "stock-stalker-fb1b5",
+    "storage_bucket": "stock-stalker-fb1b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568798392949:android:735607393805a54e",
+        "android_client_info": {
+          "package_name": "info.ascetx.stockstalker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568798392949-lbud1le81f4f5itl13a3fbm9hkfi0r1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.ascetx.stockstalker",
+            "certificate_hash": "85a2298e54e562b7dd3a71cf7d0afae7cca5bea7"
+          }
+        },
+        {
+          "client_id": "568798392949-t27uh1tljtoslv9710ib3j6q359ut1f8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "568798392949-t27uh1tljtoslv9710ib3j6q359ut1f8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Y3viyyTCGuZ_IXYVTPTtUyAIrS38RZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568798392949-t27uh1tljtoslv9710ib3j6q359ut1f8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,66 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="history"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_history"
+        android:shortcutShortLabel="@string/shortcut_history"
+        android:shortcutLongLabel="@string/shortcut_history"
+        >
+        <intent
+            android:action="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.HISTORY"
+            android:targetPackage="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan"
+            android:targetClass="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.tabs.BottomTabsActivity"
+            />
+    </shortcut>
+
+
+    <shortcut
+        android:shortcutId="createBarcode"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_create_barcode"
+        android:shortcutShortLabel="@string/shortcut_create_barcode"
+        android:shortcutLongLabel="@string/shortcut_create_barcode"
+        >
+        <intent
+            android:action="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.CREATE_BARCODE"
+            android:targetPackage="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan"
+            android:targetClass="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.tabs.BottomTabsActivity"
+            />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="scanFromFile"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_scan_from_file"
+        android:shortcutShortLabel="@string/shortcut_scan_from_file"
+        android:shortcutLongLabel="@string/shortcut_scan_from_file"
+        >
+            <intent
+                android:action="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.SCAN_FROM_FILE"
+                android:targetPackage="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan"
+                android:targetClass="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.tabs.scan.file.ScanBarcodeFromFileActivity">
+            </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="scanFromCamera"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_scan_from_camera"
+        android:shortcutShortLabel="@string/shortcut_scan_from_camera"
+        android:shortcutLongLabel="@string/shortcut_scan_from_camera"
+        >
+    <!--   Below capability is required for the App to open from Google Assistant Command
+        Activity Opens with below params: It does not take the params of the shortcut itself.
+        Intent Data URI: https://ascetx.com/google-assistant-qr-scan
+        Intent Action: android.intent.action.VIEW-->
+        <capability android:name="actions.intent.GET_BARCODE">
+            <intent
+                android:action="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.SCAN_FROM_CAMERA"
+                android:targetPackage="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan"
+                android:targetClass="qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.tabs.BottomTabsActivity"
+                />
+        </capability>
+    </shortcut>
+
+</shortcuts>

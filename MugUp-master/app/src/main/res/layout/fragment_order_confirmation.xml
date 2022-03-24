@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OrderConfirmationFragment">
+
+    <ImageView
+        android:layout_height="150dp"
+        android:layout_width="150dp"
+        android:id="@+id/orderConfirmationTick"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/orderStatus"
+        android:padding="10dp"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderConfirmationTick"
+        android:textColor="@color/primary_text"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/orderId"
+        android:padding="10dp"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderStatus"
+        android:textColor="@color/primary_text"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/orderStatusMessage"
+        android:padding="10dp"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderId"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/viewLibraryButton"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_below="@+id/orderStatusMessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary_light"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="VIEW LIBRARY"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

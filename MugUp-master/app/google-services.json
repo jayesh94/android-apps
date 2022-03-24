@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "45927719303",
+    "firebase_url": "https://mugup-41e5c.firebaseio.com",
+    "project_id": "mugup-41e5c",
+    "storage_bucket": "mugup-41e5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45927719303:android:cbf9b787456e499d",
+        "android_client_info": {
+          "package_name": "app.mugup.mugup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45927719303-22tiv90ukviec7mhgigejsb7urt18nim.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.mugup.mugup",
+            "certificate_hash": "85a2298e54e562b7dd3a71cf7d0afae7cca5bea7"
+          }
+        },
+        {
+          "client_id": "45927719303-o7fsa5oi865e29shlc2sfo1bj2i1m0d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7kzeby1CA5slfIU7gkN6zg-rQ2jSqIS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "45927719303-o7fsa5oi865e29shlc2sfo1bj2i1m0d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

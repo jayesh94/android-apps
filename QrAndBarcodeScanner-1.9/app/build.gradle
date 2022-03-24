@@ -1,0 +1,249 @@
+/**
+ * The first line in the build configuration applies the Android plugin for
+ * Gradle to this build and makes the android block available to specify
+ * Android-specific build options.
+ */
+
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+}
+
+/**
+ * The android block is where you configure all your Android-specific
+ * build options.
+ */
+android {
+
+    /**
+     * compileSdkVersion specifies the Android API level Gradle should use to
+     * compile your app. This means your app can use the API features included in
+     * this API level and lower.
+     */
+
+    compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+
+    /**
+     * buildToolsVersion specifies the version of the SDK build tools, command-line
+     * utilities, and compiler that Gradle should use to build your app. You need to
+     * download the build tools using the SDK Manager.
+     *
+     * This property is optional because the plugin uses a recommended version of
+     * the build tools by default.
+     */
+    buildToolsVersion "31.0.0"
+
+    /**
+     * The defaultConfig block encapsulates default settings and entries for all
+     * build variants, and can override some attributes in main/AndroidManifest.xml
+     * dynamically from the build system. You can configure product flavors to override
+     * these values for different versions of your app.
+     */
+    defaultConfig {
+
+        /**
+         * applicationId uniquely identifies the package for publishing.
+         * However, your source code should still reference the package name
+         * defined by the package attribute in the main/AndroidManifest.xml file.
+         */
+        applicationId "qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan"
+
+        // Defines the minimum API level required to run the app.
+        minSdkVersion 21
+
+        // Specifies the API level used to test the app.
+        targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+
+        // Defines the version number of your app.
+        versionCode 7
+
+        // Defines a user-friendly version name for your app.
+        versionName "1.0.7"
+
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.incremental":"true"]
+            }
+        }
+
+        buildConfigField "boolean", "ERROR_REPORTS_ENABLED_BY_DEFAULT", "true"
+    }
+
+    compileOptions {
+        // Flag to enable support for the new language APIs
+        coreLibraryDesugaringEnabled true
+        // Sets Java compatibility to Java 8
+        sourceCompatibility = JavaVersion.VERSION_1_8.toString()
+        targetCompatibility = JavaVersion.VERSION_1_8.toString()
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
+
+    /**
+     * The buildTypes block is where you can configure multiple build types.
+     * By default, the build system defines two build types: debug and release. The
+     * debug build type is not explicitly shown in the default build configuration,
+     * but it includes debugging tools and is signed with the debug key. The release
+     * build type applies Proguard settings and is not signed by default.
+     */
+
+    buildTypes {
+
+        debug {
+//            minifyEnabled true
+//            shrinkResources true
+//            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            firebaseCrashlytics {
+                // If you don't need crash reporting for your debug build,
+                // you can speed up your build by disabling mapping file uploading.
+                mappingFileUploadEnabled false
+            }
+        }
+        /**
+         * By default, Android Studio configures the release build type to enable code
+         * shrinking, using minifyEnabled, and specifies the default Proguard rules file.
+         */
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    /**
+     * The productFlavors block is where you can configure multiple product flavors.
+     * This allows you to create different versions of your app that can
+     * override the defaultConfig block with their own settings. Product flavors
+     * are optional, and the build system does not create them by default.
+     *
+     * This example creates a free and paid product flavor. Each product flavor
+     * then specifies its own application ID, so that they can exist on the Google
+     * Play Store, or an Android device, simultaneously.
+     *
+     * If you declare product flavors, you must also declare flavor dimensions
+     * and assign each flavor to a flavor dimension.
+     */
+
+    flavorDimensions "market"
+    productFlavors {
+        appGallery {}
+        googlePlay {
+            applicationId "qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan"
+        }
+        fDroid {
+            buildConfigField("boolean", "ERROR_REPORTS_ENABLED_BY_DEFAULT", "false")
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+}
+
+/**
+ * The dependencies block in the module-level build configuration file
+ * specifies dependencies required to build only the module itself.
+ * To learn more, go to Add build dependencies.
+ */
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+
+    // Fragments
+//    final fragment_version  = "1.3.6"
+//    implementation "androidx.fragment:fragment-ktx:$fragment_version"
+
+    // Android
+    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.appcompat:appcompat:1.4.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.2'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation project(path: ':code-scanner')
+
+    // Room
+    final roomVersion = "2.3.0"
+    kapt "androidx.room:room-compiler:$roomVersion"
+    implementation "androidx.room:room-runtime:$roomVersion"
+    implementation "androidx.room:room-rxjava2:$roomVersion"
+
+    // Paging
+    final pagingVersion = "1.0.1"
+    implementation "android.arch.paging:runtime:$pagingVersion"
+    implementation "android.arch.paging:rxjava2:$pagingVersion"
+
+    // Barcode Scanner
+//    implementation 'com.budiyev.android:code-scanner:2.1.0'
+
+    // Barcode Image Generator
+    //noinspection GradleDependency
+    implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+
+    // VCard Parser
+    implementation 'com.googlecode.ez-vcard:ez-vcard:0.11.0'
+
+    // Base32 Encoder
+    implementation "commons-codec:commons-codec:1.15"
+
+    // OTP
+    implementation "dev.turingcomplete:kotlin-onetimepassword:2.0.1"
+
+    // Rx
+    implementation "io.reactivex.rxjava2:rxkotlin:2.3.0"
+    implementation "com.jakewharton.rxbinding2:rxbinding-appcompat-v7-kotlin:2.2.0"
+
+    // Image Crop Library
+    implementation 'com.isseiaoki:simplecropview:1.1.8'
+
+    // Date time picker
+    implementation 'com.github.florent37:singledateandtimepicker:2.2.6'
+
+    implementation 'com.google.zxing:core:3.4.1'
+
+    // Country Code Picker
+//    implementation 'com.hbb20:ccp:X.Y.Z'
+
+    implementation 'androidx.fragment:fragment-ktx:1.4.0'
+
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:29.0.1')
+
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+    implementation 'com.google.firebase:firebase-config-ktx'
+    implementation 'com.google.firebase:firebase-dynamic-links-ktx'
+
+    // To collect Facebook Ads events
+    implementation 'com.facebook.android:facebook-android-sdk:latest.release'
+
+    // For tutorials
+    implementation 'com.github.amlcurran.showcaseview:library:5.4.3'
+
+    // For Kotlin users also add the Kotlin extensions library for Play Core:
+    implementation 'com.google.android.play:core-ktx:1.8.1'
+
+    implementation 'com.google.firebase:firebase-appindexing:20.0.0'
+
+    // LeakCanary debugImplementation because  should only run in debug builds.
+    // Remove this in release builds. Although, no major sizing issue exists
+//    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.7'
+
+    implementation 'com.android.support:support-compat:28.0.0'
+}

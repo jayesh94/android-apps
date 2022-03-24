@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bottom_tabs2_coordinator_layout"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!-- Setting android:fitsSystemWindows="true" moves the Activity and Child fragments above the OS soft nav bar
+     This must be set individually in each layout. Setting in AppTheme does not work -->
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinator_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"
+        android:clickable="false"
+        android:focusable="false"
+        >
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/layout_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/new_primary_color"
+        app:fabCradleMargin="10dp"
+        app:fabCradleRoundedCornerRadius="10dp"
+        app:fabCradleVerticalOffset="10dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:background="@android:color/transparent"
+            app:menu="@menu/menu_bottom_navigation"
+            android:outlineAmbientShadowColor="@android:color/transparent"
+            android:outlineSpotShadowColor="@android:color/transparent"
+            app:labelVisibilityMode="auto"
+            app:itemIconTint="@color/color_bottom_navigation_item"
+            app:itemTextColor="@color/color_bottom_navigation_item"
+            app:itemTextAppearanceActive="@style/BottomNavigationItemTextAppearance"
+            app:itemTextAppearanceInactive="@style/BottomNavigationItemTextAppearance"
+            app:itemHorizontalTranslationEnabled="false"
+            tools:targetApi="p" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/fab_scan_button_inactive"
+        app:tint="@null"
+        app:borderWidth="0dp"
+        app:layout_anchor="@id/bottomAppBar" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.profile.ReferFragment">
+
+    <Button
+        android:id="@+id/bt_invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="80dp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:textColor="@color/white"
+        android:background="@color/primary"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/invite"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="@string/refer_earn" />
+        <TextView
+            android:id="@+id/tv_credit_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:text="@string/refer_benefit_msg" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:text="@string/referral_code" />
+        <TextView
+            android:id="@+id/tv_referral_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/primary_light"
+            android:textStyle="bold"
+            android:textSize="45sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:text="@string/tap_copy" />
+    </LinearLayout>
+
+</FrameLayout>

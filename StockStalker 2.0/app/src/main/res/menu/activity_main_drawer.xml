@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:title="Screeners">
+        <menu>
+            <!--<group android:checkableBehavior="single">-->
+            <group
+                android:id="@+id/group_header">
+                <!-- <item
+                     android:id="@+id/action_trend"
+                     android:title="@string/action_trend"
+                     android:icon="@drawable/ic_trend_black_24dp"/>-->
+                <!--<item
+                    android:id="@+id/action_index"
+                    android:title="Index"
+                    android:icon="@drawable/ic_show_chart_black_24dp"/>-->
+                <item
+                    android:id="@+id/action_item_rate_review"
+                    android:title="@string/action_rate_review"
+                    android:onClick="RateReviewApp"
+                    android:visible="false"
+                    android:icon="@drawable/ic_rate_review_black_24dp"/>
+                <item
+                    android:id="@+id/action_top_gain_loss"
+                    android:title="@string/action_top_gl"
+                    android:icon="@drawable/ic_gain_loss_black_24dp"/>
+                <item
+                    android:id="@+id/action_most_active"
+                    android:title="@string/action_most_active"
+                    android:icon="@drawable/ic_flash_on_black_24dp"/>
+                <item
+                    android:id="@+id/action_premium"
+                    android:title="@string/action_premium"
+                    android:visible="false"
+                    android:icon="@drawable/ic_payment_black_24dp"/>
+                <item
+                    android:id="@+id/restore_purchase"
+                    android:title="@string/nav_restore_purchase"
+                    android:visible="false"
+                    android:icon="@drawable/ic_payment_black_24dp"/>
+                <!--<item
+                    android:id="@+id/action_help"
+                    android:title="@string/action_help"
+                    android:icon="@drawable/ic_help_outline_black_24dp" />-->
+            </group>
+        </menu>
+    </item>
+    <item android:title="General">
+        <menu>
+            <group
+                android:id="@+id/group_footer">
+                <item
+                    android:id="@+id/action_help"
+                    android:title="@string/action_help"
+                    android:icon="@drawable/ic_help_black_24dp" />
+                <item
+                    android:id="@+id/action_report_bug"
+                    android:title="@string/action_report_bug"
+                    android:onClick="reportBug"
+                    android:icon="@drawable/ic_bug_report_black_24dp"/>
+                <item
+                    android:id="@+id/action_settings"
+                    android:title="@string/action_settings"
+                    android:icon="@drawable/ic_settings_black_24dp" />
+                <item
+                    android:id="@+id/action_logout"
+                    android:title="@string/action_logout"
+                    android:icon="@drawable/ic_exit_to_app_black_24dp"/>
+                <item
+                    android:id="@+id/action_sign_up"
+                    android:title="@string/action_sign_up"
+                    android:icon="@drawable/ic_account_circle_black_24dp"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

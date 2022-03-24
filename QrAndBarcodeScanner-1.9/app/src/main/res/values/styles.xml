@@ -1,0 +1,244 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="BaseAppTheme">
+        <item name="colorPrimaryDark">@color/green3</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <!--        Setting code in App theme works for code that should be directly linked to the Android Manifest Application.
+        Ex. All the tags here work only this scenario when these are directly linked to the Application in Android Manifest. -->
+<!--        However, below two lines did not work anyways so added the code in BaseActivity to set status bar color -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+
+    </style>
+
+    <style name="BaseAppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/new_primary_color</item>
+        <item name="colorPrimaryDark">@color/green3</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:fontFamily">@font/open_sans</item>
+        <item name="android:colorBackground">@color/color_background</item>
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
+        <item name="android:statusBarColor">@color/new_primary_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:actionOverflowButtonStyle">@style/ToolbarMenuButtonStyle</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+<!--        By adding tools:targetApi="m" to an element you tell the lint that the element won't be used on API level below 23 (M)-->
+<!--        Why should we not create a separate v29 file for this? -->
+<!--        If you are overwriting some parameter then you will have to mention each and every tag
+        Otherwise issues will occur. For example, the colorAccent was not being applied. -->
+<!--        <item name="android:fitsSystemWindows">true</item>-->
+<!--        Above code works for V21 devices and was clipping Toolbar in Activities. -->
+    </style>
+
+    <style name="ClickableBackground">
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="SeekBarTheme" parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="ToolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+<!--        <item name="android:background">@color/toolbar_background_color</item>-->
+        <item name="android:background">@color/new_primary_color</item>
+        <item name="android:elevation">@dimen/default_margin_medium2</item>
+        <item name="titleTextAppearance">@style/ToolbarTitle</item>
+        <item name="titleTextColor">@color/toolbar_title_color</item>
+    </style>
+
+    <style name="ToolbarWithBackButtonStyle" parent="ToolbarStyle">
+        <item name="navigationIcon">@drawable/ic_arrow_back</item>
+        <item name="iconTint">@color/toolbar_menu_color</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ToolbarMenuButtonStyle" parent="@style/Widget.AppCompat.ActionButton.Overflow" >
+        <item name="android:tint">@color/toolbar_menu_color</item>
+    </style>
+
+    <style name="BottomNavigationItemTextAppearance" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">@dimen/bottom_navigation_item_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TabTextAppearance">
+        <item name="android:textSize">@dimen/default_text_size_very_small</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/color_button_text</item>
+        <item name="android:background">@drawable/background_button</item>
+    </style>
+
+    <style name="SmallTextViewStyle">
+        <item name="android:textSize">@dimen/default_text_size_small</item>
+        <item name="android:textColor">@color/secondary_text_color</item>
+    </style>
+
+    <style name="DefaultTextViewStyle">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+    <style name="LargeTextViewStyle">
+        <item name="android:textSize">@dimen/default_text_size_large</item>
+        <item name="android:textColor">@color/default_text_color</item>
+    </style>
+
+    <style name="SecondaryTextViewStyle">
+        <item name="android:textColor">@color/secondary_text_color</item>
+        <item name="android:textSize">@dimen/default_text_size_very_small</item>
+    </style>
+
+    <style name="SettingItemTextViewStyle">
+        <item name="android:textColor">@color/new_secondary_color</item>
+        <item name="android:textSize">@dimen/default_text_size_small</item>
+    </style>
+
+    <style name="SettingsGroupTitleTextViewStyle">
+        <item name="android:textColor">@color/new_secondary_color</item>
+        <item name="android:textSize">@dimen/default_text_size_small2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CreateBarcodeGroupTitleTextViewStyle">
+        <item name="android:textColor">@color/create_barcode_group_title_text_color</item>
+        <item name="android:textSize">@dimen/default_text_size_small2</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CreateBarcodeFragmentAlternativeTextViewStyle">
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:lineSpacingMultiplier">1.4</item>
+    </style>
+
+    <style name="RadioButtonTheme">
+        <item name="colorControlNormal">@color/gray5</item>
+        <item name="colorControlActivated">@color/new_secondary_color</item>
+        <item name="colorControlHighlight">@android:color/transparent</item>
+    </style>
+
+    <style name="DelimiterStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/delimiter_color2</item>
+    </style>
+
+    <style name="BaseAppBarLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="liftOnScroll">true</item>
+        <item name="liftOnScrollTargetViewId">@id/scroll_view</item>
+    </style>
+
+    <style name="AppBarLayoutStyle" parent="BaseAppBarLayoutStyle">
+        <item name="liftOnScroll">true</item>
+        <item name="liftOnScrollTargetViewId">@id/scroll_view</item>
+    </style>
+
+    <style name="ScrollStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="layout_behavior">@string/appbar_scrolling_view_behavior</item>
+        <item name="android:scrollIndicators" tools:targetApi="m">none</item>
+    </style>
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:colorForeground">@color/switch_background_color</item>
+    </style>
+
+    <style name="TextInputLayoutStyle">
+        <item name="android:textColorHint">@color/edit_text_hint_color</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:textColor">@color/edit_text_text_color</item>
+        <item name="hintTextColor">@color/edit_text_hint_color</item>
+        <item name="android:textColorHint">@color/edit_text_hint_color</item>
+        <item name="android:background">@drawable/rounded_edit_text</item>
+        <item name="android:padding">@dimen/default_margin_small</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:colorBackground">@color/dialog_background_color</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="MaterialComponentTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintTextColor">@color/text_input_box_stroke</item>
+    </style>
+
+    <style name="MaterialComponentTextInputDropDownLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu">
+        <item name="boxStrokeColor">@color/text_input_box_stroke</item>
+        <item name="hintTextColor">@color/text_input_box_stroke</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="buttonBarNegativeButtonStyle">@style/NegativeButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/PositiveButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/main_orange</item>
+    </style>
+
+    <style name="ActionButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:backgroundTint">@color/color_button_background_tint</item>
+    </style>
+
+    <style name="WelcomeDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorBackgroundFloating">@color/welcome_background</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:colorBackgroundFloating" tools:targetApi="m">@color/welcome_background</item>
+    </style>
+
+    <style name="BottomAppBarStyle" parent="Widget.MaterialComponents.BottomAppBar.PrimarySurface">
+        <item name="colorPrimarySurface">@color/new_primary_color</item>
+    </style>
+
+<!--    <style name="HoloShowcaseTheme" parent="ShowcaseView.Light">-->
+    <style name="HoloShowcaseTheme" parent="ShowcaseView">
+        <item name="sv_backgroundColor">@color/sv_background</item>
+<!--        <item name="sv_showcaseColor">@color/greenApp3</item>-->
+        <item name="sv_showcaseColor">@color/sv_holo_circle</item>
+        <item name="sv_buttonBackgroundColor">@color/sv_button_background</item>
+        <item name="sv_titleTextAppearance">@style/ShowCaseCustomTitle</item>
+        <item name="sv_detailTextAppearance">@style/ShowCaseCustomDetail</item>
+    </style>
+
+    <style name="ShowCaseCustomTitle" parent="TextAppearance.ShowcaseView.Title">
+<!--        <item name="android:textColor">@color/showcaseview_content_title</item>-->
+        <item name="android:textColor">@color/sv_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+        <item name="android:textSize">@dimen/default_text_size_very_large</item>
+        <item name="android:layout_gravity">top</item>
+    </style>
+
+    <style name="ShowCaseCustomDetail" parent="TextAppearance.ShowcaseView.Detail">
+<!--        <item name="android:textColor">#deffffff</item>-->
+<!--        <item name="android:textColor">@color/showcaseview_content_description</item>-->
+        <item name="android:textColor">@color/sv_description</item>
+        <item name="android:fontFamily">@font/open_sans_italic</item>
+        <item name="android:textSize">@dimen/default_text_size_large</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+
+</resources>

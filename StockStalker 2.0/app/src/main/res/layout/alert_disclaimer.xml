@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    tools:context=".activity.SettingsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:autoLink="all"
+        android:text="@string/title_disclaimer"
+        android:paddingLeft="@dimen/ad_about_padding"
+        android:layout_marginTop="@dimen/ad_about_padding"
+        android:paddingBottom="@dimen/fab_margin"/>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/bg_login"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/about_tv"
+                android:scrollbars="vertical"
+                android:paddingLeft="@dimen/ad_about_padding"
+                android:paddingRight="@dimen/ad_about_padding"
+                android:paddingTop="@dimen/fab_margin"
+                android:paddingBottom="@dimen/fab_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alert_disclaimer"
+                android:layout_gravity="start"
+                android:textSize="16sp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textAlignment="viewStart" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/bg_login"/>
+
+            <Button
+                android:id="@+id/about_bt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="OK"
+                android:clickable="true"
+                android:background="@null"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

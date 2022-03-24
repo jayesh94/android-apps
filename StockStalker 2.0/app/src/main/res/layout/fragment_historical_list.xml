@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.ascetx.stockstalker.fragment.HistoricalFragment"
+    android:id="@+id/list_view_stock_day">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:id="@+id/linear_stock_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/list_view_padding">
+
+    <TextView
+        android:id="@+id/open"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="open"
+        android:textSize="@dimen/text_small_medium"/>
+    <TextView
+        android:id="@+id/high"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="high"
+        android:textSize="@dimen/text_small_medium"/>
+    <TextView
+        android:id="@+id/low"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="low"
+        android:textSize="@dimen/text_small_medium" />
+    <TextView
+        android:id="@+id/close"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="close"
+        android:textSize="@dimen/text_small_medium"/>
+
+    <TextView
+        android:id="@+id/close_cp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="close_cp"
+        android:textSize="@dimen/text_small_medium"/>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/linear_stock_list"
+    android:orientation="horizontal"
+    android:paddingRight="@dimen/list_view_padding"
+    android:paddingLeft="@dimen/list_view_padding"
+    android:paddingBottom="@dimen/list_view_padding">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_small"
+        android:text="DATE"
+        android:layout_weight="4"
+        android:id="@+id/date"/>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="pcls :  "-->
+            <!--android:id="@+id/pcls_tv"-->
+            <!--android:textStyle="bold"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/pcls"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="pcls"-->
+            <!--android:layout_toEndOf="@+id/pcls_tv"-->
+            <!--android:layout_toRightOf="@+id/pcls_tv"-->
+            <!--android:textSize="@dimen/text_small_medium"/>-->
+    <!--</RelativeLayout>-->
+    <TextView
+        android:id="@+id/close_chg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:text="chg"
+        android:textSize="@dimen/text_small_medium" />
+</LinearLayout>
+</RelativeLayout>

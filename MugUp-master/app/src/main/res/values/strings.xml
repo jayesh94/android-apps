@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">MugUp</string>
+    <string name="title_home">Home</string>
+    <string name="title_mylibrary">Library</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_profile">Profile</string>
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in MugUp now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to send you password reset instructions.</string>
+    <string name="prompt_password">Enter Password</string>
+
+    <string name="btn_logout_from_google">Sign Out</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">loading...</string>
+
+
+    <string name="text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Etiam eget ligula eu lectus lobortis condimentum.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Firebase notifications -->
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="news_notification_channel_id" translatable="false">fcm_news_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="news_notification_channel_name" translatable="true">News</string>
+    <string name="exams_notification_channel_id" translatable="false">fcm_exams_channel</string>
+    <string name="exams_notification_channel_name" translatable="true">Exams</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to notification channel topic</string>
+    <string name="fcm_message">FCM Message</string>
+
+    <string name="otp_verification_msg1">Didn\'t receive a code? \n Please wait </string>
+    <string name="otp_verification_msg2">(Enter the OTP below in case if we fail to detect the SMS automatically)</string>
+
+    <string name="mobile_verified">&#9989;Mobile Verified Successfully!</string>
+    <string name="email_sign_in">Sign In &#9655;</string>
+
+    <string name="volley_error">Please check internet connection!</string>
+
+    <string name="et_phone_error">Please enter valid Phone Number.</string>
+    <string name="et_otp_error">Please enter valid OTP.</string>
+    <string name="et_referral_error">Please enter valid Referral Code.</string>
+    <string name="et_name_error">Enter full name!</string>
+    <string name="et_email_error">Enter email address!</string>
+    <string name="et_valid_email_error">Enter valid email address!</string>
+    <string name="et_password_error">Enter password!</string>
+    <string name="et_valid_password_error">Password too short, enter minimum 6 characters!</string>
+
+    <string name="choose_email_client">Choose email client</string>
+    <string name="choose_messaging_client">Choose messaging client</string>
+
+    <string name="invite">Invite Friends</string>
+    <string name="refer_earn">Refer &amp; Earn</string>
+    <string name="refer_benefit_msg">You and Your Friends both get Credits worth \u20B9%s</string>
+    <string name="referral_code">Your Referral Code is</string>
+    <string name="tap_copy">Tap to copy</string>
+    <string name="rupees">\u20B9%s</string>
+
+    <string name="error_books_unavailable">Books for this course are coming soon! Please check after a few days!</string>
+
+    <string name="share_referral_subject">%s wants you to join MugUp!</string>
+    <!--<string name="share_referral_text">Let\'s make our B.Com learning Quicker and Easier with App MugUp! Use my referral code "%s" during sign up and earn credits worth \u20B9%s! Download it now LINK.</string>-->
+    <string name="share_referral_text">Join me on MugUp, an application which provides short conceptual summaries for Commerce courses. A true lifesaver for exams! Use code \'%s\' while registering and earn credits worth \u20B9%s! \n\n %s</string>
+
+</resources>

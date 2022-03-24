@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtHeadline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:padding="1dp"
+            android:textSize="@dimen/text_medium" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="@android:color/darker_gray" />
+        <ImageView
+            android:id="@+id/ivNews"
+            android:layout_width="250dp"
+            android:layout_height="175dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/progress_animation"
+            android:contentDescription="@string/news_image" />
+        <TextView
+            android:id="@+id/txtSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/txtDatetime"
+                android:textSize="@dimen/text_micro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="1dp" />
+            <TextView
+                android:id="@+id/txtSource"
+                android:textSize="@dimen/text_micro"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="1dp"
+                android:gravity="end" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

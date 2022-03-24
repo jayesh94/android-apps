@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">@color/black2</color>
+    <color name="color_primary_dark">@color/black2</color>
+    <color name="color_accent">@color/orange21</color>
+    <color name="color_background">@color/black2</color>
+    <color name="text_color_secondary">@color/white</color>
+    <color name="navigation_bar_color">@color/black2</color>
+
+    <color name="new_primary_color">#009788</color>
+    <color name="new_secondary_color">@color/orange21</color>
+
+    <color name="main_orange">@color/new_secondary_color</color>
+
+    <color name="dialog_background_color">@color/gray16</color>
+    <color name="toolbar_background_color">@color/gray16</color>
+    <color name="toolbar_title_color">@color/gray4</color>
+    <color name="toolbar_menu_color">@color/gray4</color>
+    <color name="toolbar_menu_create_barcode_button_disabled_color">@color/black_transparent</color>
+    <color name="toolbar_menu_create_barcode_button_enabled_color">@color/gray4</color>
+    <color name="tab_layout_background_color">@color/list_background_color</color>
+    <color name="tab_layout_text_color_inactive">@color/gray14</color>
+    <color name="tab_layout_text_color_active">@color/main_orange</color>
+    <color name="bottom_navigation_background_color">@color/gray16</color>
+
+    <color name="create_barcode_group_title_text_color">@color/orange3_transparent</color>
+
+    <color name="default_text_color">@color/white</color>
+    <color name="secondary_text_color">@color/gray14</color>
+    <color name="delimiter_color">@color/black3</color>
+    <color name="delimiter_color2">@color/black3</color>
+    <color name="switch_background_color">@color/gray18</color>
+    <color name="button_background_color_disabled">@color/gray15</color>
+    <color name="crop_image_view_background_color">@color/black2</color>
+    <color name="edit_text_text_color">@color/white</color>
+    <color name="edit_text_hint_color">@color/gray14</color>
+    <color name="date_time_picker_dialog_background_color">@color/gray19</color>
+    <color name="list_background_color">@color/black2</color>
+
+    <color name="button_drawable_color">@color/black</color>
+
+    <color name="welcome_background">#fffbe6</color>
+    <color name="welcome_image">#fd5523</color>
+    <color name="welcome_title">#005D57</color>
+    <color name="welcome_description">#005D57</color>
+    <color name="welcome_skip_button">#009788</color>
+    <color name="welcome_start_into_button">#fd5523</color>
+</resources>

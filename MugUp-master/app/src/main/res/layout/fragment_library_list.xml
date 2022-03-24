@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_height="match_parent"
+android:layout_width="match_parent">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:name="app.mugup.mugup.fragment.profile.LibraryFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager"
+        tools:context=".fragment.profile.LibraryFragment"
+        tools:listitem="@layout/fragment_order" />
+    <TextView
+        android:id="@+id/tv_no_books"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="No Books in Your Library"/>
+</RelativeLayout>

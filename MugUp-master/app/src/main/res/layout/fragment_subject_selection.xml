@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:id="@+id/subjectsSelection">
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@color/list_divider"
+        android:dividerHeight="1dp"
+        android:choiceMode="multipleChoice"
+        android:listSelector="@drawable/list_row_selector" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/totalText"
+                android:visibility="invisible"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_text"
+                android:text="Total - "
+                android:textSize="20sp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/totalAmount"
+                android:visibility="invisible"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/totalText"
+                android:layout_alignTop="@+id/totalText"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/discountedAmount"
+                android:visibility="invisible"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/totalAmount"
+                android:layout_alignTop="@+id/totalAmount"
+                android:textColor="@color/primary"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/percentOffText"
+                android:visibility="invisible"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/discountedAmount"
+                android:layout_alignTop="@+id/discountedAmount"
+                android:textColor="@color/primary_text"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/useCredit"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/primary_text"
+        android:buttonTint="@color/primary"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buyButton"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="CONTINUE"/>
+
+</LinearLayout>

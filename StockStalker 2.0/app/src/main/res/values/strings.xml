@@ -1,0 +1,332 @@
+<resources>
+    <string name="app_name">Stock Stalker</string>
+    <string name="stock_activity">Stock Name</string>
+    <string name="daily_activity">Stock Daily</string>
+    <string name="day_activity">Stock Days</string>
+    <string name="fr_activity">Financial Results</string>
+    <string name="trend_activity">Stock Trend</string>
+    <string name="settings_activity">Settings</string>
+    <string name="graph_activity">Graph</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="settings_help">Know how to use the app</string>
+    <string name="settings_about">About the app</string>
+
+    <!--<string name="lv_ltp">\u20b9ltp</string>-->
+    <!--<string name="lv_chg">\u20b9chg</string>-->
+    <!--<string name="lv_chg_p">%chg</string>-->
+    <!--<string name="lv_pcls">\u20b9pcls</string>-->
+
+    <string name="lv_ltp">$ltp</string>
+    <string name="lv_chg">$chg</string>
+    <string name="lv_chg_p">%chg</string>
+    <string name="lv_pcls">$pcls</string>
+
+    <string name="log_ver_name">
+        &lt;b>Version: &lt;/b>%1$s&lt;br>
+    </string>
+
+    <string name="email_ascetx">contact@ascetx.com</string>
+
+    <string name="alert_about">
+        &lt;b>Version: &lt;/b>%1$s&lt;br>
+        &lt;b>Author:  &lt;/b>Jayesh Nair&lt;br>
+        &lt;b>Email:   &lt;/b>contact@ascetx.com&lt;br>&lt;br>
+        If you have any questions please feel free to contact me &#9786;&lt;br>&lt;br>
+        &lt;b>Disclaimer:&lt;/b> Data is provided by financial exchanges and may be delayed as specified by financial exchanges or our data providers. Stock Stalker does not verify any data and disclaims any obligation to do so.
+        &lt;br> &#160; Information is provided \"as is\" and is solely for information purposes. Please consult your broker or financial representatives to verify pricing before executing any trade.
+    </string>
+    <string name="alert_disclaimer">
+        Data is provided by financial exchanges and may be delayed as specified by financial exchanges or our data providers. Stock Stalker does not verify any data and disclaims any obligation to do so.\n\n
+        Information is provided \"as is\" and is solely for information purposes. Please consult your broker or financial representatives to verify pricing before executing any trade.\n\n
+        Our key data provider is <a href="https://iexcloud.io/s/9e3b12de">IEX Cloud</a>.
+    </string>
+    <string name="alert_help_abbr">
+        &lt;b>open: &lt;/b>Opening price of the stock.&lt;br>
+        &lt;b>high: &lt;/b>Highest attained value by the stock.&lt;br>
+        &lt;b>low: &lt;/b>Lowest attained value by the stock.&lt;br>
+        &lt;b>close: &lt;/b>Closing price of the stock.&lt;br>
+        &lt;b>ltp: &lt;/b>Last traded price of the stock.&lt;br>
+        &lt;b>pcls: &lt;/b>Previous close (previous day\'s ltp).&lt;br>
+        &lt;b>chg: &lt;/b>Change between current stock value and previous close.&lt;br>
+        &lt;b>chg%: &lt;/b>Percent change between current stock value and previous close.&lt;br>&lt;br>
+        &lt;b>Note: &lt;/b>All values are shown in USD
+    </string>
+    <string name="alert_help_st">
+        Stock trend displays latest 5 days trend of all your stocks in watchlist. Details for a stock is shown in below format&lt;br>&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;b>DATE&lt;/b>&lt;br>
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;b>close&lt;/b>&lt;br>
+        &lt;b>close chg&lt;/b>&#160;&#160;&#160;&lt;b>close chg%&lt;/b>&lt;br>&lt;br>
+        You can compare all stocks at once. Will have a benefit of numbers instead of graphs, equipping you with information to strengthen your technicals.
+
+    </string>
+
+    <string name="share_app_message_body">
+        Hey,
+        \n\nWant to analyse the stock market better?
+        \n\nStock Stalker is my go-to app for analysing stocks on a real-time basis. It gives me a minute-to-minute analysis by focusing on numbers along with beautifully animated charts and much more.
+        \n\nStock Stalker is inspired by Darvas Theory (who made $2,000,000 in the stock market) and is best for historical and intraday analysis.
+        \n\nGet it for free at
+        \nhttps://play.google.com/store/apps/details?id=info.ascetx.stockstalker
+    </string>
+    <string name="share_app_message_subject">Stock Stalker: Android app for stock market analysis</string>
+    <string name="wish_to_add_stock">Do you wish to Add this stock to your stalk list?</string>
+    <string name="stock_stalk_limit_reached_title">WOW! You have reached the Stock Stalker limit!</string>
+    <string name="stock_stalk_limit_reached_message">You can only stalk 100 stocks at a time. Please remove stocks from the list to add new ones.</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_register_email">SignUp with Email</string>
+    <string name="btn_register_google">SignUp with Google</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered!\n Log me in</string>
+    <string name="btn_skip_login">Skip and explore!</string>
+    <string name="welcome">Welcome</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_trend">Trend</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_premium">Premium User</string>
+    <string name="nav_restore_purchase">Restore Purchase</string>
+    <string name="action_help">Help</string>
+    <string name="action_share">Share via</string>
+    <string name="action_rate_review">Review StockStalker</string>
+    <string name="action_top_gl">Top Gainers/Losers</string>
+    <string name="action_most_active">Most Active</string>
+    <string name="btn_sign_up">SIGN UP</string>
+    <string name="action_sign_up">Sign In to Sync</string>
+    <string name="btn_forgot_password">Forgot password?</string>
+    <string name="name">Fullname</string>
+    <string name="email_sign_in">Sign In &#9655;</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="logging_out">Logging out…</string>
+
+    <string name="skip_add">Sign Up to add stocks to watchlist</string>
+    <string name="skip_remove">Sign Up to remove stocks from watchlist</string>
+
+    <string name="full_name_err">Please enter a valid Full Name</string>
+    <string name="email_id_err">Please enter a valid Email ID</string>
+    <string name="password_err">This password is too short (min 3 chars)</string>
+    <string name="confirm_password_err">Please enter the same Password</string>
+    <string name="email_id_exists">Email ID already exists \nPlease login to your account</string>
+    <string name="account_not_exists">Account does not exist \nPlease signUp to login</string>
+
+    <string name="error_field_required">This field is required</string>
+
+    <string name="et_phone_error">Please enter valid Phone Number.</string>
+    <string name="et_otp_error">Please enter valid OTP.</string>
+    <string name="et_referral_error">Please enter valid Referral Code.</string>
+    <string name="et_name_error">Enter full name!</string>
+    <string name="et_email_error">Enter email address!</string>
+    <string name="et_valid_email_error">Enter valid email address!</string>
+    <string name="et_password_error">Enter password!</string>
+    <string name="et_valid_password_error">Password too short, enter minimum 6 characters!</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to send you password reset instructions.</string>
+    <string name="prompt_password">Enter Password</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="default_gallery_storage">My Videos</string>
+    <string name="title_auto_upload">Auto upload</string>
+    <string name="summary_upload_over_wifi">Upload the videos when wifi is available</string>
+    <string name="title_upload_quality">Upload Quality</string>
+    <string name="summary_upload_video_quality">Specify video quality for uploads</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">3.5</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose Email Client</string>
+    <string name="title_gallery_storage">Default Storage</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="summary_vibrate">Vibrate on new notification</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+
+    <string name="key_theme_change">key_theme_change</string>
+    <string name="summary_theme_change">Dark</string>
+    <string name="title_theme_change">Select Theme</string>
+    <string name="key_version_name">key_version_name</string>
+    <string name="key_help">key_help</string>
+    <string name="title_help">Help</string>
+
+    <string name="summary_help">How to Stalk my Stocks?</string>
+
+    <string name="key_disclaimer">key_disclaimer</string>
+
+    <string name="title_disclaimer">Disclaimer</string>
+
+    <string name="key_privacy_policy">key_privacy_policy</string>
+
+    <string name="title_privacy_policy">Privacy Policy</string>
+
+    <string name="key_terms_of_service">key_terms_of_service</string>
+
+    <string name="title_terms_of_service">Terms &amp; Conditions</string>
+
+    <string name="msg_check_internet">Please check internet connection</string>
+
+    <string name="msg_add_stock">Please add stocks to your stalk list</string>
+    <string name="msg_switch_internet">Please switch internet connection</string>
+    <string name="msg_unknown_error">An unknown error occurred</string>
+    <string name="msg_successful_registration">Successfully registered!</string>
+    <string name="spinner_prompt_chart_type">Select Chart Type</string>
+    <string name="spinner_prompt_chart_period">Select Period</string>
+
+    <string name="upgrade_to_premium">Upgrade to Premium</string>
+    <string name="subscribe_monthly">%s / 1 Month</string>
+    <string name="subscribe_yearly">%s / YEAR [&#128293; 30%% OFF]</string>
+
+
+    <string name="error_no_skus">We didn\'t find any SKUs to display&#8230; Check your internet
+        connection and make sure your Google Developer Console was setup correctly.</string>
+    <string name="error_billing_unavailable">Billing unavailable. Make sure your Google Play app
+        is setup correctly</string>
+    <string name="error_billing_default">Billing unavailable. Please check your device.</string>
+    <string name="alert_already_purchased">Congrats! You are already a premium user!</string>
+    <string name="alert_congrats_purchased">Congrats! You are a Premium User!</string>
+    <string name="premium_title">Lifetime Premium User</string>
+
+    <string name="premium_message">Remove advertisements and include all future upgrades! \n</string>
+
+    <string name="review_app">If you enjoy using StockStalker, would you mind taking a moment to rate it? \nIt won\'t take more than a minute. \nThanks for your support!</string>
+    <string name="content_description_filter_image">Change Stock Period</string>
+
+    <string name="content_description_add_stock_fab">Add Stock to stalk list</string>
+    <string name="content_description_expand_chart_image">Show Fullscreen Chart</string>
+    <string name="content_description_enter_stock">Enter Stock Name to Add</string>
+
+    <string name="admob_app_id">ca-app-pub-3752168151808074~4256514798</string>
+
+    <!--    Prod banner Ad Unit Ids-->
+        <string name="main_fragment_ad_unit_id">ca-app-pub-3752168151808074/9488121179</string>
+        <string name="stock_fragment_ad_unit_id">ca-app-pub-3752168151808074/3469507737</string>
+        <string name="news_fragment_ad_unit_id">ca-app-pub-3752168151808074/9375285239</string>
+        <string name="intra_fragment_ad_unit_id">ca-app-pub-3752168151808074/3417536846</string>
+        <string name="hist_fragment_ad_unit_id">ca-app-pub-3752168151808074/6717653458</string>
+        <string name="tglm_fragment_ad_unit_id">ca-app-pub-3752168151808074/9064606420</string>
+        <string name="mostactive_fragment_ad_unit_id">ca-app-pub-3752168151808074/1700683307</string>
+        <string name="stock_profile_fragment_ad_unit_id">ca-app-pub-3752168151808074/9677986491</string>
+
+    <!--    Prod Native Ad Unit Ids-->
+        <string name="native_ad_unit_id">ca-app-pub-3752168151808074/5540902145</string>
+
+    <!--    Test Banner Ad Unit Ids-->
+<!--    <string name="main_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="stock_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="news_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="intra_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="hist_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="tglm_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="mostactive_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+<!--    <string name="stock_profile_fragment_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <!--    Test Native Ad Unit Ids-->
+<!--    <string name="native_ad_unit_id">ca-app-pub-3940256099942544/8135179316</string>-->
+
+    <string name="news_image">News Image</string>
+
+    <string name="loading">Loading…</string>
+
+    <string name="sign_with_google">Sign in with Google</string>
+    <string name="cd_stock_stalker_logo">Stock Stalker Logo</string>
+    <string name="err_msg_stock_already_exists">Stock already present in your Stalk list.</string>
+    <string name="restore_purchase">RESTORE PURCHASE</string>
+    <string name="action_report_bug">Report Bug</string>
+
+    <string name="facebook_app_id">2898766893525749</string>
+    <string name="subscription_policy">Cancel your subscription at any time.\nPlease see our <a href="https://ascetx.com/privacy-policy/">privacy policy</a> for more information.</string>
+    <string name="latest_news_stock_title">Latest News: %s</string>
+    <string name="sign_in_to_sync_stock_stalklist">Sign In to Sync Stock Stalk list</string>
+
+    <string name="upgrade_desc">★ PRO TRADER ★</string>
+    <string name="no_ads_title">✓ NO ADS</string>
+    <string name="no_ads_desc">No Ads, no distractions. Focus on what\'s important</string>
+    <string name="track_stocks_title">✓ STALK UNLIMITED STOCKS</string>
+    <string name="track_stocks_desc">Track up to 100 stocks at a time in your watchlist of each account</string>
+    <string name="unl_accounts_title">✓ UNLIMITED ACCOUNTS</string>
+    <string name="unl_accounts_desc">Create unlimited accounts and enjoy premium benefits in all</string>
+    <string name="lifetime_access_title"><![CDATA[✓ LIFETIME ACCESS & UPGRADES]]></string>
+    <string name="lifetime_access_desc">Prioritized support and access to all future upgrades</string>
+
+    <string-array name="pref_themes_entries">
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string-array name="pref_themes_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="chart_array">
+        <item>Line</item>
+        <item>Candlestick</item>
+    </string-array>
+
+    <string-array name="intraday_period_array">
+        <item>1min</item>
+        <item>3min</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>15min</item>
+        <item>30min</item>
+    </string-array>
+
+    <string-array name="historical_period_array">
+        <item>5d</item>
+        <item>1M</item>
+        <item>3M</item>
+        <item>6M</item>
+        <item>1Y</item>
+        <item>2Y</item>
+        <item>5Y</item>
+        <item>10Y</item>
+        <item>15Y</item>
+        <item>20Y</item>
+    </string-array>
+
+    <string-array name="period_array">
+        <item>1min</item>
+        <item>3min</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>15min</item>
+        <item>30min</item>
+        <item>5d</item>
+        <item>1M</item>
+        <item>3M</item>
+        <item>6M</item>
+        <item>1Y</item>
+        <item>2Y</item>
+        <item>5Y</item>
+        <item>10Y</item>
+        <item>15Y</item>
+        <item>20Y</item>
+    </string-array>
+
+</resources>

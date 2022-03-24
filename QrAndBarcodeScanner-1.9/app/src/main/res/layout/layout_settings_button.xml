@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ClickableBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_margin">
+
+    <ImageView
+        android:id="@+id/settings_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:paddingEnd="@dimen/default_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_view_hint"
+        style="@style/SmallTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_extra_small"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:textSize="@dimen/default_text_size_small2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/holder_frame"
+        app:layout_constraintStart_toStartOf="@id/text_view_text"
+        app:layout_constraintTop_toBottomOf="@id/text_view_text"
+        tools:text="Hint" />
+
+    <TextView
+        android:id="@+id/text_view_text"
+        style="@style/DefaultTextViewStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:textColor="@color/color_icon_button_icon_and_text"
+        app:layout_constraintEnd_toStartOf="@id/holder_frame"
+        app:layout_constraintStart_toEndOf="@+id/settings_icon"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Text" />
+
+    <FrameLayout
+        android:id="@+id/holder_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:theme="@style/SwitchTheme" />
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/fragment_settings_our_apps_flashlight"
+            android:src="@mipmap/ic_launcher_fl"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/settings_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:layout_marginEnd="@dimen/default_margin_small"
+            android:visibility="gone"
+            style="@style/SettingItemTextViewStyle"/>
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

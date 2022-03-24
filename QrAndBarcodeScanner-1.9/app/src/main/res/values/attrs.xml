@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="text" format="string" />
+    <attr name="hint" format="string" />
+    <attr name="isArrowVisible" format="boolean" />
+    <attr name="isDelimiterVisible" format="boolean" />
+    <attr name="icon" format="reference" />
+<!--    <attr name="listBackground" format="reference" />-->
+    <attr name="iconBackground" format="color" />
+    <attr name="trackingName" format="string" />
+
+    <declare-styleable name="ResultPointsView">
+        <attr name="resultPointColor" format="color" />
+        <attr name="resultPointSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="IconButton">
+        <attr name="icon" />
+        <attr name="iconBackground" />
+        <attr name="text" />
+        <attr name="trackingName"/>
+    </declare-styleable>
+
+    <declare-styleable name="IconButtonWithDelimiter2">
+        <attr name="icon" />
+        <attr name="iconBackground" />
+        <attr name="text" />
+        <attr name="isDelimiterVisible" />
+        <attr name="isArrowVisible" />
+        <attr name="trackingName"/>
+    </declare-styleable>
+
+    <declare-styleable name="IconButtonWithDelimiter">
+        <attr name="icon" />
+        <attr name="iconBackground" />
+        <attr name="text" />
+        <attr name="isDelimiterVisible" />
+        <attr name="isArrowVisible" />
+        <attr name="trackingName" />
+<!--        <attr name="listBackground" />-->
+    </declare-styleable>
+
+    <declare-styleable name="SettingsButton">
+        <attr name="text" />
+        <attr name="hint" />
+        <attr name="isSwitchVisible" format="boolean" />
+        <attr name="ourAppIcon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingsRadioButton">
+        <attr name="text" />
+        <attr name="isDelimiterVisible" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimePickerButton">
+        <attr name="hint" />
+    </declare-styleable>
+
+    <declare-styleable name="ActionButton">
+        <attr name="trackingName" />
+    </declare-styleable>
+
+</resources>

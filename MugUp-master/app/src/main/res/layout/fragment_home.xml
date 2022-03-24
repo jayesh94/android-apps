@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".fragment.HomeFragment"
+        android:id="@+id/homefragframlay">
+        <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/spinnerBackground"
+            tools:context=".fragment.HomeFragment"
+            android:id="@+id/courseSelectorBackground">
+            <Spinner
+                android:id="@+id/courseSelector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:layout_centerHorizontal="true"
+                android:visibility="gone" />
+                //android:backgroundTint="@color/black"
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".fragment.HomeFragment"
+            android:padding="8dip"
+            android:layout_below="@+id/courseSelectorBackground"
+            android:id="@+id/homefragframlay2">
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

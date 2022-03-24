@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:id="@+id/root_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        style="@style/AppBarLayoutStyle"
+        android:translationZ="@dimen/default_margin_extra_small"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            app:title="@string/activity_all_permissions_title"
+            style="@style/ToolbarWithBackButtonStyle"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scroll_view"
+        android:background="@color/list_background_color"
+        style="@style/ScrollStyle"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin_small"
+            android:paddingVertical="@dimen/default_margin_small"
+            android:background="@drawable/background_list_single"
+            android:elevation="@dimen/default_margin_very_small"
+            android:orientation="vertical">
+            <!--Normal permissions-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_small"
+                android:layout_marginBottom="@dimen/default_margin_small"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:text="@string/activity_all_permissions_normal_permissions"
+                style="@style/SettingsGroupTitleTextViewStyle"
+                />
+            <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.SettingsButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/activity_all_permissions_vibrate_title"
+                app:hint="@string/activity_all_permissions_vibrate_hint"
+                app:isDelimiterVisible="true"
+                app:isSwitchVisible="false"
+                />
+            <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.SettingsButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/activity_all_permissions_wifi_title"
+                app:hint="@string/activity_all_permissions_wifi_hint"
+                app:isDelimiterVisible="true"
+                app:isSwitchVisible="false"
+                />
+            <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.SettingsButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/activity_all_permissions_internet_title"
+                app:hint="@string/activity_all_permissions_internet_hint"
+                app:isDelimiterVisible="true"
+                app:isSwitchVisible="false"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin_small"
+            android:paddingVertical="@dimen/default_margin_small"
+            android:background="@drawable/background_list_single"
+            android:elevation="@dimen/default_margin_very_small"
+            android:orientation="vertical">
+            <!--Dangerous permissions-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_small"
+                android:layout_marginBottom="@dimen/default_margin_small"
+                android:layout_marginHorizontal="@dimen/default_margin"
+                android:text="@string/activity_all_permissions_runtime_permissions"
+                style="@style/SettingsGroupTitleTextViewStyle"
+                />
+            <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.SettingsButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/activity_all_permissions_camera_title"
+                app:hint="@string/activity_all_permissions_camera_hint"
+                app:isDelimiterVisible="true"
+                app:isSwitchVisible="false"
+                />
+            <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.SettingsButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/activity_all_permissions_read_contacts_title"
+                app:hint="@string/activity_all_permissions_read_contacts_hint"
+                app:isDelimiterVisible="true"
+                app:isSwitchVisible="false"
+                />
+            <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.SettingsButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:text="@string/activity_all_permissions_storage_title"
+                app:hint="@string/activity_all_permissions_storage_hint"
+                app:isDelimiterVisible="false"
+                app:isSwitchVisible="false"
+                />
+
+
+        </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

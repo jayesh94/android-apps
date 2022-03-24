@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="info.ascetx.stockstalker.fragment.HistoricalFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linear_stock_days"
+        android:padding="@dimen/list_view_padding">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="open"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="high"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="low"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="close"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="close chg"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="close chg%"
+            android:textStyle="bold" />
+        <!--<TextView-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:textAlignment="center"-->
+            <!--android:text="close  chg %"-->
+            <!--android:textStyle="bold" />-->
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/list_view_padding"
+            android:layout_marginRight="@dimen/list_view_padding">
+
+            <androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/list"
+                android:name="info.ascetx.stockstalker.fragment.IntradayFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true"
+                android:scrollbars="vertical"
+                app:fastScrollEnabled="true"
+                app:fastScrollHorizontalThumbDrawable="@drawable/thumb_drawable"
+                app:fastScrollHorizontalTrackDrawable="@drawable/line_drawable"
+                app:fastScrollVerticalThumbDrawable="@drawable/thumb_drawable"
+                app:fastScrollVerticalTrackDrawable="@drawable/line_drawable"
+                app:layoutManager="LinearLayoutManager"
+                tools:context="info.ascetx.stockstalker.fragment.HistoricalFragment"
+                tools:listitem="@layout/fragment_historical_list" />
+
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:contentDescription="@string/content_description_filter_image"
+            android:background="@drawable/ic_filter_list_dark_24dp"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/list_view_padding">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end|center"
+            android:text="Total chg : "
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/total_chg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textSize="@dimen/text_medium"
+            android:text="0.0"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="end|center"
+            android:text="Total chg% : "
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/total_chg_p"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textSize="@dimen/text_medium"
+            android:text="0.0"
+            android:textStyle="bold"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fill_color_dark">
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/text_large"
+        android:text="( Ad Space )"/>-->
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        android:visibility="gone"
+        ads:adUnitId="@string/hist_fragment_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+    </FrameLayout>
+</LinearLayout>

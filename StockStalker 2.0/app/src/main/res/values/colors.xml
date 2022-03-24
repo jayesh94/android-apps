@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565c0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorActionBar">#1565c0</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_start_color_dark">#303030</color>
+    <color name="list_row_end_color_dark">#303030</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="list_row_hover_start_color_dark">#428bca</color>
+    <color name="list_row_hover_end_color_dark">#428bca</color>
+
+    <!--<color name="stock_rise">#080</color>-->
+    <!--<color name="stock_fall">#f00</color>-->
+    <color name="stock_rise">#4caf50</color>
+    <color name="stock_fall">#df534e</color>
+    <color name="colorError">#FF0000</color>
+    <color name="stock_same">#4a4a4a</color>
+    <color name="stock_date">#4184f3</color>
+    <!--<color name="stock_date">#00f</color>-->
+
+    <color name="stock_name">#304ffe</color>
+
+    <color name="line_chart">#304ffe</color>
+    <color name="line_chart_dark">#40e0d0</color>
+
+    <!--<color name="stock_rise_dark">#52a644</color>-->
+    <!--<color name="stock_fall_dark">#E53935</color>-->
+    <!--<color name="stock_fall_dark">#ff3d00</color>-->
+    <!--<color name="stock_rise_dark">#00e676</color>-->
+    <!--<color name="stock_fall_dark">#FF0000</color>-->
+    <color name="stock_rise_dark">#96ca91</color>
+    <color name="stock_fall_dark">#ff3d00</color>
+    <color name="stock_same_dark">#ddd2c0</color>
+    <color name="stock_date_dark">#466fb3</color>
+    <!--<color name="stock_date_dark">#5588dd</color>-->
+
+    <color name="fill_color_dark">#eceff1</color>
+
+    <color name="scroll_thumb">#304ffe</color>
+
+    <string-array name="stock_list_bg_tint">
+        <item>#00ffffff</item>
+        <item>#ebeef0</item>
+    </string-array>
+
+    <string-array name="stock_list_bg_tint_dark">
+        <item>#00ffffff</item>
+        <item>#1a000000</item>
+    </string-array>
+
+    <color name="menu_icon_color">#fff</color>
+    <color name="toggle_menu_icon_color">#171b1e</color>
+    <color name="action_bar_color">#789</color>
+    <color name="nav_header_color">#004ba0</color>
+    <color name="main_fragment_header0">#ffc400</color>
+    <color name="main_fragment_header">#1976d2</color>
+
+    <!--<color name="bg_login">#26ae90</color>-->
+    <color name="bg_login">#004ba0</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#d0cfbd</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="button_hover_end_color">#9bd5ff</color>
+    <color name="button_hover_start_color">#63a4ff</color>
+
+    <color name="button_end_color">#64b5f6</color>
+    <color name="button_start_color">#42a5f5</color>
+
+    <color name="button_end_color_dark">#1976d2</color>
+    <color name="button_start_color_dark">#004ba0</color>
+
+    <color name="button_border">#42a5f5</color>
+    <color name="high_low">#ffecb3</color>
+
+    <color name="button_topgl_1">#1565c0</color>
+    <color name="button_topgl_0">#2196f3</color>
+
+    <color name="snackbar_err_color">#ff6861</color>
+    <color name="snackbar_tru_color">#b89766</color>
+
+    <color name="list_divider_black_white">#3d72a4</color>
+
+    <color name="color1">#FAFAD2</color>
+    <color name="color2">#b89766</color>
+    <color name="color3">#DAA520</color>
+    <color name="color4">#FAFAD2</color>
+    <color name="color5">#D4AF37</color>
+
+    <color name="color6">#a16110</color>
+
+    <color name="transparent">#00a16110</color>
+
+    <color name="premium_alert_dialog_start">#b28b3d</color>
+    <color name="premium_alert_dialog_end">#e0d172</color>
+
+    <color name="premium_alert_dialog_button_positive">#fff</color>
+    <color name="premium_alert_dialog_button_negative">#d0cfbd</color>
+    <color name="control_highlight_material">#fff</color>
+
+</resources>

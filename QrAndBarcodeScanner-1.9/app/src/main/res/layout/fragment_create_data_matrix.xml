@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/default_margin_small"
+    android:paddingHorizontal="@dimen/default_margin"
+    android:paddingBottom="@dimen/default_margin">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/MaterialComponentTextInputLayoutStyle"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start|top"
+            android:hint="@string/fragment_create_data_matrix_hint"
+            android:inputType="textMultiLine"
+            android:backgroundTint="@color/main_orange"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <qr.qrcodescanner.barcodescanner.barcodereader.qrcode.qrreader.scan.feature.common.view.ActionButton
+        app:trackingName="fragment_create_data_matrix_generate_code_button"
+        android:layout_gravity="center"
+        android:id="@+id/generate_code_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/default_margin_small"
+        android:backgroundTint="@color/color_button_background_tint"
+        android:enabled="false"
+        android:text="@string/fragment_create_barcode_generate_button" />
+
+</LinearLayout>

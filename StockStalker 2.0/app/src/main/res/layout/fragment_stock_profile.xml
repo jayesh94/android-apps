@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <androidx.core.widget.NestedScrollView xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".fragment.StockProfileFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:id="@+id/companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Company: "/>
+            <TextView
+                android:id="@+id/symbol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Symbol: "/>
+            <TextView
+                android:id="@+id/exchange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Exchange: "/>
+            <TextView
+                android:id="@+id/issueType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Issue Type: "/>
+            <TextView
+                android:id="@+id/sector"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Sector: "/>
+            <TextView
+                android:id="@+id/industry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Industry: "/>
+            <TextView
+                android:id="@+id/primarySicCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="SIC Code: "/>
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Description: "/>
+            <TextView
+                android:id="@+id/website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Website: "/>
+            <TextView
+                android:id="@+id/CEO"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="CEO: "/>
+            <TextView
+                android:id="@+id/employees"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Employees: "/>
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Address: "/>
+            <TextView
+                android:id="@+id/address2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Address2: "/>
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="State: "/>
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="City: "/>
+            <TextView
+                android:id="@+id/zip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Zip: "/>
+            <TextView
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Country: "/>
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textSize="16sp"
+                android:text="Phone: "/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fill_color_dark">
+        <!--<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="@dimen/text_large"
+            android:text="( Ad Space )"/>-->
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="SMART_BANNER"
+            android:visibility="gone"
+            ads:adUnitId="@string/stock_profile_fragment_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </FrameLayout>
+</LinearLayout>

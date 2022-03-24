@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dip" >
+
+    <LinearLayout android:id="@+id/bookCoverThumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="8dip">
+
+        <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/bookCoverImageCard"
+            android:layout_width="192dp"
+            android:layout_height="270dp"
+            android:layout_gravity="left">
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/bookCoverImage"
+                android:layout_width="192dp"
+                android:layout_height="270dp"
+                android:scaleType="fitXY" />
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/subjectName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/bookCoverThumbnail"
+        android:layout_toRightOf="@+id/bookCoverThumbnail"
+        android:textColor="#040404"
+        android:typeface="sans"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/authorName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subjectName"
+        android:textColor="#040404"
+        android:textSize="14sp"
+        android:typeface="sans"
+        android:layout_marginTop="3dip"
+        android:layout_toRightOf="@+id/bookCoverThumbnail" />
+
+    <TextView
+        android:id="@+id/bookPrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/authorName"
+        android:textColor="#040404"
+        android:textSize="14sp"
+        android:typeface="sans"
+        android:layout_marginTop="3dip"
+        android:layout_toRightOf="@+id/bookCoverThumbnail" />
+
+    <TextView
+        android:id="@+id/bookSummaryPrefix"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookPrice"
+        android:textColor="#040404"
+        android:textSize="15sp"
+        android:typeface="sans"
+        android:layout_marginTop="12dip"
+        android:layout_toRightOf="@+id/bookCoverThumbnail"
+        android:text="Summary:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/bookSummary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookSummaryPrefix"
+        android:textColor="#040404"
+        android:textSize="14sp"
+        android:layout_marginTop="3dip"
+        android:layout_toRightOf="@+id/bookCoverThumbnail" />
+
+    <Button
+        android:id="@+id/summaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bookCoverThumbnail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary_light"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="READ SUMMARY"/>
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/summaryButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/primary"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="DOWNLOAD"/>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item
+        android:id="@+id/item_rename_history_title_item"
+        android:title="@string/barcode_history_item_rename"
+        android:icon="@drawable/outline_drive_file_rename_outline_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/item_clear_history_item"
+        android:title="@string/barcode_history_item_delete"
+        android:icon="@drawable/ic_baseline_delete_outline_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/item_share_history_item"
+        android:title="@string/barcode_history_item_share"
+        android:icon="@drawable/ic_share"
+        app:showAsAction="always"
+        />
+</menu>
